@@ -290,20 +290,87 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
         closeDrawer: 'Fechar'
       },
       stage3: {
-        badge: 'Etapa 3 \\u00b7 Arquitetura Preparada',
-        title: 'Monitor Legislativo & Gest\\u00e3o Offline de Atualiza\\u00e7\\u00f5es',
-        desc: 'Esta aba habilitar\\u00e1 na Etapa 3 o acompanhamento estruturado de projetos de lei, novas diretrizes de ordens de advogados e altera\\u00e7\\u00f5es de status normativo, com persist\\u00eancia autom\\u00e1tica e backup em JSON.',
-        mixTitle: 'Panorama Atual de Atos Normativos na Base',
-        enacted: 'Leis Promulgadas',
-        pending: 'Projetos em Tramita\\u00e7\\u00e3o',
-        died: 'Projetos Arquivados',
-        guidance: 'Diretrizes & Regras Judiciais',
-        capsTitle: 'Funcionalidades Previstas (Etapa 3)',
-        caps: [
-          { t: 'Atualiza\\u00e7\\u00e3o Estruturada de Projetos de Lei & Diretrizes', d: 'Fluxo guiado para registrar mudan\\u00e7as de tramita\\u00e7\\u00e3o (Pending Bill -> Enacted Law ou Died Bill) preservando o esquema bil\\u00edngue PT/EN.' },
-          { t: 'Persist\\u00eancia Offline Integrada', d: 'Sincroniza\\u00e7\\u00e3o imediata com o Explorador (Aba 1) e o Painel Anal\\u00edtico (Aba 2).' },
-          { t: 'Backup, Restaura\\u00e7\\u00e3o JSON & Snapshot Port\\u00e1til', d: 'Transfer\\u00eancia audit\\u00e1vel entre esta\\u00e7\\u00f5es corporativas sem depend\\u00eancia de internet.' }
-        ]
+        kpiTotal: 'Registros Ativos',
+        kpiTotalSub: function(base, custom) { return custom > 0 ? (base + ' base IAPP + ' + custom + ' customizados') : (base + ' base IAPP Out/2026 \\u00edntegra'); },
+        kpiPending: 'Projetos em Tramita\\u00e7\\u00e3o',
+        kpiPendingSub: 'Status pending_bill aguardando desfecho',
+        kpiBinding: 'Leis & Regras Judiciais',
+        kpiBindingSub: 'Leis promulgadas + ordens/regras de tribunais',
+        kpiMods: 'Altera\\u00e7\\u00f5es Locais',
+        kpiModsSub: function(m, a) { return m + ' editados \\u00b7 ' + a + ' adicionados localmente'; },
+        toolbarTitle: 'Governan\\u00e7a de Dados & Portabilidade Offline',
+        toolbarSub: 'Todas as edi\\u00e7\\u00f5es s\\u00e3o salvas em localStorage e sincronizadas imediatamente nas Abas 1 e 2.',
+        addNew: '+ Nova Norma / Registro',
+        exportJson: 'Exportar Base JSON',
+        importJson: 'Importar JSON',
+        resetBaseline: 'Restaurar Base Original (119)',
+        exportToast: 'Backup JSON exportado com sucesso.',
+        resetToast: 'Base restaurada para os 119 registros originais IAPP (Out/2026).',
+        importToast: function(a, u) { return 'Backup aplicado: ' + a + ' adicionados, ' + u + ' atualizados.'; },
+        wlTitle: 'Watchlist Legislativo & Atualizador R\\u00e1pido',
+        wlSub: 'Acompanhe projetos de lei em tramita\\u00e7\\u00e3o e atualize status, datas, riscos ou recomenda\\u00e7\\u00f5es.',
+        wlPending: 'Projetos Pendentes',
+        wlBills: 'Todos os Projetos & Leis',
+        wlAll: 'Todos os Registros',
+        wlSearch: 'Filtrar watchlist por t\\u00edtulo, estado, pa\\u00eds ou \\u00f3rg\\u00e3o emissor...',
+        wlEdit: 'Atualizar Status / Editar',
+        wlModTag: 'Editado localmente',
+        wlCustomTag: 'Adicionado localmente',
+        wlEmpty: 'Nenhum registro corresponde ao filtro da watchlist.',
+        wlPostTracker: 'P\\u00f3s-tracker (local)',
+        offlineTitle: 'Assistente de Verifica\\u00e7\\u00e3o Legislativa (Gemini + Google Search)',
+        offlineBody: 'Modo Offline Ativo: A verifica\\u00e7\\u00e3o web via Gemini est\\u00e1 desativada; utilize o editor manual e o backup JSON normalmente.',
+        edCreate: 'Nova Norma / Registro Bil\\u00edngue',
+        edEdit: 'Editar Registro Normativo',
+        edSub: 'Preencha os campos obrigat\\u00f3rios em Portugu\\u00eas e Ingl\\u00eas para manter a paridade bil\\u00edngue.',
+        edSecJur: '1. Jurisdi\\u00e7\\u00e3o',
+        edCountryEn: 'Pa\\u00eds / Jurisdi\\u00e7\\u00e3o (EN) *',
+        edCountryPt: 'Pa\\u00eds / Jurisdi\\u00e7\\u00e3o (PT) *',
+        edCode: 'C\\u00f3digo ISO (ex: US, BR, EU) *',
+        edRegion: 'Regi\\u00e3o *',
+        edSubEn: 'Estado / Subdivis\\u00e3o (EN)',
+        edSubPt: 'Estado / Subdivis\\u00e3o (PT)',
+        edSecIss: '2. \\u00d3rg\\u00e3o Emissor',
+        edIssEn: 'Nome do Emissor (EN) *',
+        edIssPt: 'Nome do Emissor (PT) *',
+        edIssCat: 'Categoria do Emissor *',
+        edSecRes: '3. Metadados do Ato Normativo',
+        edTitleEn: 'T\\u00edtulo do Recurso / Norma (EN) *',
+        edTitlePt: 'T\\u00edtulo do Recurso / Norma (PT) *',
+        edDateEn: 'Data de Exibi\\u00e7\\u00e3o (EN)',
+        edDatePt: 'Data de Exibi\\u00e7\\u00e3o (PT)',
+        edYear: 'Ano (vazio = Sem data)',
+        edStatus: 'Status Normativo *',
+        edPage: 'P\\u00e1gina IAPP (0 = adi\\u00e7\\u00e3o p\\u00f3s-tracker)',
+        edMt: 'Sinalizar tradu\\u00e7\\u00e3o assistida (Copilot/MT)',
+        edSecRisks: '4. Riscos Identificados (marque os aplic\\u00e1veis ou deixe vazio para N/A)',
+        edSecRecs: '5. Recomenda\\u00e7\\u00f5es Pr\\u00e1ticas (PT e EN em paralelo)',
+        edRecPtPh: 'Recomenda\\u00e7\\u00e3o em portugu\\u00eas (PT)...',
+        edRecEnPh: 'Recomenda\\u00e7\\u00e3o em ingl\\u00eas (EN)...',
+        edAddRec: '+ Adicionar recomenda\\u00e7\\u00e3o',
+        edCancel: 'Cancelar',
+        edSave: 'Salvar Altera\\u00e7\\u00e3o',
+        edErrReq: 'Preencha os campos obrigat\\u00f3rios: Pa\\u00eds (EN e PT), C\\u00f3digo ISO, Emissor (EN e PT) e T\\u00edtulo (EN e PT).',
+        edCreatedToast: 'Novo registro adicionado e sincronizado com as Abas 1 e 2.',
+        edUpdatedToast: 'Registro atualizado e sincronizado com as Abas 1 e 2.',
+        auditTitle: 'Hist\\u00f3rico de Atualiza\\u00e7\\u00f5es Locais',
+        auditSub: 'Registro audit\\u00e1vel de adi\\u00e7\\u00f5es, edi\\u00e7\\u00f5es, importa\\u00e7\\u00f5es JSON e restaura\\u00e7\\u00f5es locais.',
+        auditShow: 'Exibir hist\\u00f3rico',
+        auditHide: 'Ocultar hist\\u00f3rico',
+        auditEmpty: 'Nenhuma altera\\u00e7\\u00e3o local registrada at\\u00e9 o momento.',
+        colTime: 'Data / Hora',
+        colAction: 'A\\u00e7\\u00e3o',
+        colJur: 'Jurisdi\\u00e7\\u00e3o',
+        colRec: 'Registro',
+        colSum: 'Resumo da Altera\\u00e7\\u00e3o',
+        actions: { created: 'Criado', updated: 'Atualizado', imported: 'Importado', reset: 'Restaurado' },
+        impTitle: 'Confirmar Importa\\u00e7\\u00e3o de Backup JSON',
+        impSum: function(tot, a, u, un) { return 'O arquivo validado cont\\u00e9m ' + tot + ' registros: ' + a + ' novos, ' + u + ' atualizados e ' + un + ' inalterados.'; },
+        impConfirm: 'Aplicar Backup JSON',
+        impErrJson: 'JSON inv\\u00e1lido ou estrutura incompat\\u00edvel com o esquema TrackerEntry (PT/EN).',
+        resTitle: 'Restaurar Base Original (119 registros)?',
+        resBody: 'Esta a\\u00e7\\u00e3o remover\\u00e1 todas as edi\\u00e7\\u00f5es e adi\\u00e7\\u00f5es locais e restaurar\\u00e1 integralmente os 119 registros originais IAPP (Outubro de 2026).',
+        resConfirm: 'Sim, Restaurar 119 Originais'
       },
       footer: {
         attr: 'Fonte: IAPP AI Legal Ethics and Responsibilities Tracker (Atualizado em outubro de 2026). Ferramenta informativa de refer\\u00eancia; n\\u00e3o constitui aconselhamento jur\\u00eddico.',
@@ -464,20 +531,87 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
         closeDrawer: 'Close'
       },
       stage3: {
-        badge: 'Stage 3 \\u00b7 Architecture Ready',
-        title: 'Legislative Monitor & Offline Update Management',
-        desc: 'Stage 3 will enable structured offline updates to pending bills and guidance, automatic localStorage persistence, and validated JSON backup/restore workflows.',
-        mixTitle: 'Current Legislative & Normative Mix',
-        enacted: 'Enacted Laws',
-        pending: 'Pending Bills',
-        died: 'Archived / Died Bills',
-        guidance: 'Guidance & Court Orders',
-        capsTitle: 'Planned Capabilities (Stage 3)',
-        caps: [
-          { t: 'Structured Updates to Bills & Ethical Guidance', d: 'Guided workflow to log legislative status transitions (Pending Bill -> Enacted Law or Died Bill) preserving the bilingual PT/EN schema.' },
-          { t: 'Unified Offline Persistence', d: 'Immediate synchronization across Tab 1 (Explorer) and Tab 2 (Analytics).' },
-          { t: 'JSON Backup/Restore & Portable Snapshots', d: 'Schema-validated JSON backup for offline corporate workstations.' }
-        ]
+        kpiTotal: 'Total Active Records',
+        kpiTotalSub: function(base, custom) { return custom > 0 ? (base + ' IAPP base + ' + custom + ' custom') : (base + ' IAPP Oct 2026 baseline intact'); },
+        kpiPending: 'Pending Bills Tracked',
+        kpiPendingSub: 'Active pending_bill records awaiting outcome',
+        kpiBinding: 'Enacted Laws & Court Rules',
+        kpiBindingSub: 'Enacted statutes + judicial standing orders',
+        kpiMods: 'Local Modifications',
+        kpiModsSub: function(m, a) { return m + ' edited \\u00b7 ' + a + ' added locally'; },
+        toolbarTitle: 'Data Governance & Offline Portability',
+        toolbarSub: 'All edits persist automatically in localStorage and sync live across Tabs 1 and 2.',
+        addNew: '+ Add New Norm / Record',
+        exportJson: 'Export JSON Backup',
+        importJson: 'Import JSON Backup',
+        resetBaseline: 'Reset to 119 Baseline',
+        exportToast: 'JSON backup exported successfully.',
+        resetToast: 'Dataset restored to the original 119 IAPP (Oct 2026) baseline.',
+        importToast: function(a, u) { return 'Backup imported: ' + a + ' added, ' + u + ' updated.'; },
+        wlTitle: 'Legislative Watchlist & Quick Status Updater',
+        wlSub: 'Track pending legislative bills and update status, dates, risks, or practical recommendations.',
+        wlPending: 'Pending Bills',
+        wlBills: 'All Bills (Pending, Enacted, Died)',
+        wlAll: 'All Records',
+        wlSearch: 'Filter watchlist by title, state, country, or issuer...',
+        wlEdit: 'Update Status / Edit',
+        wlModTag: 'Edited locally',
+        wlCustomTag: 'Added locally',
+        wlEmpty: 'No watchlist records match your current filter.',
+        wlPostTracker: 'Post-tracker (local)',
+        offlineTitle: 'Legislative Verification Assistant (Gemini + Google Search)',
+        offlineBody: 'Offline Mode Active: Web verification via Gemini is disabled; use the manual editor and JSON backup normally.',
+        edCreate: 'Add New Bilingual Normative Record',
+        edEdit: 'Edit Normative Record',
+        edSub: 'Provide required fields in both English and Portuguese to maintain full bilingual parity.',
+        edSecJur: '1. Jurisdiction',
+        edCountryEn: 'Country / Jurisdiction (EN) *',
+        edCountryPt: 'Country / Jurisdiction (PT) *',
+        edCode: 'ISO Code (e.g., US, BR, EU) *',
+        edRegion: 'Region *',
+        edSubEn: 'State / Subdivision (EN)',
+        edSubPt: 'State / Subdivision (PT)',
+        edSecIss: '2. Issuing Body',
+        edIssEn: 'Issuer Name (EN) *',
+        edIssPt: 'Issuer Name (PT) *',
+        edIssCat: 'Issuer Category *',
+        edSecRes: '3. Resource Metadata',
+        edTitleEn: 'Resource / Bill Title (EN) *',
+        edTitlePt: 'Resource / Bill Title (PT) *',
+        edDateEn: 'Display Date (EN)',
+        edDatePt: 'Display Date (PT)',
+        edYear: 'Year (blank = Undated)',
+        edStatus: 'Normative Status *',
+        edPage: 'Source Page (0 = post-tracker addition)',
+        edMt: 'Flag as machine-translated (Copilot/MT)',
+        edSecRisks: '4. Identified Risks (select applicable codes or leave empty for N/A)',
+        edSecRecs: '5. Practical Recommendations (parallel EN & PT)',
+        edRecPtPh: 'Recommendation in Portuguese (PT)...',
+        edRecEnPh: 'Recommendation in English (EN)...',
+        edAddRec: '+ Add recommendation',
+        edCancel: 'Cancel',
+        edSave: 'Save Change',
+        edErrReq: 'Please complete required fields: Country (EN & PT), ISO Code, Issuer Name (EN & PT), and Title (EN & PT).',
+        edCreatedToast: 'New record added and synced across Tabs 1 and 2.',
+        edUpdatedToast: 'Record updated and synced across Tabs 1 and 2.',
+        auditTitle: 'Local Update Audit Log',
+        auditSub: 'Auditable history of local additions, status updates, JSON imports, and baseline resets.',
+        auditShow: 'Show log',
+        auditHide: 'Hide log',
+        auditEmpty: 'No local modifications recorded yet.',
+        colTime: 'Timestamp',
+        colAction: 'Action',
+        colJur: 'Jurisdiction',
+        colRec: 'Record',
+        colSum: 'Change Summary',
+        actions: { created: 'Created', updated: 'Updated', imported: 'Imported', reset: 'Reset' },
+        impTitle: 'Confirm JSON Backup Import',
+        impSum: function(tot, a, u, un) { return 'Validated backup contains ' + tot + ' records: ' + a + ' new, ' + u + ' updated, and ' + un + ' unchanged.'; },
+        impConfirm: 'Apply JSON Backup',
+        impErrJson: 'Invalid JSON or incompatible TrackerEntry bilingual schema.',
+        resTitle: 'Reset to 119 Original Baseline?',
+        resBody: 'This will clear all local edits and custom additions and restore the original 119 IAPP (October 2026) records.',
+        resConfirm: 'Yes, Reset to 119 Baseline'
       },
       footer: {
         attr: 'Source: IAPP AI Legal Ethics and Responsibilities Tracker (Updated October 2026). Informational reference tool; does not constitute legal advice.',
@@ -527,8 +661,15 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
     }
   }
 
+  var STORAGE_ENTRIES = 'ai_legal_ethics_tracker_v1';
+  var STORAGE_AUDIT = 'ai_legal_ethics_audit_v1';
+  var STORAGE_LANG = 'ai_legal_ethics_tracker_lang_v1';
+
   var state = {
     entries: [],
+    baseline: [],
+    baselineMap: {},
+    auditLog: [],
     lang: 'pt',
     activeTab: 'explorer',
     filters: {
@@ -559,10 +700,226 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
       timelineStack: 'status',
       heatmapMode: 'region'
     },
+    monitor: {
+      watchlistMode: 'pending',
+      search: '',
+      auditOpen: true,
+      editor: null,
+      editorError: '',
+      importError: '',
+      pendingImport: null,
+      resetConfirm: false
+    },
     drawer: null,
     toast: null,
     toastTimer: null
   };
+
+  function safeStorageGet(k) {
+    try { return window.localStorage ? window.localStorage.getItem(k) : null; } catch (_e) { return null; }
+  }
+
+  function safeStorageSet(k, v) {
+    try { if (window.localStorage) window.localStorage.setItem(k, v); } catch (_e) {}
+  }
+
+  function safeStorageRemove(k) {
+    try { if (window.localStorage) window.localStorage.removeItem(k); } catch (_e) {}
+  }
+
+  function canonicalEntryStr(e) {
+    return JSON.stringify({
+      id: e.id,
+      sourcePage: e.sourcePage,
+      jurisdiction: e.jurisdiction,
+      issuer: e.issuer,
+      resource: e.resource,
+      risks: (e.risks || []).map(function(r) { return r.code; }).sort(),
+      recommendations: e.recommendations
+    });
+  }
+
+  function computeDiffStats() {
+    var added = {};
+    var modified = {};
+    var addedCount = 0;
+    var modCount = 0;
+    for (var i = 0; i < state.entries.length; i++) {
+      var e = state.entries[i];
+      var baseStr = state.baselineMap[e.id];
+      if (!baseStr) {
+        added[e.id] = true;
+        addedCount++;
+      } else if (canonicalEntryStr(e) !== baseStr) {
+        modified[e.id] = true;
+        modCount++;
+      }
+    }
+    return {
+      baselineCount: state.baseline.length || 119,
+      totalActive: state.entries.length,
+      customAdded: addedCount,
+      modifiedBase: modCount,
+      totalMods: addedCount + modCount,
+      addedMap: added,
+      modMap: modified
+    };
+  }
+
+  function makeAuditId() {
+    return 'aud_' + Date.now().toString(36) + '_' + Math.random().toString(36).slice(2, 7);
+  }
+
+  function persistEntries() {
+    safeStorageSet(STORAGE_ENTRIES, JSON.stringify(state.entries));
+  }
+
+  function pushAudit(item) {
+    state.auditLog = [item].concat(state.auditLog).slice(0, 200);
+    safeStorageSet(STORAGE_AUDIT, JSON.stringify(state.auditLog));
+  }
+
+  function summarizeDiff(prev, next) {
+    if (!prev) {
+      return {
+        pt: 'Novo registro adicionado (' + STATUS_LABELS[next.resource.status].pt + ')',
+        en: 'New record added (' + STATUS_LABELS[next.resource.status].en + ')'
+      };
+    }
+    var ptP = [], enP = [];
+    if (prev.resource.status !== next.resource.status) {
+      var sDiff = prev.resource.status + ' -> ' + next.resource.status;
+      ptP.push(sDiff);
+      enP.push(sDiff);
+    }
+    if (prev.resource.dateDisplay.pt !== next.resource.dateDisplay.pt || prev.resource.year !== next.resource.year) {
+      ptP.push('Data: ' + next.resource.dateDisplay.pt);
+      enP.push('Date: ' + next.resource.dateDisplay.en);
+    }
+    if (prev.resource.title.pt !== next.resource.title.pt || prev.resource.title.en !== next.resource.title.en) {
+      ptP.push('T\\u00edtulo atualizado');
+      enP.push('Title updated');
+    }
+    if (JSON.stringify(prev.recommendations) !== JSON.stringify(next.recommendations)) {
+      ptP.push('Recomenda\\u00e7\\u00f5es (' + next.recommendations.pt.length + ')');
+      enP.push('Recommendations (' + next.recommendations.en.length + ')');
+    }
+    if (!ptP.length) return { pt: 'Metadados atualizados', en: 'Metadata updated' };
+    return { pt: ptP.join(' \\u00b7 '), en: enP.join(' \\u00b7 ') };
+  }
+
+  function createBlankDraft() {
+    var yr = new Date().getFullYear();
+    return {
+      mode: 'create',
+      id: 'custom-' + Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 6),
+      sourcePage: 0,
+      countryCode: 'US',
+      countryEn: '',
+      countryPt: '',
+      regionEn: 'North America',
+      subEn: '',
+      subPt: '',
+      issuerEn: '',
+      issuerPt: '',
+      issuerCategory: 'legislature',
+      titleEn: '',
+      titlePt: '',
+      dateEn: '',
+      datePt: '',
+      year: String(yr),
+      status: 'pending_bill',
+      isMt: false,
+      risks: [],
+      recs: [{ pt: '', en: '' }]
+    };
+  }
+
+  function entryToDraft(e) {
+    var rLen = Math.max(e.recommendations.en.length, e.recommendations.pt.length, 1);
+    var recs = [];
+    for (var i = 0; i < rLen; i++) {
+      recs.push({ pt: e.recommendations.pt[i] || '', en: e.recommendations.en[i] || '' });
+    }
+    return {
+      mode: 'edit',
+      id: e.id,
+      sourcePage: e.sourcePage,
+      countryCode: e.jurisdiction.countryCode,
+      countryEn: e.jurisdiction.country.en,
+      countryPt: e.jurisdiction.country.pt,
+      regionEn: REGION_LABELS[e.jurisdiction.region.en] ? e.jurisdiction.region.en : 'North America',
+      subEn: e.jurisdiction.subdivision ? e.jurisdiction.subdivision.en : '',
+      subPt: e.jurisdiction.subdivision ? e.jurisdiction.subdivision.pt : '',
+      issuerEn: e.issuer.name.en,
+      issuerPt: e.issuer.name.pt,
+      issuerCategory: e.issuer.category,
+      titleEn: e.resource.title.en,
+      titlePt: e.resource.title.pt,
+      dateEn: e.resource.dateDisplay.en,
+      datePt: e.resource.dateDisplay.pt,
+      year: e.resource.year !== null ? String(e.resource.year) : '',
+      status: e.resource.status,
+      isMt: Boolean(e.resource.isMachineTranslated),
+      risks: (e.risks || []).map(function(r) { return r.code; }),
+      recs: recs
+    };
+  }
+
+  function downloadBackupJsonOffline() {
+    var payload = {
+      metadata: {
+        exportedAt: new Date().toISOString(),
+        baseEdition: 'IAPP Oct 2026',
+        totalEntries: state.entries.length
+      },
+      entries: state.entries,
+      auditLog: state.auditLog
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'ai-legal-ethics-tracker-backup-' + new Date().toISOString().slice(0, 10) + '.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    setTimeout(function() { URL.revokeObjectURL(url); }, 1000);
+    showToast(I18N[state.lang].stage3.exportToast);
+  }
+
+  function validateBackupTextOffline(rawText) {
+    if (!rawText || rawText.length > 10 * 1024 * 1024) return null;
+    var parsed;
+    try { parsed = JSON.parse(rawText); } catch (_e) { return null; }
+    var list = Array.isArray(parsed) ? parsed : (parsed && Array.isArray(parsed.entries) ? parsed.entries : null);
+    if (!list || !list.length) return null;
+    var valid = [];
+    var seen = {};
+    for (var i = 0; i < list.length; i++) {
+      var o = list[i];
+      if (!o || typeof o !== 'object' || typeof o.id !== 'string' || !o.id.trim()) return null;
+      if (!o.jurisdiction || !o.jurisdiction.country || typeof o.jurisdiction.country.en !== 'string' || typeof o.jurisdiction.country.pt !== 'string') return null;
+      if (!o.issuer || !o.issuer.name || typeof o.issuer.name.en !== 'string' || typeof o.issuer.name.pt !== 'string' || ALL_ISSUERS.indexOf(o.issuer.category) === -1) return null;
+      if (!o.resource || !o.resource.title || typeof o.resource.title.en !== 'string' || typeof o.resource.title.pt !== 'string' || ALL_STATUSES.indexOf(o.resource.status) === -1) return null;
+      if (!Array.isArray(o.risks) || !o.recommendations || !Array.isArray(o.recommendations.en) || !Array.isArray(o.recommendations.pt)) return null;
+      if (!seen[o.id]) {
+        seen[o.id] = true;
+        valid.push(o);
+      }
+    }
+    var curMap = {};
+    for (var j = 0; j < state.entries.length; j++) curMap[state.entries[j].id] = canonicalEntryStr(state.entries[j]);
+    var added = 0, updated = 0, unchanged = 0;
+    for (var k = 0; k < valid.length; k++) {
+      var prevStr = curMap[valid[k].id];
+      if (!prevStr) added++;
+      else if (prevStr !== canonicalEntryStr(valid[k])) updated++;
+      else unchanged++;
+    }
+    var aud = (parsed && Array.isArray(parsed.auditLog)) ? parsed.auditLog.slice(0, 200) : [];
+    return { entries: valid, auditLog: aud, total: valid.length, added: added, updated: updated, unchanged: unchanged };
+  }
 
   var drillRegistry = {};
   var drillSeq = 0;
@@ -1752,40 +2109,306 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
   }
 
   function buildStage3Html() {
-    var t = I18N[state.lang].stage3;
-    var enacted = 0, pending = 0, died = 0, guidance = 0;
+    var lang = state.lang;
+    var t = I18N[lang].stage3;
+    var m = state.monitor;
+    var stats = computeDiffStats();
+
+    var pending = 0, binding = 0, allBills = 0;
     for (var i = 0; i < state.entries.length; i++) {
       var st = state.entries[i].resource.status;
-      if (st === 'enacted_law') enacted++;
-      else if (st === 'pending_bill') pending++;
-      else if (st === 'died_bill') died++;
-      else guidance++;
+      if (st === 'pending_bill') pending++;
+      if (st === 'enacted_law' || st === 'court_rule_order') binding++;
+      if (isLeg(state.entries[i])) allBills++;
     }
-    return '' +
-      '<div class="section-stack">' +
-        '<section class="card card-pad">' +
-          '<span class="badge st-court_rule_order">' + esc(t.badge) + '</span>' +
-          '<h2 style="margin:10px 0 6px;font-size:20px">' + esc(t.title) + '</h2>' +
-          '<p style="margin:0;color:#475569;max-width:820px">' + esc(t.desc) + '</p>' +
-        '</section>' +
-        '<section class="card card-pad">' +
-          '<h3 class="chart-title" style="margin-bottom:12px">' + esc(t.mixTitle) + '</h3>' +
-          '<div class="kpi-grid">' +
-            '<div class="kpi-card"><div class="kpi-label">' + esc(t.enacted) + '</div><div class="kpi-value tabular-nums">' + enacted + '</div></div>' +
-            '<div class="kpi-card"><div class="kpi-label">' + esc(t.pending) + '</div><div class="kpi-value tabular-nums">' + pending + '</div></div>' +
-            '<div class="kpi-card"><div class="kpi-label">' + esc(t.died) + '</div><div class="kpi-value tabular-nums">' + died + '</div></div>' +
-            '<div class="kpi-card"><div class="kpi-label">' + esc(t.guidance) + '</div><div class="kpi-value tabular-nums">' + guidance + '</div></div>' +
-          '</div>' +
-        '</section>' +
-        '<section class="card card-pad">' +
-          '<h3 class="chart-title" style="margin-bottom:12px">' + esc(t.capsTitle) + '</h3>' +
-          '<div class="stage3-grid">' +
-            t.caps.map(function(c) {
-              return '<div class="kpi-card"><div style="font-weight:700;font-size:13.5px;margin-bottom:6px">' + esc(c.t) + '</div><div style="font-size:12.5px;color:#475569">' + esc(c.d) + '</div></div>';
-            }).join('') +
-          '</div>' +
-        '</section>' +
+
+    var kpiHtml = '' +
+      '<div class="kpi-grid">' +
+        '<div class="kpi-card">' +
+          '<div class="kpi-label">' + esc(t.kpiTotal) + '</div>' +
+          '<div class="kpi-value tabular-nums">' + stats.totalActive + '</div>' +
+          '<div class="kpi-sub">' + esc(t.kpiTotalSub(stats.baselineCount, stats.customAdded)) + '</div>' +
+        '</div>' +
+        '<div class="kpi-card">' +
+          '<div class="kpi-label" style="color:#b45309">' + esc(t.kpiPending) + '</div>' +
+          '<div class="kpi-value tabular-nums" style="color:#b45309">' + pending + '</div>' +
+          '<div class="kpi-sub">' + esc(t.kpiPendingSub) + '</div>' +
+        '</div>' +
+        '<div class="kpi-card">' +
+          '<div class="kpi-label" style="color:#3730a3">' + esc(t.kpiBinding) + '</div>' +
+          '<div class="kpi-value tabular-nums">' + binding + '</div>' +
+          '<div class="kpi-sub">' + esc(t.kpiBindingSub) + '</div>' +
+        '</div>' +
+        '<div class="kpi-card">' +
+          '<div class="kpi-label" style="color:#047857">' + esc(t.kpiMods) + '</div>' +
+          '<div class="kpi-value tabular-nums" style="color:#047857">' + stats.totalMods + '</div>' +
+          '<div class="kpi-sub">' + esc(t.kpiModsSub(stats.modifiedBase, stats.customAdded)) + '</div>' +
+        '</div>' +
       '</div>';
+
+    var toolbarHtml = '' +
+      '<section class="card card-pad">' +
+        '<div class="toolbar-row">' +
+          '<div>' +
+            '<h2 class="chart-title">' + esc(t.toolbarTitle) + '</h2>' +
+            '<p class="chart-sub">' + esc(t.toolbarSub) + '</p>' +
+          '</div>' +
+          '<div style="display:flex;flex-wrap:wrap;gap:8px">' +
+            '<button type="button" class="btn btn-primary" data-action="mon-add-new">' + esc(t.addNew) + '</button>' +
+            '<button type="button" class="btn" data-action="mon-export-json">' + esc(t.exportJson) + '</button>' +
+            '<button type="button" class="btn" data-action="mon-trigger-import">' + esc(t.importJson) + '</button>' +
+            '<input id="mon-import-file" type="file" accept=".json,application/json" style="display:none" />' +
+            '<button type="button" class="btn btn-danger" data-action="mon-open-reset">' + esc(t.resetBaseline) + '</button>' +
+          '</div>' +
+        '</div>' +
+        (m.importError ? '<div class="alert-error" style="margin-top:12px">' + esc(m.importError) + '</div>' : '') +
+      '</section>';
+
+    // Watchlist filtering
+    var q = norm(m.search);
+    var wlList = state.entries.filter(function(e) {
+      if (m.watchlistMode === 'pending' && e.resource.status !== 'pending_bill') return false;
+      if (m.watchlistMode === 'all_bills' && !isLeg(e)) return false;
+      if (q) {
+        var hay = norm([
+          e.resource.title.en, e.resource.title.pt,
+          e.jurisdiction.country.en, e.jurisdiction.country.pt,
+          e.jurisdiction.subdivision ? e.jurisdiction.subdivision.en : '',
+          e.jurisdiction.subdivision ? e.jurisdiction.subdivision.pt : '',
+          e.issuer.name.en, e.issuer.name.pt
+        ].join(' '));
+        if (hay.indexOf(q) === -1) return false;
+      }
+      return true;
+    });
+
+    var wlRowsHtml = wlList.length === 0
+      ? '<div style="padding:32px 20px;text-align:center;color:#64748b;font-size:13px">' + esc(t.wlEmpty) + '</div>'
+      : wlList.map(function(e) {
+          var isAdded = Boolean(stats.addedMap[e.id]);
+          var isMod = Boolean(stats.modMap[e.id]);
+          return '' +
+            '<div class="watchlist-row">' +
+              '<div class="watchlist-main">' +
+                '<div class="jurisdiction-line">' +
+                  '<span class="country-code">' + esc(e.jurisdiction.countryCode) + '</span>' +
+                  '<span>' + esc(flagFromCode(e.jurisdiction.countryCode)) + ' ' + esc(e.jurisdiction.country[lang]) +
+                    (e.jurisdiction.subdivision ? ' \\u00b7 ' + esc(e.jurisdiction.subdivision[lang]) : '') +
+                  '</span>' +
+                  '<span class="badge st-' + esc(e.resource.status) + '">' + esc(STATUS_LABELS[e.resource.status][lang]) + '</span>' +
+                  '<span class="badge badge-muted">' + esc(e.resource.dateDisplay[lang]) + ' \\u00b7 ' + esc(e.sourcePage > 0 ? I18N[lang].card.sourcePage(e.sourcePage) : t.wlPostTracker) + '</span>' +
+                  (isAdded ? '<span class="badge act-created">' + esc(t.wlCustomTag) + '</span>' : '') +
+                  (isMod ? '<span class="badge act-updated">' + esc(t.wlModTag) + '</span>' : '') +
+                '</div>' +
+                '<div style="font-weight:700;font-size:14px">' + esc(e.resource.title[lang]) + '</div>' +
+                '<div style="font-size:12px;color:#64748b">' + esc(e.issuer.name[lang]) + ' \\u00b7 ' + esc(ISSUER_LABELS[e.issuer.category][lang]) + '</div>' +
+              '</div>' +
+              '<button type="button" class="btn btn-sm" data-action="mon-edit" data-id="' + esc(e.id) + '">' + esc(t.wlEdit) + '</button>' +
+            '</div>';
+        }).join('');
+
+    var watchlistHtml = '' +
+      '<section class="card" style="overflow:hidden">' +
+        '<div class="card-pad" style="background:#f8fafc">' +
+          '<div class="chart-header" style="margin-bottom:10px">' +
+            '<div>' +
+              '<h2 class="chart-title">' + esc(t.wlTitle) + '</h2>' +
+              '<p class="chart-sub">' + esc(t.wlSub) + '</p>' +
+            '</div>' +
+            '<div class="seg-toggle">' +
+              '<button type="button" class="seg-btn' + (m.watchlistMode === 'pending' ? ' active' : '') + '" data-action="mon-wl-mode" data-val="pending">' + esc(t.wlPending) + ' (' + pending + ')</button>' +
+              '<button type="button" class="seg-btn' + (m.watchlistMode === 'all_bills' ? ' active' : '') + '" data-action="mon-wl-mode" data-val="all_bills">' + esc(t.wlBills) + ' (' + allBills + ')</button>' +
+              '<button type="button" class="seg-btn' + (m.watchlistMode === 'all_records' ? ' active' : '') + '" data-action="mon-wl-mode" data-val="all_records">' + esc(t.wlAll) + ' (' + state.entries.length + ')</button>' +
+            '</div>' +
+          '</div>' +
+          '<div class="search-wrap" style="margin-top:0">' +
+            '<input id="mon-search-input" class="search-input" type="text" value="' + esc(m.search) + '" placeholder="' + esc(t.wlSearch) + '" />' +
+            (m.search ? '<button type="button" class="search-clear" data-action="mon-clear-search">\\u00d7</button>' : '') +
+          '</div>' +
+        '</div>' +
+        '<div class="watchlist-items">' + wlRowsHtml + '</div>' +
+      '</section>';
+
+    var offlineGeminiNoticeHtml = '' +
+      '<section class="card card-pad">' +
+        '<h2 class="chart-title" style="margin-bottom:10px">' + esc(t.offlineTitle) + '</h2>' +
+        '<div class="offline-notice-box">' + esc(t.offlineBody) + '</div>' +
+      '</section>';
+
+    // Audit Log
+    var auditBodyHtml = '';
+    if (m.auditOpen) {
+      if (!state.auditLog.length) {
+        auditBodyHtml = '<div style="padding:24px;text-align:center;color:#64748b;font-size:12.5px">' + esc(t.auditEmpty) + '</div>';
+      } else {
+        auditBodyHtml = '<div style="overflow-x:auto"><table class="audit-table"><thead><tr>' +
+          '<th>' + esc(t.colTime) + '</th><th>' + esc(t.colAction) + '</th><th>' + esc(t.colJur) + '</th><th>' + esc(t.colRec) + '</th><th>' + esc(t.colSum) + '</th>' +
+          '</tr></thead><tbody>' +
+          state.auditLog.map(function(a) {
+            var ts = a.timestamp;
+            try { ts = new Date(a.timestamp).toLocaleString(lang === 'pt' ? 'pt-BR' : 'en-US'); } catch (_e) {}
+            return '<tr>' +
+              '<td class="tabular-nums" style="white-space:nowrap;font-family:monospace;font-size:11px">' + esc(ts) + '</td>' +
+              '<td><span class="badge act-' + esc(a.action) + '">' + esc(t.actions[a.action] || a.action) + '</span></td>' +
+              '<td>' + esc(a.jurisdiction ? a.jurisdiction[lang] : '') + '</td>' +
+              '<td style="font-weight:600">' + esc(a.entryTitle ? a.entryTitle[lang] : '') + '</td>' +
+              '<td style="font-family:monospace;font-size:11px;color:#475569">' + esc(a.summary ? a.summary[lang] : '') + '</td>' +
+            '</tr>';
+          }).join('') +
+          '</tbody></table></div>';
+      }
+    }
+
+    var auditHtml = '' +
+      '<section class="card" style="overflow:hidden">' +
+        '<div class="card-pad" style="background:#f8fafc;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">' +
+          '<div>' +
+            '<h2 class="chart-title">' + esc(t.auditTitle) + ' <span class="badge badge-muted tabular-nums">' + state.auditLog.length + '</span></h2>' +
+            '<p class="chart-sub">' + esc(t.auditSub) + '</p>' +
+          '</div>' +
+          '<button type="button" class="btn btn-sm" data-action="mon-toggle-audit">' + esc(m.auditOpen ? t.auditHide : t.auditShow) + '</button>' +
+        '</div>' +
+        auditBodyHtml +
+      '</section>';
+
+    return '<div class="section-stack">' + kpiHtml + toolbarHtml + watchlistHtml + offlineGeminiNoticeHtml + auditHtml + '</div>';
+  }
+
+  function buildStage3ModalsHtml() {
+    var lang = state.lang;
+    var t = I18N[lang].stage3;
+    var m = state.monitor;
+    var out = '';
+
+    // Bilingual Normative Editor Modal
+    if (m.editor) {
+      var d = m.editor;
+      out += '' +
+        '<div class="modal-backdrop" data-action="mon-close-editor-bg">' +
+          '<div class="modal-panel" style="max-width:920px" role="dialog" aria-modal="true">' +
+            '<div class="modal-header">' +
+              '<div>' +
+                '<h2 class="chart-title">' + esc(d.mode === 'create' ? t.edCreate : t.edEdit) + '</h2>' +
+                '<p class="chart-sub">' + esc(t.edSub) + '</p>' +
+              '</div>' +
+              '<button type="button" class="btn btn-sm" data-action="mon-close-editor">' + esc(t.edCancel) + '</button>' +
+            '</div>' +
+            '<form id="mon-editor-form" class="modal-body" style="display:flex;flex-direction:column;gap:18px">' +
+              (m.editorError ? '<div class="alert-error">' + esc(m.editorError) + '</div>' : '') +
+              '<fieldset class="fieldset-block">' +
+                '<legend class="fieldset-legend">' + esc(t.edSecJur) + '</legend>' +
+                '<div class="form-grid-4">' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edCountryEn) + '</label><input class="text-input" data-ed-field="countryEn" value="' + esc(d.countryEn) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edCountryPt) + '</label><input class="text-input" data-ed-field="countryPt" value="' + esc(d.countryPt) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edCode) + '</label><input class="text-input" data-ed-field="countryCode" maxlength="6" value="' + esc(d.countryCode) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edRegion) + '</label><select class="select-input" data-ed-field="regionEn">' +
+                    REGIONS.map(function(r) { return '<option value="' + esc(r) + '"' + (d.regionEn === r ? ' selected' : '') + '>' + esc(REGION_LABELS[r][lang]) + '</option>'; }).join('') +
+                  '</select></div>' +
+                '</div>' +
+                '<div class="form-grid-2">' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edSubEn) + '</label><input class="text-input" data-ed-field="subEn" value="' + esc(d.subEn) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edSubPt) + '</label><input class="text-input" data-ed-field="subPt" value="' + esc(d.subPt) + '" /></div>' +
+                '</div>' +
+              '</fieldset>' +
+              '<fieldset class="fieldset-block">' +
+                '<legend class="fieldset-legend">' + esc(t.edSecIss) + '</legend>' +
+                '<div class="form-grid-3">' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edIssEn) + '</label><input class="text-input" data-ed-field="issuerEn" value="' + esc(d.issuerEn) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edIssPt) + '</label><input class="text-input" data-ed-field="issuerPt" value="' + esc(d.issuerPt) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edIssCat) + '</label><select class="select-input" data-ed-field="issuerCategory">' +
+                    ALL_ISSUERS.map(function(ic) { return '<option value="' + ic + '"' + (d.issuerCategory === ic ? ' selected' : '') + '>' + esc(ISSUER_LABELS[ic][lang]) + '</option>'; }).join('') +
+                  '</select></div>' +
+                '</div>' +
+              '</fieldset>' +
+              '<fieldset class="fieldset-block">' +
+                '<legend class="fieldset-legend">' + esc(t.edSecRes) + '</legend>' +
+                '<div class="form-grid-2">' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edTitleEn) + '</label><input class="text-input" data-ed-field="titleEn" value="' + esc(d.titleEn) + '" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edTitlePt) + '</label><input class="text-input" data-ed-field="titlePt" value="' + esc(d.titlePt) + '" /></div>' +
+                '</div>' +
+                '<div class="form-grid-4">' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edStatus) + '</label><select class="select-input" data-ed-field="status">' +
+                    ALL_STATUSES.map(function(st) { return '<option value="' + st + '"' + (d.status === st ? ' selected' : '') + '>' + esc(STATUS_LABELS[st][lang]) + '</option>'; }).join('') +
+                  '</select></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edDateEn) + '</label><input class="text-input" data-ed-field="dateEn" value="' + esc(d.dateEn) + '" placeholder="Nov. 2026" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edDatePt) + '</label><input class="text-input" data-ed-field="datePt" value="' + esc(d.datePt) + '" placeholder="Nov. de 2026" /></div>' +
+                  '<div class="field-group"><label class="field-label">' + esc(t.edYear) + '</label><input class="text-input" type="number" data-ed-field="year" value="' + esc(d.year) + '" placeholder="2026" /></div>' +
+                '</div>' +
+                '<div style="display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap">' +
+                  '<div class="field-group" style="width:220px"><label class="field-label">' + esc(t.edPage) + '</label><input class="text-input" type="number" min="0" data-ed-field="sourcePage" value="' + esc(d.sourcePage) + '" /></div>' +
+                  '<label style="display:inline-flex;align-items:center;gap:6px;font-size:12px;cursor:pointer"><input type="checkbox" data-ed-mt="1"' + (d.isMt ? ' checked' : '') + ' /> ' + esc(t.edMt) + '</label>' +
+                '</div>' +
+              '</fieldset>' +
+              '<fieldset class="fieldset-block">' +
+                '<legend class="fieldset-legend">' + esc(t.edSecRisks) + '</legend>' +
+                '<div class="risk-check-grid">' +
+                  ALL_RISK_CODES.map(function(rc) {
+                    var chk = d.risks.indexOf(rc) !== -1;
+                    return '<label class="risk-check-item' + (chk ? ' checked' : '') + '">' +
+                      '<input type="checkbox" data-ed-risk="' + rc + '"' + (chk ? ' checked' : '') + ' />' +
+                      '<span>' + esc(RISK_LABELS[rc][lang]) + '</span>' +
+                    '</label>';
+                  }).join('') +
+                '</div>' +
+              '</fieldset>' +
+              '<fieldset class="fieldset-block">' +
+                '<div style="display:flex;align-items:center;justify-content:space-between">' +
+                  '<legend class="fieldset-legend" style="width:auto;border:0;padding:0">' + esc(t.edSecRecs) + '</legend>' +
+                  '<button type="button" class="link-btn" data-action="mon-ed-add-rec">' + esc(t.edAddRec) + '</button>' +
+                '</div>' +
+                d.recs.map(function(pair, idx) {
+                  return '<div class="rec-pair-row">' +
+                    '<textarea class="textarea-input" rows="2" data-ed-rec-idx="' + idx + '" data-ed-rec-lang="pt" placeholder="' + esc(t.edRecPtPh) + '">' + esc(pair.pt) + '</textarea>' +
+                    '<textarea class="textarea-input" rows="2" data-ed-rec-idx="' + idx + '" data-ed-rec-lang="en" placeholder="' + esc(t.edRecEnPh) + '">' + esc(pair.en) + '</textarea>' +
+                    '<button type="button" class="btn btn-sm" data-action="mon-ed-del-rec" data-idx="' + idx + '">\\u00d7</button>' +
+                  '</div>';
+                }).join('') +
+              '</fieldset>' +
+              '<div style="display:flex;justify-content:flex-end;gap:8px;padding-top:12px;border-top:1px solid #e2e8f0">' +
+                '<button type="button" class="btn" data-action="mon-close-editor">' + esc(t.edCancel) + '</button>' +
+                '<button type="submit" class="btn btn-primary">' + esc(t.edSave) + '</button>' +
+              '</div>' +
+            '</form>' +
+          '</div>' +
+        '</div>';
+    }
+
+    // Import Confirmation Modal
+    if (m.pendingImport) {
+      var pi = m.pendingImport;
+      out += '' +
+        '<div class="modal-backdrop">' +
+          '<div class="modal-panel" style="max-width:460px" role="dialog" aria-modal="true">' +
+            '<div class="modal-header"><h3 class="chart-title">' + esc(t.impTitle) + '</h3></div>' +
+            '<div class="modal-body">' +
+              '<p style="margin:0 0 16px;color:#475569;font-size:13px">' + esc(t.impSum(pi.total, pi.added, pi.updated, pi.unchanged)) + '</p>' +
+              '<div style="display:flex;justify-content:flex-end;gap:8px">' +
+                '<button type="button" class="btn" data-action="mon-cancel-import">' + esc(t.edCancel) + '</button>' +
+                '<button type="button" class="btn btn-primary" data-action="mon-confirm-import">' + esc(t.impConfirm) + '</button>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+    }
+
+    // Reset Baseline Confirmation Modal
+    if (m.resetConfirm) {
+      out += '' +
+        '<div class="modal-backdrop">' +
+          '<div class="modal-panel" style="max-width:460px" role="dialog" aria-modal="true">' +
+            '<div class="modal-header"><h3 class="chart-title">' + esc(t.resTitle) + '</h3></div>' +
+            '<div class="modal-body">' +
+              '<p style="margin:0 0 16px;color:#475569;font-size:13px">' + esc(t.resBody) + '</p>' +
+              '<div style="display:flex;justify-content:flex-end;gap:8px">' +
+                '<button type="button" class="btn" data-action="mon-cancel-reset">' + esc(t.edCancel) + '</button>' +
+                '<button type="button" class="btn btn-danger-solid" data-action="mon-confirm-reset">' + esc(t.resConfirm) + '</button>' +
+              '</div>' +
+            '</div>' +
+          '</div>' +
+        '</div>';
+    }
+
+    return out;
   }
 
   function getSelectedCompareEntries() {
@@ -2039,14 +2662,24 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
   }
 
   function buildFooterHtml() {
-    var t = I18N[state.lang].footer;
+    var lang = state.lang;
+    var t = I18N[lang].footer;
     var hasDock = state.compareIds.length > 0;
-    var count = state.entries.length;
+    var stats = computeDiffStats();
+    var countText;
+    if (stats.totalMods === 0) {
+      countText = stats.totalActive + ' / ' + stats.baselineCount;
+    } else {
+      var parts = [stats.baselineCount + ' base'];
+      if (stats.customAdded > 0) parts.push('+ ' + stats.customAdded + (lang === 'pt' ? ' custom' : ' custom'));
+      if (stats.modifiedBase > 0) parts.push(stats.modifiedBase + (lang === 'pt' ? ' editados' : ' edited'));
+      countText = stats.totalActive + ' (' + parts.join(' \\u00b7 ') + ')';
+    }
     return '' +
       '<footer class="site-footer' + (hasDock ? ' has-dock' : '') + '">' +
         '<div class="container footer-inner">' +
           '<div>' + esc(t.attr) + '</div>' +
-          '<div class="count-badge tabular-nums">\\u2713 ' + esc(t.loaded) + ': ' + count + ' / 119</div>' +
+          '<div class="count-badge tabular-nums">\\u2713 ' + esc(t.loaded) + ': ' + esc(countText) + '</div>' +
         '</div>' +
       '</footer>';
   }
@@ -2057,8 +2690,8 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
 
     // Preserve search input cursor if focused
     var activeEl = document.activeElement;
-    var wasSearchFocused = activeEl && activeEl.id === 'exp-search-input';
-    var selStart = wasSearchFocused ? activeEl.selectionStart : null;
+    var focusId = activeEl && (activeEl.id === 'exp-search-input' || activeEl.id === 'mon-search-input') ? activeEl.id : null;
+    var selStart = focusId ? activeEl.selectionStart : null;
 
     drillRegistry = {};
     drillSeq = 0;
@@ -2079,12 +2712,13 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
         buildCompareDockHtml() +
         buildComparatorModalHtml() +
         buildDrawerHtml() +
+        buildStage3ModalsHtml() +
         '<div id="offline-toast" class="toast" style="display:' + (state.toast ? 'block' : 'none') + '">' + esc(state.toast || '') + '</div>' +
         '<div id="offline-tooltip" class="floating-tooltip"></div>' +
       '</div>';
 
-    if (wasSearchFocused) {
-      var input = document.getElementById('exp-search-input');
+    if (focusId) {
+      var input = document.getElementById(focusId);
       if (input) {
         input.focus();
         if (selStart !== null && input.setSelectionRange) {
@@ -2111,6 +2745,12 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
           render();
           return;
         }
+        if (target.getAttribute('data-action') === 'mon-close-editor-bg') {
+          state.monitor.editor = null;
+          state.monitor.editorError = '';
+          render();
+          return;
+        }
       }
 
       var btn = target && target.closest ? target.closest('[data-action]') : null;
@@ -2121,6 +2761,7 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
         var nextLang = btn.getAttribute('data-lang');
         if (nextLang === 'pt' || nextLang === 'en') {
           state.lang = nextLang;
+          safeStorageSet(STORAGE_LANG, nextLang);
           render();
         }
       } else if (action === 'set-tab') {
@@ -2223,20 +2864,256 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
           render();
           window.scrollTo(0, 0);
         }
+      } else if (action === 'mon-wl-mode') {
+        state.monitor.watchlistMode = btn.getAttribute('data-val') || 'pending';
+        render();
+      } else if (action === 'mon-clear-search') {
+        state.monitor.search = '';
+        render();
+      } else if (action === 'mon-toggle-audit') {
+        state.monitor.auditOpen = !state.monitor.auditOpen;
+        render();
+      } else if (action === 'mon-add-new') {
+        state.monitor.editor = createBlankDraft();
+        state.monitor.editorError = '';
+        render();
+      } else if (action === 'mon-edit') {
+        var eid = btn.getAttribute('data-id');
+        var found = null;
+        for (var fi = 0; fi < state.entries.length; fi++) {
+          if (state.entries[fi].id === eid) { found = state.entries[fi]; break; }
+        }
+        if (found) {
+          state.monitor.editor = entryToDraft(found);
+          state.monitor.editorError = '';
+          render();
+        }
+      } else if (action === 'mon-close-editor') {
+        state.monitor.editor = null;
+        state.monitor.editorError = '';
+        render();
+      } else if (action === 'mon-ed-add-rec') {
+        if (state.monitor.editor) {
+          state.monitor.editor.recs.push({ pt: '', en: '' });
+          render();
+        }
+      } else if (action === 'mon-ed-del-rec') {
+        if (state.monitor.editor) {
+          var rIdx = Number(btn.getAttribute('data-idx'));
+          if (state.monitor.editor.recs.length <= 1) state.monitor.editor.recs = [{ pt: '', en: '' }];
+          else state.monitor.editor.recs.splice(rIdx, 1);
+          render();
+        }
+      } else if (action === 'mon-export-json') {
+        downloadBackupJsonOffline();
+      } else if (action === 'mon-trigger-import') {
+        var fileEl = document.getElementById('mon-import-file');
+        if (fileEl) fileEl.click();
+      } else if (action === 'mon-cancel-import') {
+        state.monitor.pendingImport = null;
+        render();
+      } else if (action === 'mon-confirm-import') {
+        var pi = state.monitor.pendingImport;
+        if (pi) {
+          state.entries = pi.entries;
+          persistEntries();
+          pushAudit({
+            id: makeAuditId(),
+            timestamp: new Date().toISOString(),
+            action: 'imported',
+            entryId: 'backup_import',
+            jurisdiction: { pt: 'Base Global', en: 'Global Dataset' },
+            entryTitle: { pt: 'Importa\\u00e7\\u00e3o JSON (' + pi.total + ' registros)', en: 'JSON Backup Import (' + pi.total + ' records)' },
+            summary: { pt: '+' + pi.added + ' adicionados \\u00b7 ' + pi.updated + ' atualizados', en: '+' + pi.added + ' added \\u00b7 ' + pi.updated + ' updated' }
+          });
+          state.monitor.pendingImport = null;
+          showToast(I18N[state.lang].stage3.importToast(pi.added, pi.updated));
+          render();
+        }
+      } else if (action === 'mon-open-reset') {
+        state.monitor.resetConfirm = true;
+        render();
+      } else if (action === 'mon-cancel-reset') {
+        state.monitor.resetConfirm = false;
+        render();
+      } else if (action === 'mon-confirm-reset') {
+        state.entries = JSON.parse(JSON.stringify(state.baseline));
+        safeStorageSet(STORAGE_ENTRIES, JSON.stringify(state.entries));
+        state.compareIds = [];
+        state.monitor.resetConfirm = false;
+        pushAudit({
+          id: makeAuditId(),
+          timestamp: new Date().toISOString(),
+          action: 'reset',
+          entryId: 'baseline_119',
+          jurisdiction: { pt: 'Base Global', en: 'Global Dataset' },
+          entryTitle: { pt: 'Restaura\\u00e7\\u00e3o da Base Original (119 registros)', en: 'Reset to Original Baseline (119 records)' },
+          summary: { pt: 'Edi\\u00e7\\u00f5es locais removidas; base IAPP Out/2026 restaurada', en: 'Local edits cleared; IAPP Oct 2026 baseline restored' }
+        });
+        showToast(I18N[state.lang].stage3.resetToast);
+        render();
       }
+    });
+
+    root.addEventListener('submit', function(ev) {
+      var form = ev.target;
+      if (!form || form.id !== 'mon-editor-form') return;
+      ev.preventDefault();
+      var d = state.monitor.editor;
+      if (!d) return;
+      var cEn = String(d.countryEn || '').trim();
+      var cPt = String(d.countryPt || '').trim();
+      var cCode = String(d.countryCode || '').trim().toUpperCase();
+      var iEn = String(d.issuerEn || '').trim();
+      var iPt = String(d.issuerPt || '').trim();
+      var tEn = String(d.titleEn || '').trim();
+      var tPt = String(d.titlePt || '').trim();
+      if (!cEn || !cPt || !cCode || !iEn || !iPt || !tEn || !tPt) {
+        state.monitor.editorError = I18N[state.lang].stage3.edErrReq;
+        render();
+        return;
+      }
+      var yRaw = String(d.year || '').trim();
+      var yr = yRaw === '' ? null : Number(yRaw);
+      if (yr !== null && (!isFinite(yr) || yr < 1990 || yr > 2050)) yr = null;
+      var pg = Number(d.sourcePage);
+      if (!isFinite(pg) || pg < 0) pg = 0;
+      var subEn = String(d.subEn || '').trim();
+      var subPt = String(d.subPt || '').trim();
+      var regObj = REGION_LABELS[d.regionEn] || { en: d.regionEn, pt: d.regionEn };
+      var recsEn = [], recsPt = [];
+      for (var ri = 0; ri < d.recs.length; ri++) {
+        var rEn = String(d.recs[ri].en || '').trim();
+        var rPt = String(d.recs[ri].pt || '').trim();
+        if (rEn || rPt) {
+          recsEn.push(rEn || rPt);
+          recsPt.push(rPt || rEn);
+        }
+      }
+      var saved = {
+        id: d.id,
+        sourcePage: Math.floor(pg),
+        jurisdiction: {
+          countryCode: cCode,
+          country: { en: cEn, pt: cPt },
+          subdivision: (subEn || subPt) ? { en: subEn || subPt, pt: subPt || subEn } : null,
+          region: { en: regObj.en, pt: regObj.pt }
+        },
+        issuer: {
+          name: { en: iEn, pt: iPt },
+          category: d.issuerCategory
+        },
+        resource: {
+          title: { en: tEn, pt: tPt },
+          dateDisplay: {
+            en: String(d.dateEn || '').trim() || (yr ? String(yr) : 'Not specified'),
+            pt: String(d.datePt || '').trim() || (yr ? String(yr) : 'N\\u00e3o especificado')
+          },
+          year: yr,
+          status: d.status,
+          isMachineTranslated: Boolean(d.isMt)
+        },
+        risks: d.risks.map(function(rc) { return { code: rc, label: { en: RISK_LABELS[rc].en, pt: RISK_LABELS[rc].pt } }; }),
+        recommendations: { en: recsEn, pt: recsPt }
+      };
+
+      var prevEntry = null;
+      var prevIdx = -1;
+      for (var ei = 0; ei < state.entries.length; ei++) {
+        if (state.entries[ei].id === saved.id) { prevIdx = ei; prevEntry = state.entries[ei]; break; }
+      }
+      var actType;
+      if (prevIdx !== -1) {
+        state.entries[prevIdx] = saved;
+        actType = 'updated';
+      } else {
+        state.entries = [saved].concat(state.entries);
+        actType = 'created';
+      }
+      persistEntries();
+      pushAudit({
+        id: makeAuditId(),
+        timestamp: new Date().toISOString(),
+        action: actType,
+        entryId: saved.id,
+        jurisdiction: {
+          pt: saved.jurisdiction.subdivision ? (saved.jurisdiction.country.pt + ' \\u00b7 ' + saved.jurisdiction.subdivision.pt) : saved.jurisdiction.country.pt,
+          en: saved.jurisdiction.subdivision ? (saved.jurisdiction.country.en + ' \\u00b7 ' + saved.jurisdiction.subdivision.en) : saved.jurisdiction.country.en
+        },
+        entryTitle: { pt: saved.resource.title.pt, en: saved.resource.title.en },
+        summary: summarizeDiff(prevEntry, saved)
+      });
+      state.monitor.editor = null;
+      state.monitor.editorError = '';
+      showToast(actType === 'created' ? I18N[state.lang].stage3.edCreatedToast : I18N[state.lang].stage3.edUpdatedToast);
+      render();
     });
 
     root.addEventListener('input', function(ev) {
       var target = ev.target;
-      if (target && target.id === 'exp-search-input') {
+      if (!target) return;
+      if (target.id === 'exp-search-input') {
         state.filters.search = target.value;
         render();
+        return;
+      }
+      if (target.id === 'mon-search-input') {
+        state.monitor.search = target.value;
+        render();
+        return;
+      }
+      if (state.monitor.editor && target.getAttribute) {
+        var ef = target.getAttribute('data-ed-field');
+        if (ef) {
+          state.monitor.editor[ef] = target.value;
+          return;
+        }
+        var recIdx = target.getAttribute('data-ed-rec-idx');
+        var recLang = target.getAttribute('data-ed-rec-lang');
+        if (recIdx !== null && recLang && state.monitor.editor.recs[Number(recIdx)]) {
+          state.monitor.editor.recs[Number(recIdx)][recLang] = target.value;
+        }
       }
     });
 
     root.addEventListener('change', function(ev) {
       var target = ev.target;
       if (!target || !target.getAttribute) return;
+      if (target.id === 'mon-import-file') {
+        state.monitor.importError = '';
+        var f = target.files && target.files[0];
+        if (!f) return;
+        var reader = new FileReader();
+        reader.onload = function() {
+          var res = validateBackupTextOffline(typeof reader.result === 'string' ? reader.result : '');
+          if (!res) state.monitor.importError = I18N[state.lang].stage3.impErrJson;
+          else state.monitor.pendingImport = res;
+          render();
+        };
+        reader.readAsText(f);
+        target.value = '';
+        return;
+      }
+      if (state.monitor.editor) {
+        var ef = target.getAttribute('data-ed-field');
+        if (ef) {
+          state.monitor.editor[ef] = target.value;
+          return;
+        }
+        if (target.getAttribute('data-ed-mt')) {
+          state.monitor.editor.isMt = Boolean(target.checked);
+          return;
+        }
+        var rc = target.getAttribute('data-ed-risk');
+        if (rc) {
+          var arr = state.monitor.editor.risks;
+          var pos = arr.indexOf(rc);
+          if (target.checked && pos === -1) arr.push(rc);
+          else if (!target.checked && pos !== -1) arr.splice(pos, 1);
+          render();
+          return;
+        }
+      }
       var fk = target.getAttribute('data-filter');
       if (fk) {
         state.filters[fk] = target.value;
@@ -2271,7 +3148,8 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
 
     document.addEventListener('keydown', function(ev) {
       if (ev.key === 'Escape') {
-        if (state.drawer) { state.drawer = null; render(); }
+        if (state.monitor.editor) { state.monitor.editor = null; render(); }
+        else if (state.drawer) { state.drawer = null; render(); }
         else if (state.comparatorOpen) { state.comparatorOpen = false; render(); }
       }
     });
@@ -2290,13 +3168,50 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
 
   function init() {
     try {
-      var data = window.__TRACKER_OFFLINE_ENTRIES__;
+      var embedded = window.__TRACKER_OFFLINE_ENTRIES__;
+      var base = Array.isArray(window.__TRACKER_OFFLINE_BASELINE__) && window.__TRACKER_OFFLINE_BASELINE__.length
+        ? window.__TRACKER_OFFLINE_BASELINE__
+        : embedded;
+      var embeddedAudit = Array.isArray(window.__TRACKER_OFFLINE_AUDIT__) ? window.__TRACKER_OFFLINE_AUDIT__ : [];
       var initLang = window.__TRACKER_OFFLINE_LANG__;
-      if (!Array.isArray(data) || data.length === 0) {
+
+      if (!Array.isArray(embedded) || embedded.length === 0) {
         throw new Error('Embedded dataset (__TRACKER_OFFLINE_ENTRIES__) is missing or empty.');
       }
-      state.entries = data;
-      state.lang = initLang === 'en' ? 'en' : 'pt';
+
+      state.baseline = base;
+      state.baselineMap = {};
+      for (var bi = 0; bi < base.length; bi++) {
+        state.baselineMap[base[bi].id] = canonicalEntryStr(base[bi]);
+      }
+
+      // Load localStorage edits if present, else use exported snapshot
+      var storedEntries = null;
+      var rawStored = safeStorageGet(STORAGE_ENTRIES);
+      if (rawStored) {
+        try {
+          var parsedStored = JSON.parse(rawStored);
+          if (Array.isArray(parsedStored) && parsedStored.length > 0 && parsedStored[0].id && parsedStored[0].jurisdiction) {
+            storedEntries = parsedStored;
+          }
+        } catch (_e) {}
+      }
+      state.entries = storedEntries || embedded;
+
+      var storedAudit = null;
+      var rawAudit = safeStorageGet(STORAGE_AUDIT);
+      if (rawAudit) {
+        try {
+          var parsedAudit = JSON.parse(rawAudit);
+          if (Array.isArray(parsedAudit)) storedAudit = parsedAudit;
+        } catch (_e) {}
+      }
+      state.auditLog = storedAudit || embeddedAudit;
+
+      var storedLang = safeStorageGet(STORAGE_LANG);
+      if (storedLang === 'pt' || storedLang === 'en') state.lang = storedLang;
+      else state.lang = initLang === 'en' ? 'en' : 'pt';
+
       bindEvents();
       render();
     } catch (err) {

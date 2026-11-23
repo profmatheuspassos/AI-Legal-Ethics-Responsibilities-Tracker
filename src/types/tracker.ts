@@ -69,6 +69,45 @@ export interface TrackerEntry {
   };
 }
 
+export type AuditAction = 'created' | 'updated' | 'imported' | 'reset';
+
+export interface AuditLogEntry {
+  id: string;
+  timestamp: string;
+  action: AuditAction;
+  entryId: string;
+  jurisdiction: LocalizedText;
+  entryTitle: LocalizedText;
+  summary: LocalizedText;
+}
+
+export interface TrackerBackupPayload {
+  metadata: {
+    exportedAt: string;
+    baseEdition: string;
+    totalEntries: number;
+  };
+  entries: TrackerEntry[];
+  auditLog: AuditLogEntry[];
+}
+
+export interface GroundingSource {
+  title: string;
+  uri: string;
+}
+
+export interface GeminiLegislativeCheckResult {
+  summaryPt: string;
+  summaryEn: string;
+  suggestedStatus: ResourceStatus | null;
+  suggestedDatePt: string;
+  suggestedDateEn: string;
+  suggestedYear: number | null;
+  suggestedNotePt: string;
+  suggestedNoteEn: string;
+  sources: GroundingSource[];
+}
+
 export type ActiveTab = 'explorer' | 'analytics' | 'monitor';
 
 export type QuickScope = 'all' | 'non_us' | 'us' | 'europe' | 'legislation';

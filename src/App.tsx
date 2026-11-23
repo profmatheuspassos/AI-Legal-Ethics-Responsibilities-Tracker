@@ -11,7 +11,7 @@ import { CompareDock } from './components/CompareDock';
 import { ExplorerView } from './components/ExplorerView';
 import { Footer } from './components/Footer';
 import { Header } from './components/Header';
-import { MonitorPlaceholder } from './components/StagePlaceholders';
+import { LegislativeMonitor } from './components/monitor/LegislativeMonitor';
 import { useTrackerStore } from './hooks/useTrackerStore';
 import { UI_STRINGS } from './i18n/translations';
 import type { ExplorerFilterState } from './types/tracker';
@@ -21,6 +21,11 @@ import { DEFAULT_FILTERS } from './utils/trackerFilters';
 export default function App() {
   const {
     entries,
+    upsertEntry,
+    importBackup,
+    resetEntries,
+    auditLog,
+    baselineStats,
     language,
     setLanguage,
     activeTab,
@@ -66,7 +71,7 @@ export default function App() {
     toastTimerRef.current = window.setTimeout(() => {
       setToastMessage(null);
       toastTimerRef.current = null;
-    }, 3000);
+    }, 3200);
   }, []);
 
   const selectedCompareEntries = useMemo(() => {
@@ -96,12 +101,12 @@ export default function App() {
     setIsExporting(true);
     try {
       const t = UI_STRINGS[language];
-      const ok = await exportOfflineHtmlSnapshot(entries, language);
+      const ok = await exportOfflineHtmlSnapshot(entries, language, auditLog);
       showToast(ok ? t.exportSuccessToast : t.exportErrorToast);
     } finally {
       setIsExporting(false);
     }
-  }, [entries, isExporting, language, showToast]);
+  }, [auditLog, entries, isExporting, language, showToast]);
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900">
@@ -136,12 +141,23 @@ export default function App() {
         )}
 
         {activeTab === 'monitor' && (
-          <MonitorPlaceholder entries={entries} language={language} />
+          <LegislativeMonitor
+            entries={entries}
+            auditLog={auditLog}
+            baselineStats={baselineStats}
+            language={language}
+            onUpsertEntry={upsertEntry}
+            onImportBackup={importBackup}
+            onResetBaseline={resetEntries}
+            onNotify={showToast}
+          />
         )}
       </main>
 
       <Footer
         loadedCount={entries.length}
+        customAddedCount={baselineStats.customAddedCount}
+        modifiedBaselineCount={baselineStats.modifiedBaselineCount}
         language={language}
         hasBottomDock={selectedCompareEntries.length > 0}
       />

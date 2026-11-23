@@ -1,4 +1,5 @@
-import type { Language, TrackerEntry } from '../types/tracker';
+import { INITIAL_TRACKER_ENTRIES } from '../data';
+import type { AuditLogEntry, Language, TrackerEntry } from '../types/tracker';
 import { OFFLINE_EXPORT_SCRIPT } from './offlineHtml/offlineScript';
 import { OFFLINE_EXPORT_CSS } from './offlineHtml/offlineStyles';
 
@@ -18,14 +19,18 @@ export function escapeJsonForClassicScript(data: unknown): string {
 
 /**
  * Builds a 100% self-contained, zero-dependency, classic-script HTML document
- * directly from the current in-memory dataset and active language.
+ * directly from the current in-memory dataset, audit log, immutable 119 baseline,
+ * and active language.
  * Guaranteed to execute locally via file:// in Chrome, Edge, and Safari.
  */
 export function buildOfflineHtmlDocument(
   entries: TrackerEntry[],
-  language: Language
+  language: Language,
+  auditLog: AuditLogEntry[] = []
 ): string {
   const safeEntriesJson = escapeJsonForClassicScript(entries);
+  const safeBaselineJson = escapeJsonForClassicScript(INITIAL_TRACKER_ENTRIES);
+  const safeAuditJson = escapeJsonForClassicScript(auditLog);
   const safeLangJson = escapeJsonForClassicScript(language);
 
   return [
@@ -44,6 +49,8 @@ export function buildOfflineHtmlDocument(
     '  </div>',
     '  <script>',
     `    window.__TRACKER_OFFLINE_ENTRIES__ = ${safeEntriesJson};`,
+    `    window.__TRACKER_OFFLINE_BASELINE__ = ${safeBaselineJson};`,
+    `    window.__TRACKER_OFFLINE_AUDIT__ = ${safeAuditJson};`,
     `    window.__TRACKER_OFFLINE_LANG__ = ${safeLangJson};`,
     '  </script>',
     '  <script>',
@@ -100,10 +107,11 @@ function triggerHtmlDownload(htmlContent: string, filename: string): void {
  */
 export function exportOfflineHtml(
   entries: TrackerEntry[],
-  language: Language
+  language: Language,
+  auditLog: AuditLogEntry[] = []
 ): boolean {
   try {
-    const html = buildOfflineHtmlDocument(entries, language);
+    const html = buildOfflineHtmlDocument(entries, language, auditLog);
     assertSafeOfflineHtml(html);
     triggerHtmlDownload(html, 'ai-legal-ethics-tracker.html');
     return true;
@@ -115,7 +123,8 @@ export function exportOfflineHtml(
 
 export async function exportOfflineHtmlSnapshot(
   entries: TrackerEntry[],
-  language: Language
+  language: Language,
+  auditLog: AuditLogEntry[] = []
 ): Promise<boolean> {
-  return exportOfflineHtml(entries, language);
+  return exportOfflineHtml(entries, language, auditLog);
 }

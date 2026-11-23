@@ -5,13 +5,46 @@ import type { Language } from '../types/tracker';
 
 interface FooterProps {
   loadedCount: number;
+  customAddedCount: number;
+  modifiedBaselineCount: number;
   language: Language;
   hasBottomDock: boolean;
 }
 
-export function Footer({ loadedCount, language, hasBottomDock }: FooterProps) {
+export function Footer({
+  loadedCount,
+  customAddedCount,
+  modifiedBaselineCount,
+  language,
+  hasBottomDock,
+}: FooterProps) {
   const t = UI_STRINGS[language].footer;
   const isComplete = loadedCount >= EXPECTED_INITIAL_COUNT;
+  const hasMods = customAddedCount > 0 || modifiedBaselineCount > 0;
+
+  let countDisplay: string;
+  if (!hasMods) {
+    countDisplay = `${loadedCount} / ${EXPECTED_INITIAL_COUNT}`;
+  } else {
+    const parts: string[] = [
+      `${EXPECTED_INITIAL_COUNT} base`,
+    ];
+    if (customAddedCount > 0) {
+      parts.push(
+        language === 'pt'
+          ? `+ ${customAddedCount} ${customAddedCount === 1 ? 'customizado' : 'customizados'}`
+          : `+ ${customAddedCount} custom`
+      );
+    }
+    if (modifiedBaselineCount > 0) {
+      parts.push(
+        language === 'pt'
+          ? `${modifiedBaselineCount} ${modifiedBaselineCount === 1 ? 'editado' : 'editados'}`
+          : `${modifiedBaselineCount} edited`
+      );
+    }
+    countDisplay = `${loadedCount} (${parts.join(' · ')})`;
+  }
 
   return (
     <footer
@@ -35,7 +68,7 @@ export function Footer({ loadedCount, language, hasBottomDock }: FooterProps) {
             <AlertCircle className="w-3.5 h-3.5 text-amber-600 shrink-0" aria-hidden="true" />
           )}
           <span>
-            {t.loadedRecordsLabel}: {loadedCount} / {EXPECTED_INITIAL_COUNT}
+            {t.loadedRecordsLabel}: {countDisplay}
           </span>
         </div>
       </div>
