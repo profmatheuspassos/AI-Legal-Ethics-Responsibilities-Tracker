@@ -128,7 +128,7 @@ export function LegislativeMonitor({
   }, [entries, watchlistMode, watchlistSearch]);
 
   const handleExportJson = () => {
-    downloadJsonBackup(entries, auditLog);
+    downloadJsonBackup(entries, auditLog, language);
     onNotify(t.toolbar.exportSuccess);
   };
 

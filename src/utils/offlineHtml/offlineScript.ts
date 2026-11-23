@@ -138,6 +138,7 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
   var I18N = {
     pt: {
       appTitle: 'AI Legal Ethics & Responsibilities Tracker',
+      docTitle: 'Rastreador de \\u00c9tica Jur\\u00eddica & Responsabilidades em IA',
       appSub: 'Base Comparativa IAPP (Outubro de 2026)',
       offlineBadge: 'Vers\\u00e3o Standalone Offline',
       tabs: {
@@ -379,6 +380,7 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
     },
     en: {
       appTitle: 'AI Legal Ethics & Responsibilities Tracker',
+      docTitle: 'AI Legal Ethics & Responsibilities Tracker',
       appSub: 'IAPP Global Reference Dataset (October 2026)',
       offlineBadge: 'Standalone Offline Export',
       tabs: {
@@ -866,6 +868,15 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
     };
   }
 
+  function formatLocalDateYmdOffline(d) {
+    var yr = d.getFullYear();
+    var mo = String(d.getMonth() + 1);
+    if (mo.length < 2) mo = '0' + mo;
+    var dy = String(d.getDate());
+    if (dy.length < 2) dy = '0' + dy;
+    return yr + '-' + mo + '-' + dy;
+  }
+
   function downloadBackupJsonOffline() {
     var payload = {
       metadata: {
@@ -879,8 +890,11 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
     var blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json;charset=utf-8' });
     var url = URL.createObjectURL(blob);
     var a = document.createElement('a');
+    var today = formatLocalDateYmdOffline(new Date());
     a.href = url;
-    a.download = 'ai-legal-ethics-tracker-backup-' + new Date().toISOString().slice(0, 10) + '.json';
+    a.download = state.lang === 'pt'
+      ? 'rastreador-etica-juridica-ia-backup-' + today + '.json'
+      : 'ai-legal-ethics-tracker-backup-' + today + '.json';
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
@@ -2697,7 +2711,7 @@ export const OFFLINE_EXPORT_SCRIPT = `(function() {
     drillSeq = 0;
 
     document.documentElement.lang = state.lang;
-    document.title = I18N[state.lang].appTitle;
+    document.title = I18N[state.lang].docTitle || I18N[state.lang].appTitle;
 
     var mainBody = '';
     if (state.activeTab === 'explorer') mainBody = buildExplorerHtml();

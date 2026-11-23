@@ -17,6 +17,12 @@ export function escapeJsonForClassicScript(data: unknown): string {
     .replace(/\u2029/g, '\\u2029');
 }
 
+export function getOfflineHtmlFilename(language: Language): string {
+  return language === 'pt'
+    ? 'rastreador-etica-juridica-ia-offline.html'
+    : 'ai-legal-ethics-tracker-offline.html';
+}
+
 /**
  * Builds a 100% self-contained, zero-dependency, classic-script HTML document
  * directly from the current in-memory dataset, audit log, immutable 119 baseline,
@@ -32,6 +38,14 @@ export function buildOfflineHtmlDocument(
   const safeBaselineJson = escapeJsonForClassicScript(INITIAL_TRACKER_ENTRIES);
   const safeAuditJson = escapeJsonForClassicScript(auditLog);
   const safeLangJson = escapeJsonForClassicScript(language);
+  const htmlTitle =
+    language === 'pt'
+      ? 'Rastreador de Ética Jurídica &amp; Responsabilidades em IA'
+      : 'AI Legal Ethics &amp; Responsibilities Tracker';
+  const htmlDescription =
+    language === 'pt'
+      ? 'Rastreador de Ética Jurídica e Responsabilidades em IA (Base IAPP Outubro 2026) — Versão Standalone Offline'
+      : 'IAPP October 2026 AI Legal Ethics and Responsibilities Tracker — Standalone Offline Edition';
 
   return [
     '<!doctype html>',
@@ -39,8 +53,8 @@ export function buildOfflineHtmlDocument(
     '<head>',
     '  <meta charset="UTF-8" />',
     '  <meta name="viewport" content="width=device-width, initial-scale=1.0" />',
-    '  <title>AI Legal Ethics &amp; Responsibilities Tracker</title>',
-    '  <meta name="description" content="IAPP October 2026 AI Legal Ethics and Responsibilities Tracker — Standalone Offline Edition" />',
+    `  <title>${htmlTitle}</title>`,
+    `  <meta name="description" content="${htmlDescription}" />`,
     `  <style>${OFFLINE_EXPORT_CSS}</style>`,
     '</head>',
     '<body>',
@@ -103,7 +117,8 @@ function triggerHtmlDownload(htmlContent: string, filename: string): void {
 }
 
 /**
- * Generates, validates, and downloads `ai-legal-ethics-tracker.html`.
+ * Generates, validates, and downloads the standalone offline HTML file
+ * with a filename localized to the active language.
  */
 export function exportOfflineHtml(
   entries: TrackerEntry[],
@@ -113,7 +128,7 @@ export function exportOfflineHtml(
   try {
     const html = buildOfflineHtmlDocument(entries, language, auditLog);
     assertSafeOfflineHtml(html);
-    triggerHtmlDownload(html, 'ai-legal-ethics-tracker.html');
+    triggerHtmlDownload(html, getOfflineHtmlFilename(language));
     return true;
   } catch (err) {
     console.error('[exportOfflineHtml]', err);

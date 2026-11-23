@@ -288,7 +288,7 @@ export const UI_STRINGS: Record<Language, UIStrings> = {
     appSubtitle: 'Base Comparativa IAPP (Outubro de 2026)',
     exportOfflineHtml: 'Exportar HTML Offline',
     exportingOfflineHtml: 'Gerando HTML...',
-    exportSuccessToast: 'Arquivo standalone ai-legal-ethics-tracker.html gerado com sucesso.',
+    exportSuccessToast: 'Arquivo standalone rastreador-etica-juridica-ia-offline.html gerado com sucesso.',
     exportErrorToast: 'Não foi possível gerar o arquivo HTML offline.',
     tabs: {
       explorer: 'Explorador & Comparador',
@@ -466,7 +466,7 @@ export const UI_STRINGS: Record<Language, UIStrings> = {
     appSubtitle: 'IAPP Global Reference Dataset (October 2026)',
     exportOfflineHtml: 'Export Offline HTML',
     exportingOfflineHtml: 'Exporting HTML...',
-    exportSuccessToast: 'Standalone file ai-legal-ethics-tracker.html generated successfully.',
+    exportSuccessToast: 'Standalone file ai-legal-ethics-tracker-offline.html generated successfully.',
     exportErrorToast: 'Unable to generate the offline HTML file.',
     tabs: {
       explorer: 'Explorer & Comparator',
