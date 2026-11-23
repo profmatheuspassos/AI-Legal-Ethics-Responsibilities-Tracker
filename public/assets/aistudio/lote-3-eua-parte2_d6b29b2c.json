@@ -1,0 +1,2377 @@
+[
+  {
+    "id": "us-mt-13jd-2026-localrules",
+    "sourcePage": 31,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Montana",
+        "pt": "Montana"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Montana's Thirteenth Judicial District",
+        "pt": "Décimo Terceiro Distrito Judicial de Montana"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Local Rules of Practice of the District Court of the Thirteenth Judicial District of Montana",
+        "pt": "Regras Locais de Prática do Tribunal Distrital do Décimo Terceiro Distrito Judicial de Montana"
+      },
+      "dateDisplay": {
+        "en": "1 Jan. 2026",
+        "pt": "1º de jan. de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "No specific recommendations text provided in the IAPP tracker entry."
+      ],
+      "pt": [
+        "Nenhum texto específico de recomendações foi fornecido nesta entrada do rastreador da IAPP."
+      ]
+    }
+  },
+  {
+    "id": "us-ne-dc-2024-civilrules",
+    "sourcePage": 31,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Nebraska",
+        "pt": "Nebraska"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "District Court for the District of Nebraska",
+        "pt": "Tribunal Distrital dos EUA para o Distrito de Nebraska"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Nebraska Civil Rules",
+        "pt": "Regras Civis de Nebraska"
+      },
+      "dateDisplay": {
+        "en": "1 Dec. 2024",
+        "pt": "1º de dez. de 2024"
+      },
+      "year": 2024,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "All parties using generative AI are responsible for the accuracy and reliability of their filings. All parties are also expected to verify the contents of their filings."
+      ],
+      "pt": [
+        "Todas as partes que utilizam IA generativa são responsáveis pela precisão e confiabilidade de suas petições. Espera-se também que todas as partes verifiquem o conteúdo de suas petições."
+      ]
+    }
+  },
+  {
+    "id": "us-nh-bar-2024-bias",
+    "sourcePage": 31,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New Hampshire",
+        "pt": "Nova Hampshire"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New Hampshire Bar Association",
+        "pt": "Ordem dos Advogados de Nova Hampshire"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Understanding Generative Artificial Intelligence and the Potential for Discrimination and Bias",
+        "pt": "Compreendendo a Inteligência Artificial Generativa e o Potencial para Discriminação e Viés"
+      },
+      "dateDisplay": {
+        "en": "30 Oct. 2024",
+        "pt": "30 de out. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duties of competency and diligence require lawyers to be knowledgeable of how the AI systems they use function and are changing at least on a general level.",
+        "Lawyers are required to be knowledgeable of how algorithms become biased and how that bias can skew output."
+      ],
+      "pt": [
+        "Os deveres de competência e diligência exigem que os advogados tenham conhecimento, ao menos em nível geral, de como os sistemas de IA que utilizam funcionam e estão evoluindo.",
+        "Os advogados são obrigados a conhecer como os algoritmos se tornam enviesados e como esse viés pode distorcer os resultados."
+      ]
+    }
+  },
+  {
+    "id": "us-nj-supcourt-2024-guidelines",
+    "sourcePage": 32,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New Jersey",
+        "pt": "Nova Jersey"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New Jersey Supreme Court",
+        "pt": "Suprema Corte de Nova Jersey"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Legal Practice: Preliminary Guidelines on the Use of Artificial Intelligence by New Jersey Lawyers",
+        "pt": "Prática Jurídica: Diretrizes Preliminares sobre o Uso de Inteligência Artificial por Advogados de Nova Jersey"
+      },
+      "dateDisplay": {
+        "en": "24 Jan. 2024",
+        "pt": "24 de jan. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duties of competency and diligence require that lawyers double-check and verify the legal and factual accuracy of any generative AI output they rely on or submit.",
+        "The duty of candor requires lawyers to promptly disclose and correct any errors discovered in AI-generated filings to court. Lawyers must also ensure their colleagues and subordinates, including nonlawyers, are not inappropriately using AI.",
+        "While New Jersey does not impose an affirmative duty of disclosure, lawyers should disclose AI usage if asked by a client. Additionally, if a client cannot make an informed decision without knowing their lawyer has been using AI, the lawyer must also disclose AI usage.",
+        "Lawyers are responsible for ensuring the security of an AI system and the data input into it before entering nonpublic client information."
+      ],
+      "pt": [
+        "Os deveres de competência e diligência exigem que os advogados verifiquem duplamente e confirmem a precisão jurídica e fática de qualquer resultado de IA generativa em que se baseiem ou que submetam.",
+        "O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros descobertos em petições geradas por IA perante o tribunal. Os advogados também devem assegurar que seus colegas e subordinados, incluindo não advogados, não estejam utilizando IA de forma inadequada.",
+        "Embora Nova Jersey não imponha um dever afirmativo de divulgação, os advogados devem divulgar o uso de IA caso sejam questionados por um cliente. Além disso, se um cliente não puder tomar uma decisão informada sem saber que seu advogado utilizou IA, o advogado também deverá divulgar o uso de IA.",
+        "Os advogados são responsáveis por garantir a segurança de um sistema de IA e dos dados nele inseridos antes de introduzir informações não públicas de clientes."
+      ]
+    }
+  },
+  {
+    "id": "us-nm-bar-2024-op2024-004",
+    "sourcePage": 32,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New Mexico",
+        "pt": "Novo México"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "State Bar of New Mexico Ethics Advisory Committee",
+        "pt": "Comitê Consultivo de Ética da Ordem dos Advogados do Estado do Novo México"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Formal Opinion 2024-004",
+        "pt": "Parecer Formal 2024-004"
+      },
+      "dateDisplay": {
+        "en": "24 Sept. 2024",
+        "pt": "24 de set. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duties of competency and diligence require that lawyers keep abreast of changes to the law and the AI tools they use. They are required to have general knowledge of how the AI tools they use function.",
+        "Lawyers should carefully study both the privacy and security policies of the providers of the AI tools they are using. They should also anonymize any client data input into a generative AI tool to the greatest extent possible. To be absolutely safe, lawyers should get informed consent from their clients before inputting data into a generative AI tool.",
+        "The duty of diligence requires that lawyers double-check any AI-generated output they rely on or file before a court. Additionally, the duty of candor requires lawyers to promptly disclose any errors discovered in an AI-generated filing.",
+        "Lawyers should supervise their colleagues and subordinates and ensure they are not improperly using or relying on AI.",
+        "Lawyers are prohibited from billing hours saved by the use of generative AI. Any AI-related costs must be disclosed and agreed to by the client before the representation to be passed on to them. Alternatively, AI-related costs must accurately reflect actual costs incurred."
+      ],
+      "pt": [
+        "Os deveres de competência e diligência exigem que os advogados mantenham-se atualizados sobre mudanças na legislação e nas ferramentas de IA que utilizam. Exige-se que tenham conhecimento geral de como funcionam as ferramentas de IA que utilizam.",
+        "Os advogados devem estudar cuidadosamente tanto as políticas de privacidade quanto as de segurança dos provedores das ferramentas de IA que utilizam. Devem também anonimizar quaisquer dados de clientes inseridos em uma ferramenta de IA generativa na maior extensão possível. Para total segurança, os advogados devem obter o consentimento informado de seus clientes antes de inserir dados em uma ferramenta de IA generativa.",
+        "O dever de diligência exige que os advogados verifiquem duplamente qualquer resultado gerado por IA em que se baseiem ou que protocolem perante um tribunal. Além disso, o dever de lealdade processual (candor) exige que os advogados divulguem prontamente quaisquer erros descobertos em uma petição gerada por IA.",
+        "Os advogados devem supervisionar seus colegas e subordinados e assegurar que não estejam utilizando ou confiando indevidamente na IA.",
+        "Os advogados são proibidos de cobrar horas economizadas pelo uso de IA generativa. Quaisquer custos relacionados à IA devem ser divulgados e acordados com o cliente antes da representação para serem repassados a ele. Alternativamente, os custos relacionados à IA devem refletir com precisão os custos efetivamente incorridos."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-nysba-2024-taskforce",
+    "sourcePage": 33,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Bar Association",
+        "pt": "Ordem dos Advogados do Estado de Nova York (NYSBA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Report and Recommendations of the New York State Bar Association Task Force on Artificial Intelligence",
+        "pt": "Relatório e Recomendações da Força-Tarefa sobre Inteligência Artificial da Ordem dos Advogados do Estado de Nova York"
+      },
+      "dateDisplay": {
+        "en": "April 2024",
+        "pt": "Abril de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers understand how their AI tools function and their limitations and keep abreast of any changes to them.",
+        "The duty of diligence requires that lawyers double-check any AI-generated output they rely on or file with a court.",
+        "The duty of candor requires that lawyers promptly disclose any errors in AI-generated filings they discover.",
+        "Lawyers should be cautious when inputting confidential client information into generative AI."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados compreendam como suas ferramentas de IA funcionam e suas limitações, mantendo-se atualizados sobre quaisquer alterações nelas.",
+        "O dever de diligência exige que os advogados verifiquem duplamente qualquer resultado gerado por IA em que se baseiem ou que protocolem em juízo.",
+        "O dever de lealdade processual (candor) exige que os advogados divulguem prontamente quaisquer erros que descubram em petições geradas por IA.",
+        "Os advogados devem ter cautela ao inserir informações confidenciais de clientes em IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-leg-2026-aba8546",
+    "sourcePage": 33,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Legislature",
+        "pt": "Legislatura do Estado de Nova York"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "AB A8546",
+        "pt": "Projeto de Lei AB A8546 (Nova York)"
+      },
+      "dateDisplay": {
+        "en": "In committee assembly 20 May 2026; Died in committee 7 Jan. 2026",
+        "pt": "Em comissão na Assembleia em 20 de maio de 2026; Arquivado em comissão em 7 de jan. de 2026"
+      },
+      "year": 2026,
+      "status": "died_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Rule 2107(a): Any paper served or filed that has been drafted using generative AI must include a separate affidavit disclosing generative AI use and certifying that a human double-checked the accuracy of its contents."
+      ],
+      "pt": [
+        "Regra 2107(a): Qualquer peça notificada ou protocolada que tenha sido redigida utilizando IA generativa deve incluir uma declaração juramentada (affidavit) separada divulgando o uso de IA generativa e certificando que um ser humano verificou duplamente a precisão de seu conteúdo."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-leg-2026-aba9097",
+    "sourcePage": 33,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Legislature",
+        "pt": "Legislatura do Estado de Nova York"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "AB A9097",
+        "pt": "Projeto de Lei AB A9097 (Nova York)"
+      },
+      "dateDisplay": {
+        "en": "In committee assembly 12 Sept. 2025; Died in committee 7 Jan. 2026",
+        "pt": "Em comissão na Assembleia em 12 de set. de 2025; Arquivado em comissão em 7 de jan. de 2026"
+      },
+      "year": 2026,
+      "status": "died_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Rule 2107(b): Each court must inform all counsel and pro se litigants before it of the dangers of using generative AI.",
+        "Rule 2107(c): No paper drafted using generative AI can be filed before any court without the informed consent of the client.",
+        "Rule 2107(d): Any paper drafted using generative AI must be filed with a separate affidavit disclosing that generative AI was used and that a human verified the accuracy of its contents."
+      ],
+      "pt": [
+        "Regra 2107(b): Cada tribunal deve informar todos os advogados e litigantes em causa própria (pro se) perante ele sobre os perigos do uso de IA generativa.",
+        "Regra 2107(c): Nenhuma peça redigida utilizando IA generativa pode ser protocolada perante qualquer tribunal sem o consentimento informado do cliente.",
+        "Regra 2107(d): Qualquer peça redigida utilizando IA generativa deve ser protocolada com uma declaração juramentada (affidavit) separada divulgando que a IA generativa foi utilizada e que um ser humano verificou a precisão de seu conteúdo."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-leg-2026-aba11723",
+    "sourcePage": 33,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Legislature",
+        "pt": "Legislatura do Estado de Nova York"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "AB A11723",
+        "pt": "Projeto de Lei AB A11723 (Nova York)"
+      },
+      "dateDisplay": {
+        "en": "In committee assembly 16 Sept. 2026",
+        "pt": "Em comissão na Assembleia em 16 de set. de 2026"
+      },
+      "year": 2026,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 4552(a): Communications or attorney work products ordinarily protected by the attorney-client privilege or otherwise not obtainable by another party do not lose their privileged or unobtainable character solely because they were entered into an AI tool.",
+        "(b): Prior to using AI, lawyers should provide and receive a signed form from their clients, authorizing them to use AI.",
+        "(d): The AI use form must explain the risks of using AI, including: Hallucinated content; Inaccurate content; Unthorough review of case law; Poor or ill-advised legal strategy and arguments.",
+        "(g): The AI use form does not free lawyers from the obligation to double-check AI output; this verification must be done by a human."
+      ],
+      "pt": [
+        "§ 4552(a): Comunicações ou produtos do trabalho do advogado normalmente protegidos pelo sigilo advogado-cliente ou de outra forma inacessíveis à parte contrária não perdem seu caráter sigiloso ou inacessível pelo simples fato de terem sido inseridos em uma ferramenta de IA.",
+        "(b): Antes de utilizar IA, os advogados devem fornecer e receber de seus clientes um formulário assinado autorizando o uso de IA.",
+        "(d): O formulário de uso de IA deve explicar os riscos do uso de IA, incluindo: conteúdo alucinado; conteúdo impreciso; revisão superficial da jurisprudência; estratégia e argumentos jurídicos deficientes ou desaconselháveis.",
+        "(g): O formulário de uso de IA não isenta os advogados da obrigação de verificar duplamente os resultados da IA; essa verificação deve ser realizada por um ser humano."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-leg-2026-aba06545",
+    "sourcePage": 34,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Legislature",
+        "pt": "Legislatura do Estado de Nova York"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "AB A06545 / SB 07263",
+        "pt": "Projeto de Lei AB A06545 / SB 07263 (Nova York)"
+      },
+      "dateDisplay": {
+        "en": "Committed to rules 5 June 2026",
+        "pt": "Encaminhado à comissão de regras em 5 de junho de 2026"
+      },
+      "year": 2026,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 390-f(2)(a)(ii): Chatbot operators are prohibited from permitting chatbots to impersonate lawyers in such a way that would violate the rules against unlicensed practice of law if done by a natural person.",
+        "§ 390-f(3): Chatbot operators must provide clear, conspicuous and explicit notice to users that they are interacting with an AI system."
+      ],
+      "pt": [
+        "§ 390-f(2)(a)(ii): Os operadores de chatbots são proibidos de permitir que chatbots se passem por advogados de modo que violaria as regras contra o exercício ilegal da advocacia se praticado por pessoa natural.",
+        "§ 390-f(3): Os operadores de chatbots devem fornecer aviso claro, ostensivo e explícito aos usuários de que estão interagindo com um sistema de IA."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-leg-2026-s10675",
+    "sourcePage": 34,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Legislature",
+        "pt": "Legislatura do Estado de Nova York"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "2025-S10675",
+        "pt": "Projeto de Lei 2025-S10675 (Nova York)"
+      },
+      "dateDisplay": {
+        "en": "Referred to rules 5 Aug. 2026",
+        "pt": "Encaminhado à comissão de regras em 5 de ago. de 2026"
+      },
+      "year": 2026,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 390-f(2)(a)(iii): Chatbot operators are prohibited from permitting chatbots to impersonate lawyers in such a way that would violate the rules against unlicensed practice of law if done by a natural person.",
+        "§ 390f-(3): Chatbot operators must provide clear, conspicuous and explicit notice to users that they are interacting with an AI system."
+      ],
+      "pt": [
+        "§ 390-f(2)(a)(iii): Os operadores de chatbots são proibidos de permitir que chatbots se passem por advogados de modo que violaria as regras contra o exercício ilegal da advocacia se praticado por pessoa natural.",
+        "§ 390f-(3): Os operadores de chatbots devem fornecer aviso claro, ostensivo e explícito aos usuários de que estão interagindo com um sistema de IA."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-sdny-bankruptcy-2024-9011",
+    "sourcePage": 34,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "District Court for the Southern District of New York",
+        "pt": "Tribunal Distrital dos EUA para o Distrito Sul de Nova York (SDNY)"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Bankruptcy Court Local Rules",
+        "pt": "Regras Locais do Tribunal de Falências (SDNY)"
+      },
+      "dateDisplay": {
+        "en": "Effective 30 Sept. 2024",
+        "pt": "Vigência a partir de 30 de set. de 2024"
+      },
+      "year": 2024,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Rule 9011-1(d): Litigants remain responsible for legal filings created using generative AI and for any inaccuracies therein."
+      ],
+      "pt": [
+        "Regra 9011-1(d): Os litigantes permanecem responsáveis pelas petições jurídicas criadas com o uso de IA generativa e por quaisquer imprecisões nelas contidas."
+      ]
+    }
+  },
+  {
+    "id": "us-ny-ucs-2026-part161",
+    "sourcePage": 34,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "New York",
+        "pt": "Nova York"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New York State Unified Court System",
+        "pt": "Sistema Judicial Unificado do Estado de Nova York"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Part 161. Use of Artificial Intelligence Technology",
+        "pt": "Parte 161. Uso de Tecnologia de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "Effective 1 June 2026",
+        "pt": "Vigência a partir de 1º de junho de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Lawyers may use generative AI to create court filings provided that current court rules are being followed."
+      ],
+      "pt": [
+        "Os advogados podem utilizar IA generativa para elaborar petições judiciais, desde que as regras vigentes do tribunal sejam observadas."
+      ]
+    }
+  },
+  {
+    "id": "us-nc-leg-2026-hb1161",
+    "sourcePage": 34,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "North Carolina",
+        "pt": "Carolina do Norte"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "North Carolina General Assembly",
+        "pt": "Assembleia Geral da Carolina do Norte"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "HB 1161",
+        "pt": "Projeto de Lei HB 1161 (Carolina do Norte)"
+      },
+      "dateDisplay": {
+        "en": "Last updated 4 May 2026",
+        "pt": "Última atualização em 4 de maio de 2026"
+      },
+      "year": 2026,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 7A-811: If any party to a case uses any form of generative AI in a court filing or appearance, the trial judge may dismiss the case without prejudice regardless of if any errors, deepfakes or hallucinations are present.",
+        "§ 7A-812: A party whose case has been dismissed under § 7A-811 may either remove all portions created using generative AI and resubmit it to the judge or make an appeal to the Court of Appeals if they believe the denial was erroneous.",
+        "§ 7A-813: A party permitted to bring a new action to continue an initial case pursuant to § 7A-812 may not use any form of generative AI."
+      ],
+      "pt": [
+        "§ 7A-811: Se qualquer parte em um processo utilizar qualquer forma de IA generativa em uma petição ou manifestação judicial, o juiz de primeira instância poderá extinguir o processo sem resolução de mérito (without prejudice), independentemente da presença de erros, deepfakes ou alucinações.",
+        "§ 7A-812: A parte cujo processo tenha sido extinto nos termos do § 7A-811 poderá remover todas as partes criadas com uso de IA generativa e reapresentar a peça ao juiz, ou recorrer ao Tribunal de Apelações caso entenda que o indeferimento foi equivocado.",
+        "§ 7A-813: A parte autorizada a propor nova ação para dar continuidade a um processo inicial nos termos do § 7A-812 não poderá utilizar qualquer forma de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-nc-wd-2024-cert",
+    "sourcePage": 35,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "North Carolina",
+        "pt": "Carolina do Norte"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "District Court for the Western District of North Carolina",
+        "pt": "Tribunal Distrital dos EUA para o Distrito Oeste da Carolina do Norte"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "In re Use of Artificial Intelligence",
+        "pt": "In re Uso de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "18 June 2024",
+        "pt": "18 de junho de 2024"
+      },
+      "year": 2024,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "All attorneys must file a certification with the court when filing a document that no AI was used in the drafting of that document - aside from AI tools integrated with common legal research engines - and that the filing's contents were verified by a human."
+      ],
+      "pt": [
+        "Todos os advogados devem protocolar uma certificação perante o tribunal ao apresentar um documento atestando que nenhuma IA foi utilizada na redação daquele documento — exceto ferramentas de IA integradas a mecanismos comuns de pesquisa jurídica — e que o conteúdo da petição foi verificado por um ser humano."
+      ]
+    }
+  },
+  {
+    "id": "us-nc-bar-2024-op1",
+    "sourcePage": 35,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "North Carolina",
+        "pt": "Carolina do Norte"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "North Carolina State Bar",
+        "pt": "Ordem dos Advogados do Estado da Carolina do Norte"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "2024 Ethics Opinion 1: Use of Artificial Intelligence in a Law Practice",
+        "pt": "Parecer Ético 1 de 2024: Uso de Inteligência Artificial na Prática da Advocacia"
+      },
+      "dateDisplay": {
+        "en": "1 Nov. 2024",
+        "pt": "1º de nov. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers generally educate themselves on how their AI tools function and the risks of using them.",
+        "The duty of diligence requires that lawyers double-check any generative AI output they rely on or file before a court.",
+        "Lawyers are required to exercise reasonable care and research the security and privacy practices of the vendor providing their generative AI tools before entering information into them.",
+        "North Carolina recommends against using public models. Lawyers are still held liable for content generated using in-house models.",
+        "Generally, lawyers are under no obligation to inform clients of routine uses of AI; they are obliged to inform clients of substantive uses of AI.",
+        "Lawyers are prohibited from billing hours saved by using generative AI."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados se instruam de modo geral sobre como suas ferramentas de IA funcionam e os riscos de utilizá-las.",
+        "O dever de diligência exige que os advogados verifiquem duplamente qualquer resultado de IA generativa em que se baseiem ou que protocolem perante um tribunal.",
+        "Os advogados são obrigados a exercer cuidado razoável e pesquisar as práticas de segurança e privacidade do fornecedor de suas ferramentas de IA generativa antes de inserir informações nelas.",
+        "A Carolina do Norte desaconselha o uso de modelos públicos. Os advogados continuam responsabilizados pelo conteúdo gerado por meio de modelos internos (in-house).",
+        "Em geral, os advogados não têm obrigação de informar os clientes sobre usos rotineiros de IA; são obrigados a informar os clientes sobre usos substantivos de IA.",
+        "Os advogados são proibidos de cobrar horas economizadas pelo uso de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-nc-ncba-2026-policy",
+    "sourcePage": 35,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "North Carolina",
+        "pt": "Carolina do Norte"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "North Carolina Bar Association",
+        "pt": "Associação dos Advogados da Carolina do Norte (NCBA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Beyond the Ban: Why Your Law Firm Needs a Realistic AI Policy in 2026",
+        "pt": "Além da Proibição: Por que Seu Escritório de Advocacia Precisa de uma Política Realista de IA em 2026"
+      },
+      "dateDisplay": {
+        "en": "13 Jan. 2026",
+        "pt": "13 de jan. de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "cybersecurity_risks",
+        "label": {
+          "en": "Cybersecurity risks",
+          "pt": "Riscos de cibersegurança"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "It is imperative that law firms implement at least a somewhat permissive AI policy, so that lawyers aren't encouraged to use unapproved and unsurveilled AI tools.",
+        "Firms must employ a human-in-the-loop structure for their AI usage, as the rules of competency, diligence and candor require that lawyers verify AI output.",
+        "Firms should update their engagement letters to ensure that clients are aware of AI usage related to their matter."
+      ],
+      "pt": [
+        "É imperativo que os escritórios de advocacia implementem ao menos uma política de IA minimamente permissiva, de modo que os advogados não sejam incentivados a utilizar ferramentas de IA não aprovadas e sem supervisão.",
+        "Os escritórios devem adotar uma estrutura com supervisão humana (human-in-the-loop) para o uso de IA, uma vez que as regras de competência, diligência e lealdade processual (candor) exigem que os advogados verifiquem os resultados da IA.",
+        "Os escritórios devem atualizar suas propostas/contratos de honorários (engagement letters) para garantir que os clientes estejam cientes do uso de IA relacionado ao seu caso."
+      ]
+    }
+  },
+  {
+    "id": "us-nd-courts-2026-notice",
+    "sourcePage": 35,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "North Dakota",
+        "pt": "Dakota do Norte"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "North Dakota Court System",
+        "pt": "Sistema Judicial da Dakota do Norte"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Public Notice on the Use of Artificial Intelligence (AI)",
+        "pt": "Aviso Público sobre o Uso de Inteligência Artificial (IA)"
+      },
+      "dateDisplay": {
+        "en": "1 June 2026",
+        "pt": "1º de junho de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers remain fully responsible for the accuracy of their work product. The duty of competency requires that they understand how the AI systems they use function, as well as their general limits. The duty of diligence requires lawyers to double-check AI-generated output for errors. The duty of candor requires that lawyers promptly disclose and correct any errors they discover in AI-generated output.",
+        "Lawyers remain responsible for the confidentiality of information entered into AI systems."
+      ],
+      "pt": [
+        "Os advogados permanecem integralmente responsáveis pela precisão de seu produto de trabalho. O dever de competência exige que compreendam como funcionam os sistemas de IA que utilizam, bem como seus limites gerais. O dever de diligência exige que os advogados verifiquem duplamente os resultados gerados por IA em busca de erros. O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros descobertos em resultados gerados por IA.",
+        "Os advogados permanecem responsáveis pela confidencialidade das informações inseridas em sistemas de IA."
+      ]
+    }
+  },
+  {
+    "id": "us-oh-bpc-2026-guidance",
+    "sourcePage": 36,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Ohio",
+        "pt": "Ohio"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Ohio Board of Professional Conduct",
+        "pt": "Conselho de Conduta Profissional de Ohio"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Artificial Intelligence for Lawyers and Judicial Officers",
+        "pt": "Inteligência Artificial para Advogados e Magistrados"
+      },
+      "dateDisplay": {
+        "en": "April 2026",
+        "pt": "Abril de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers keep abreast of changes to the AI tools they use and the AI landscape in general. They also must continuously weigh the benefits and risks of using particular tools.",
+        "Both the duties of competency and diligence require that lawyers double-check any AI-generated output for errors before relying on or filing it. The duty of candor requires that lawyers promptly disclose and correct any errors detected in their filings.",
+        "Lawyers are required to exercise reasonable care when entering client information into AI systems. They are required to assess each AI tool they use to ensure the tools don't train models on or share the information they receive.",
+        "Lawyers are required to answer client questions about their AI usage. They are not required to automatically disclose routine AI usage but must disclose substantial AI usage.",
+        "Lawyers are prohibited from billing for hours saved by generative AI usage. If a lawyer uses a flat fee for their services, it must be reasonable in light of their generative AI usage."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados mantenham-se atualizados sobre as mudanças nas ferramentas de IA que utilizam e no cenário de IA em geral. Devem também ponderar continuamente os benefícios e riscos do uso de determinadas ferramentas.",
+        "Tanto o dever de competência quanto o de diligência exigem que os advogados verifiquem duplamente qualquer resultado gerado por IA em busca de erros antes de se basearem nele ou protocolá-lo. O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros detectados em suas petições.",
+        "Os advogados são obrigados a exercer cuidado razoável ao inserir informações de clientes em sistemas de IA. Devem avaliar cada ferramenta de IA que utilizam para garantir que as ferramentas não treinem modelos com as informações recebidas nem as compartilhem.",
+        "Os advogados são obrigados a responder às perguntas dos clientes sobre seu uso de IA. Não são obrigados a divulgar automaticamente o uso rotineiro de IA, mas devem divulgar o uso substancial de IA.",
+        "Os advogados são proibidos de cobrar por horas economizadas pelo uso de IA generativa. Caso o advogado adote honorários fixos (flat fee) por seus serviços, o valor deve ser razoável à luz do uso de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-ok-leg-2025-hb2016",
+    "sourcePage": 36,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Oklahoma",
+        "pt": "Oklahoma"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Oklahoma State Legislature",
+        "pt": "Legislatura do Estado de Oklahoma"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "HB 2016",
+        "pt": "Projeto de Lei HB 2016 (Oklahoma)"
+      },
+      "dateDisplay": {
+        "en": "Introduced 3 Feb. 2025; Died in committee 12 Feb. 2025",
+        "pt": "Apresentado em 3 de fev. de 2025; Arquivado em comissão em 12 de fev. de 2025"
+      },
+      "year": 2025,
+      "status": "died_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 1(B): Where AI output is admitted as expert testimony, a human witness must testify that the output will help the trier of fact make their decision, was based on sufficient and pertinent data, is the product of reliable methods, and reflects a reliable application of the methods to the facts of the case.",
+        "§ 2(B): Where AI output is admitted into evidence and would be considered hearsay if introduced by a human, the output's accuracy may be attacked and supported as if it was offered by a human."
+      ],
+      "pt": [
+        "§ 1(B): Quando um resultado de IA for admitido como prova pericial, uma testemunha humana deve depor atestando que o resultado auxiliará o julgador dos fatos a tomar sua decisão, baseou-se em dados suficientes e pertinentes, é produto de métodos confiáveis e reflete uma aplicação confiável desses métodos aos fatos do caso.",
+        "§ 2(B): Quando um resultado de IA for admitido como prova e seria considerado prova testemunhal indireta (hearsay) se apresentado por um ser humano, a precisão do resultado poderá ser impugnada e sustentada como se tivesse sido oferecida por um ser humano."
+      ]
+    }
+  },
+  {
+    "id": "us-ok-leg-2026-hb4348",
+    "sourcePage": 36,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Oklahoma",
+        "pt": "Oklahoma"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Oklahoma State Legislature",
+        "pt": "Legislatura do Estado de Oklahoma"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "HB 4348",
+        "pt": "Projeto de Lei HB 4348 (Oklahoma)"
+      },
+      "dateDisplay": {
+        "en": "Introduced 2 Feb. 2026; Died in committee 3 Feb. 2026",
+        "pt": "Apresentado em 2 de fev. de 2026; Arquivado em comissão em 3 de fev. de 2026"
+      },
+      "year": 2026,
+      "status": "died_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 1: Lawyers and legal advisors are prohibited from knowingly introducing or encouraging AI manipulated evidence - including information generated or altered to be false or misleading. They must also exercise due diligence in verifying the accuracy of any generative AI output they rely on.",
+        "§ 2: If a party suspects their opponent has falsified evidence or information submitted, including through the use of AI, the party must raise these concerns at a pretrial hearing. If an attorney knows or has reason to know that any information they submitted is false, they must disclose this fact or face disciplinary action."
+      ],
+      "pt": [
+        "§ 1: Advogados e consultores jurídicos são proibidos de apresentar ou incentivar conscientemente provas manipuladas por IA — incluindo informações geradas ou alteradas para serem falsas ou enganosas. Devem também exercer a devida diligência na verificação da precisão de qualquer resultado de IA generativa em que se baseiem.",
+        "§ 2: Se uma parte suspeitar que a parte contrária falsificou provas ou informações submetidas, inclusive por meio do uso de IA, deverá suscitar tais preocupações em audiência preliminar (pretrial hearing). Se um advogado souber ou tiver motivos para saber que qualquer informação por ele submetida é falsa, deverá divulgar esse fato sob pena de sanção disciplinar."
+      ]
+    }
+  },
+  {
+    "id": "us-ok-wd-bankruptcy-2023-pleadings",
+    "sourcePage": 37,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Oklahoma",
+        "pt": "Oklahoma"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "United States Bankruptcy Court Western District of Oklahoma",
+        "pt": "Tribunal de Falências dos EUA para o Distrito Oeste de Oklahoma"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "In re Pleadings Using Artificial Intelligence",
+        "pt": "In re Petições Utilizando Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "25 July 2023",
+        "pt": "25 de julho de 2023"
+      },
+      "year": 2023,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Parties submitting filings partially or entirely created using generative AI must notify the court, certify that they verified the accuracy of the filing and confirm that no confidential information was disclosed."
+      ],
+      "pt": [
+        "As partes que submetem petições criadas parcial ou integralmente com o uso de IA generativa devem notificar o tribunal, certificar que verificaram a precisão da petição e confirmar que nenhuma informação confidencial foi divulgada."
+      ]
+    }
+  },
+  {
+    "id": "us-ok-cca-2026-rule1-17",
+    "sourcePage": 37,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Oklahoma",
+        "pt": "Oklahoma"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Oklahoma Court of Criminal Appeals",
+        "pt": "Tribunal de Apelações Criminais de Oklahoma"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Order Adopting New Procedural Rule in the Court of Criminal Appeals",
+        "pt": "Ordem Adotando Nova Regra Processual no Tribunal de Apelações Criminais"
+      },
+      "dateDisplay": {
+        "en": "18 Feb. 2026",
+        "pt": "18 de fev. de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Rule 1.17(a) requires lawyers using generative AI to draft documents filed to the Court of Criminal Appeals to verify the accuracy of the filing's contents."
+      ],
+      "pt": [
+        "A Regra 1.17(a) exige que os advogados que utilizam IA generativa para redigir documentos protocolados perante o Tribunal de Apelações Criminais verifiquem a precisão do conteúdo da petição."
+      ]
+    }
+  },
+  {
+    "id": "us-or-bar-2025-op2025-205",
+    "sourcePage": 37,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Oregon",
+        "pt": "Oregon"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Oregon State Bar",
+        "pt": "Ordem dos Advogados do Estado do Oregon"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Formal Opinion No. 2025-205: Artificial Intelligence Tools",
+        "pt": "Parecer Formal nº 2025-205: Ferramentas de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "February 2025",
+        "pt": "Fevereiro de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers understand how the AI systems they use function and their limitations. They must also keep up to date with any changes to the AI system they use.",
+        "The duties of competency and diligence require that lawyers check generative AI output they rely on or file are legally and factually accurate. The duty of candor requires they promptly disclose and correct any errors they find in generative AI output.",
+        "Lawyers are required to confirm that any AI tools they use do not communicate confidential client information to third parties.",
+        "Lawyers should consider disclosing and discussing AI usage with their clients.",
+        "Lawyers are prohibited from billing for hours saved by generative AI usage. They are also prohibited from passing on AI costs accounted as overhead, unless clients are informed of and consent to such fees."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados compreendam como os sistemas de IA que utilizam funcionam e suas limitações. Devem também manter-se atualizados sobre quaisquer alterações no sistema de IA que utilizam.",
+        "Os deveres de competência e diligência exigem que os advogados verifiquem se os resultados de IA generativa em que se baseiam ou que protocolem são jurídica e faticamente precisos. O dever de lealdade processual (candor) exige que divulguem e corrijam prontamente quaisquer erros encontrados nos resultados de IA generativa.",
+        "Os advogados são obrigados a confirmar que quaisquer ferramentas de IA que utilizem não comuniquem informações confidenciais de clientes a terceiros.",
+        "Os advogados devem considerar divulgar e discutir o uso de IA com seus clientes.",
+        "Os advogados são proibidos de cobrar por horas economizadas pelo uso de IA generativa. Também são proibidos de repassar custos de IA contabilizados como despesas gerais (overhead), a menos que os clientes sejam informados e consintam com tais taxas."
+      ]
+    }
+  },
+  {
+    "id": "us-pa-leg-2025-hr331",
+    "sourcePage": 38,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Pennsylvania",
+        "pt": "Pensilvânia"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Pennsylvania House of Representatives",
+        "pt": "Câmara dos Representantes da Pensilvânia"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "HR 331",
+        "pt": "Resolução HR 331 (Pensilvânia)"
+      },
+      "dateDisplay": {
+        "en": "Last updated 29 Sept. 2025",
+        "pt": "Última atualização em 29 de set. de 2025"
+      },
+      "year": 2025,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "The House of Representatives urged the Pennsylvania Supreme Court to adopt rules, procedures and educational guidelines that:",
+        "Require all legal findings to include a signed affidavit certifying all citations have been reviewed for accuracy.",
+        "Classify the citation of false authorities as malpractice or professional misconduct.",
+        "Direct licensing authorities and bar associations incorporate training on AI risks and ethical usage into continuing legal education requirements.",
+        "Require judges to receive specialized training and education on the limitations, risks and ethical implications of using AI.",
+        "Encourage courts to adopt rules that prohibit the use of unverified AI systems.",
+        "Direct bar associations and licensing boards to update continuing legal education and ethics requirements to include instruction on risks and acceptable AI uses.",
+        "Provide ethical guidance for judges regarding the use of AI-generated content in decision-making, legal reasoning or opinion drafting.",
+        "Empower disciplinary boards to impose escalating penalties on attorneys and judges who improperly use AI."
+      ],
+      "pt": [
+        "A Câmara dos Representantes instou a Suprema Corte da Pensilvânia a adotar regras, procedimentos e diretrizes educacionais que:",
+        "Exijam que todas as peças e decisões jurídicas incluam uma declaração juramentada (affidavit) assinada certificando que todas as citações foram revisadas quanto à precisão.",
+        "Classifiquem a citação de precedentes ou autoridades falsas como negligência profissional (malpractice) ou infração ético-disciplinar.",
+        "Determinem que autoridades licenciadoras e ordens de advogados incorporem treinamento sobre riscos e uso ético de IA nos requisitos de educação jurídica continuada.",
+        "Exijam que os juízes recebam treinamento e capacitação especializados sobre as limitações, riscos e implicações éticas do uso de IA.",
+        "Incentivem os tribunais a adotar regras que proíbam o uso de sistemas de IA não verificados.",
+        "Orientem ordens de advogados e conselhos de licenciamento a atualizar os requisitos de educação jurídica continuada e ética para incluir instrução sobre riscos e usos aceitáveis de IA.",
+        "Forneçam orientação ética para juízes sobre o uso de conteúdo gerado por IA na tomada de decisões, raciocínio jurídico ou redação de votos e decisões.",
+        "Concedam poderes aos conselhos disciplinares para impor penalidades progressivas a advogados e juízes que utilizem IA de forma inadequada."
+      ]
+    }
+  },
+  {
+    "id": "us-pa-bar-2024-jointopinion",
+    "sourcePage": 38,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Pennsylvania",
+        "pt": "Pensilvânia"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Pennsylvania Bar Association and Philadelphia Bar Association",
+        "pt": "Ordem dos Advogados da Pensilvânia e Ordem dos Advogados da Filadélfia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Ethical Issues Regarding the Use of Artificial Intelligence",
+        "pt": "Questões Éticas Relativas ao Uso de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "August 2024",
+        "pt": "Agosto de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers understand how the AI tools they use generally work and to stay abreast of any changes to them.",
+        "The duty of diligence requires lawyers to double-check any AI output they rely on or file before a court for errors.",
+        "The duty of candor requires that lawyers promptly disclose and correct any errors discovered in generative AI output filed in court.",
+        "Lawyers must inform their clients of the benefits, risks and limits of the generative AI they plan to use over the course of representation. Both the lawyer and client must decide if generative AI is necessary for the representation.",
+        "Lawyers must carefully check whether the AI systems they use adequately protect and keep confidential information private before entering any into them."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados compreendam como funcionam de modo geral as ferramentas de IA que utilizam e se mantenham atualizados sobre quaisquer alterações nelas.",
+        "O dever de diligência exige que os advogados verifiquem duplamente qualquer resultado de IA em que se baseiem ou que protocolem perante um tribunal em busca de erros.",
+        "O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros descobertos em resultados de IA generativa protocolados em juízo.",
+        "Os advogados devem informar seus clientes sobre os benefícios, riscos e limites da IA generativa que pretendem utilizar no decorrer da representação. Tanto o advogado quanto o cliente devem decidir se a IA generativa é necessária para a representação.",
+        "Os advogados devem verificar cuidadosamente se os sistemas de IA que utilizam protegem adequadamente e mantêm privadas as informações confidenciais antes de inseri-las neles."
+      ]
+    }
+  },
+  {
+    "id": "us-ri-supcourt-2026-rule1-1",
+    "sourcePage": 39,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Rhode Island",
+        "pt": "Rhode Island"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Rhode Island Supreme Court",
+        "pt": "Suprema Corte de Rhode Island"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "In re Amendments to Article V, Rule 1.1 of the Supreme Court Rules (Professional Conduct) and Adoption of Interim Generative AI Guidelines",
+        "pt": "In re Emendas ao Artigo V, Regra 1.1 das Regras da Suprema Corte (Conduta Profissional) e Adoção de Diretrizes Interinas de IA Generativa"
+      },
+      "dateDisplay": {
+        "en": "17 June 2026",
+        "pt": "17 de junho de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers keep abreast of any changes with the AI tools they use and continuously weigh the benefits and risks of using these technologies.",
+        "The duty of competency requires lawyers to ensure the generative AI tools they use assist them in providing competent representation. The duty of diligence requires that lawyers double-check generative AI output they rely on and make any final legal judgments. Judges also must be wary of errors in filed documents.",
+        "Lawyers are not affirmatively required to disclose all generative AI use. They are only required to affirmatively disclose significant generative AI uses and must disclose generative AI usage when prompted by a client.",
+        "Lawyers are prohibited from billing clients for time saved through the use of and/or for the time spent learning about generative AI. Generative AI operating expenses are treated as overhead and cannot be passed on to the client.",
+        "Prior to using a generative AI model, lawyers are required to examine the model's terms of use and ensure they contain enforceable data privacy and data security measures. Consultation with experts is also encouraged.",
+        "Lawyers and judges must be aware of the material used to train the generative AI tools that they use and be vigilant for biased output. Judges should also generally avoid receiving ex parte communications and external influence through generative AI output."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados mantenham-se atualizados sobre quaisquer mudanças nas ferramentas de IA que utilizam e ponderem continuamente os benefícios e riscos do uso dessas tecnologias.",
+        "O dever de competência exige que os advogados assegurem que as ferramentas de IA generativa utilizadas os auxiliem a prestar representação competente. O dever de diligência exige que os advogados verifiquem duplamente os resultados de IA generativa em que se baseiem e profiram quaisquer julgamentos jurídicos finais. Os juízes também devem estar atentos a erros em documentos protocolados.",
+        "Os advogados não são afirmativamente obrigados a divulgar todo e qualquer uso de IA generativa. São obrigados apenas a divulgar afirmativamente usos significativos de IA generativa e devem divulgar o uso de IA generativa quando questionados por um cliente.",
+        "Os advogados são proibidos de cobrar dos clientes pelo tempo economizado mediante o uso de IA generativa e/ou pelo tempo gasto aprendendo sobre IA generativa. Despesas operacionais com IA generativa são tratadas como despesas gerais (overhead) e não podem ser repassadas ao cliente.",
+        "Antes de utilizar um modelo de IA generativa, os advogados são obrigados a examinar os termos de uso do modelo e garantir que contenham medidas executáveis de privacidade e segurança de dados. A consulta a especialistas também é incentivada.",
+        "Advogados e juízes devem estar cientes do material utilizado para treinar as ferramentas de IA generativa que utilizam e permanecer vigilantes quanto a resultados enviesados. Os juízes também devem, em geral, evitar receber comunicações unilaterais (ex parte) e influência externa por meio de resultados de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-sc-leg-2026-hb5138",
+    "sourcePage": 39,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "South Carolina",
+        "pt": "Carolina do Sul"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "South Carolina General Assembly",
+        "pt": "Assembleia Geral da Carolina do Sul"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "HB 5138",
+        "pt": "Projeto de Lei HB 5138 (Carolina do Sul)"
+      },
+      "dateDisplay": {
+        "en": "Introduced 10 Feb. 2026",
+        "pt": "Apresentado em 10 de fev. de 2026"
+      },
+      "year": 2026,
+      "status": "pending_bill",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "§ 39-80-30(A)(1)(b): Chatbot providers may not state or imply that their chatbots are endorsed by or equivalent to a licensed legal professional."
+      ],
+      "pt": [
+        "§ 39-80-30(A)(1)(b): Provedores de chatbots não podem afirmar nem dar a entender que seus chatbots são endossados por um profissional jurídico habilitado ou equivalentes a ele."
+      ]
+    }
+  },
+  {
+    "id": "us-sc-supcourt-2025-interim",
+    "sourcePage": 39,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "South Carolina",
+        "pt": "Carolina do Sul"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Supreme Court of South Carolina",
+        "pt": "Suprema Corte da Carolina do Sul"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Re: Interim Policy on the Use of Generative Artificial Intelligence",
+        "pt": "Re: Política Interina sobre o Uso de Inteligência Artificial Generativa"
+      },
+      "dateDisplay": {
+        "en": "25 March 2025",
+        "pt": "25 de março de 2025"
+      },
+      "year": 2025,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Judges and court officials may only use generative AI tools approved by the South Carolina Supreme Court or South Carolina Court Administration. All memos, orders, opinions and other documents created using generative AI must be overseen and verified by human personnel.",
+        "Generative AI tools cannot process confidential information without express authorization under applicable rules or policies.",
+        "Lawyers must certify that their use of generative AI does not impact the confidentiality of client data and any AI-generated filings they submit are accurate."
+      ],
+      "pt": [
+        "Juízes e servidores judiciais só podem utilizar ferramentas de IA generativa aprovadas pela Suprema Corte da Carolina do Sul ou pela Administração dos Tribunais da Carolina do Sul. Todos os memorandos, despachos, decisões e demais documentos criados com uso de IA generativa devem ser supervisionados e verificados por pessoal humano.",
+        "Ferramentas de IA generativa não podem processar informações confidenciais sem autorização expressa nos termos das regras ou políticas aplicáveis.",
+        "Os advogados devem certificar que o uso de IA generativa não afeta a confidencialidade dos dados dos clientes e que quaisquer petições geradas por IA que submetam são precisas."
+      ]
+    }
+  },
+  {
+    "id": "us-ut-bar-2023-chatgpt",
+    "sourcePage": 40,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Utah",
+        "pt": "Utah"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Utah State Bar",
+        "pt": "Ordem dos Advogados do Estado de Utah"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Using ChatGPT in Our Practices: Ethical Considerations",
+        "pt": "Uso do ChatGPT em Nossos Escritórios: Considerações Éticas"
+      },
+      "dateDisplay": {
+        "en": "2023",
+        "pt": "2023"
+      },
+      "year": 2023,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should discuss generative AI usage with their clients, covering both the benefits and risks involved. They should also refrain from using generative AI unless they receive informed consent to do so.",
+        "Lawyers should refrain from sharing confidential information with any AI system, especially those that collect and train on data they receive.",
+        "Lawyers are prohibited from billing for hours saved by generative AI usage.",
+        "The duty of competence requires that lawyers remain knowledgeable of the limitations of their AI tools and that they check their generative AI output for errors."
+      ],
+      "pt": [
+        "Os advogados devem discutir o uso de IA generativa com seus clientes, abordando tanto os benefícios quanto os riscos envolvidos. Devem também abster-se de utilizar IA generativa, a menos que recebam consentimento informado para fazê-lo.",
+        "Os advogados devem abster-se de compartilhar informações confidenciais com qualquer sistema de IA, especialmente aqueles que coletam e treinam modelos com os dados recebidos.",
+        "Os advogados são proibidos de cobrar por horas economizadas pelo uso de IA generativa.",
+        "O dever de competência exige que os advogados permaneçam cientes das limitações de suas ferramentas de IA e verifiquem os resultados da IA generativa em busca de erros."
+      ]
+    }
+  },
+  {
+    "id": "us-vt-judiciary-2025-report",
+    "sourcePage": 40,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Vermont",
+        "pt": "Vermont"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Vermont Judiciary Committee on Artificial Intelligence and the Courts",
+        "pt": "Comitê do Judiciário de Vermont sobre Inteligência Artificial e os Tribunais"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "First Annual Report",
+        "pt": "Primeiro Relatório Anual"
+      },
+      "dateDisplay": {
+        "en": "1 March 2025",
+        "pt": "1º de março de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "ai_fabricated_evidence",
+        "label": {
+          "en": "AI-fabricated evidence",
+          "pt": "Provas fabricadas por IA"
+        }
+      },
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Judges must separately weigh whether evidence produced by AI is relevant and reliable and if explaining the concept to a jury would waste time and resources.",
+        "The duty of competency requires that lawyers keep abreast of changes in the AI tools they use and to continuously weigh the risks and benefits of using them.",
+        "Lawyers are highly recommended to disclose their intent to use generative AI and the nature and extent of the use.",
+        "Lawyers should carefully examine a generative AI model's terms of service and understand how and whether that model stores or uses data before entering client information.",
+        "Lawyers are prohibited from billing for hours saved by generative AI usage. Any extra costs associated with AI must be communicated with the client beforehand."
+      ],
+      "pt": [
+        "Os juízes devem ponderar separadamente se a prova produzida por IA é relevante e confiável e se explicar o conceito ao júri desperdiçaria tempo e recursos.",
+        "O dever de competência exige que os advogados mantenham-se atualizados sobre as mudanças nas ferramentas de IA que utilizam e ponderem continuamente os riscos e benefícios de seu uso.",
+        "Recomenda-se fortemente que os advogados divulguem sua intenção de usar IA generativa, bem como a natureza e a extensão desse uso.",
+        "Os advogados devem examinar cuidadosamente os termos de serviço de um modelo de IA generativa e compreender como e se esse modelo armazena ou utiliza dados antes de inserir informações de clientes.",
+        "Os advogados são proibidos de cobrar por horas economizadas pelo uso de IA generativa. Quaisquer custos extras associados à IA devem ser comunicados previamente ao cliente."
+      ]
+    }
+  },
+  {
+    "id": "us-va-bar-undated-guidance",
+    "sourcePage": 40,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Virginia",
+        "pt": "Virgínia"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Virginia State Bar",
+        "pt": "Ordem dos Advogados do Estado da Virgínia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Legal Ethics - Guidance on Generative Artificial Intelligence",
+        "pt": "Ética Jurídica - Orientação sobre Inteligência Artificial Generativa"
+      },
+      "dateDisplay": {
+        "en": "Not specified",
+        "pt": "Não especificada"
+      },
+      "year": null,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should carefully review the terms of service of any generative AI tools they use and ensure that their security and privacy policies properly protect entered information.",
+        "There is no per se requirement to inform a client about the use of generative AI during their representation.",
+        "The duty of competency requires that lawyers understand how their AI tools function and keep abreast of any changes to them. The duty of diligence requires that lawyers double-check any generative AI output they rely on for errors.",
+        "Lawyers are prohibited from billing for hours saved by generative AI usage. They may bill for costs associated with generative AI if permitted by the fee agreement."
+      ],
+      "pt": [
+        "Os advogados devem revisar cuidadosamente os termos de serviço de quaisquer ferramentas de IA generativa que utilizem e garantir que suas políticas de segurança e privacidade protejam adequadamente as informações inseridas.",
+        "Não há exigência automática (per se) de informar o cliente sobre o uso de IA generativa durante a representação.",
+        "O dever de competência exige que os advogados compreendam como suas ferramentas de IA funcionam e mantenham-se atualizados sobre quaisquer alterações nelas. O dever de diligência exige que os advogados verifiquem duplamente qualquer resultado de IA generativa em que se baseiem em busca de erros.",
+        "Os advogados são proibidos de cobrar por horas economizadas pelo uso de IA generativa. Podem cobrar por custos associados à IA generativa caso permitido pelo contrato de honorários."
+      ]
+    }
+  },
+  {
+    "id": "us-va-supcourt-2025-leo1901",
+    "sourcePage": 41,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Virginia",
+        "pt": "Virgínia"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Virginia Supreme Court",
+        "pt": "Suprema Corte da Virgínia"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Legal Ethics Opinion 1901: Reasonable Fees and the Use of Generative Artificial Intelligence",
+        "pt": "Parecer de Ética Jurídica 1901: Honorários Razoáveis e o Uso de Inteligência Artificial Generativa"
+      },
+      "dateDisplay": {
+        "en": "24 Nov. 2025",
+        "pt": "24 de nov. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers are prohibited from billing for hours saved using generative AI."
+      ],
+      "pt": [
+        "Os advogados são proibidos de cobrar por horas economizadas com o uso de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-wa-bar-2025-tools",
+    "sourcePage": 41,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Washington",
+        "pt": "Washington"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Washington State Bar Association",
+        "pt": "Ordem dos Advogados do Estado de Washington"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Artificial Intelligence-Enabled Tools in Law Practice",
+        "pt": "Ferramentas Habilitadas por Inteligência Artificial na Prática Jurídica"
+      },
+      "dateDisplay": {
+        "en": "20 Nov. 2025",
+        "pt": "20 de nov. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers keep abreast of any changes in the AI tools they use and their terms of service. AI tools must be continuously reevaluated to make sure they comply with ethical rules.",
+        "The duty of competency requires that lawyers know how their AI tools function and their limitations. The duty of diligence requires that lawyers double-check the accuracy of any generative AI output on which they rely. The duty of candor requires that lawyers promptly disclose and correct any errors they discover in AI-generated output.",
+        "Lawyers should carefully evaluate an AI provider's data security and data privacy assurances before entering client information. Entering sensitive information may require obtaining client informed consent.",
+        "Lawyers are required to respond to client questions and follow client requests regarding AI usage. Affirmative disclosure of AI usage is unnecessary where AI tools are tailored for and used in routine legal practice and contain adequate confidentiality protections.",
+        "Lawyers are prohibited from billing for hours saved through the use of generative AI."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados mantenham-se atualizados sobre quaisquer mudanças nas ferramentas de IA que utilizam e em seus termos de serviço. As ferramentas de IA devem ser continuamente reavaliadas para garantir que cumpram as regras éticas.",
+        "O dever de competência exige que os advogados saibam como suas ferramentas de IA funcionam e suas limitações. O dever de diligência exige que os advogados verifiquem duplamente a precisão de qualquer resultado de IA generativa em que se baseiem. O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros que descubram em resultados gerados por IA.",
+        "Os advogados devem avaliar cuidadosamente as garantias de segurança e privacidade de dados de um provedor de IA antes de inserir informações de clientes. A inserção de informações sensíveis pode exigir a obtenção de consentimento informado do cliente.",
+        "Os advogados são obrigados a responder às perguntas dos clientes e seguir as solicitações dos clientes em relação ao uso de IA. A divulgação afirmativa do uso de IA é desnecessária quando as ferramentas de IA são adaptadas e utilizadas na prática jurídica rotineira e contêm proteções adequadas de confidencialidade.",
+        "Os advogados são proibidos de cobrar por horas economizadas por meio do uso de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "us-wv-odc-2024-op24-01",
+    "sourcePage": 41,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "West Virginia",
+        "pt": "Virgínia Ocidental"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Office of Disciplinary Counsel West Virginia Judicial Tower",
+        "pt": "Escritório de Conselho Disciplinar da Virgínia Ocidental"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Legal Ethics Opinion 24-01 - Artificial Intelligence",
+        "pt": "Parecer de Ética Jurídica 24-01 - Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "14 June 2024",
+        "pt": "14 de junho de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competency requires that lawyers have a basic understanding of how their AI systems work. The duty of diligence requires that lawyers carefully double-check any AI-generated output they rely on for errors. The duty of candor requires that lawyers promptly disclose and correct any errors they find in AI output.",
+        "A lawyer's duty to communicate with their client includes their decisions to use generative AI over the course of the representation. A lawyer should obtain consent from the client before relying on generative AI.",
+        "Lawyers should carefully examine their AI provider's information collection, use and security policies before entering client information into an AI model."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados tenham uma compreensão básica de como seus sistemas de IA funcionam. O dever de diligência exige que os advogados verifiquem duplamente com cuidado qualquer resultado gerado por IA em que se baseiem em busca de erros. O dever de lealdade processual (candor) exige que os advogados divulguem e corrijam prontamente quaisquer erros que encontrem nos resultados da IA.",
+        "O dever do advogado de se comunicar com seu cliente inclui suas decisões de utilizar IA generativa ao longo da representação. O advogado deve obter o consentimento do cliente antes de se basear em IA generativa.",
+        "Os advogados devem examinar cuidadosamente as políticas de coleta, uso e segurança de informações de seu provedor de IA antes de inserir informações de clientes em um modelo de IA."
+      ]
+    }
+  },
+  {
+    "id": "us-fed-9cir-2025-rule32-1",
+    "sourcePage": 42,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Federal / Ninth Circuit",
+        "pt": "Federal / Nono Circuito"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Court of Appeals for the Ninth Circuit",
+        "pt": "Tribunal de Apelações dos EUA para o Nono Circuito"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Circuit Rule Revisions 2025",
+        "pt": "Revisões das Regras do Circuito 2025 (9º Circuito)"
+      },
+      "dateDisplay": {
+        "en": "1 Dec. 2025",
+        "pt": "1º de dez. de 2025"
+      },
+      "year": 2025,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Committee Note to Rule 32-1 allows filings to the court to be created using generative AI, provided that they include the standard signed attestation that the filer has reviewed and takes responsibility for the contents."
+      ],
+      "pt": [
+        "A Nota do Comitê à Regra 32-1 permite que petições ao tribunal sejam elaboradas utilizando IA generativa, desde que incluam a declaração padrão assinada atestando que o signatário revisou e assume responsabilidade pelo conteúdo."
+      ]
+    }
+  },
+  {
+    "id": "us-fed-uspto-2024-guidance",
+    "sourcePage": 42,
+    "jurisdiction": {
+      "countryCode": "US",
+      "country": {
+        "en": "United States",
+        "pt": "Estados Unidos"
+      },
+      "subdivision": {
+        "en": "Federal / USPTO",
+        "pt": "Federal / USPTO"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Patent and Trademark Office",
+        "pt": "Escritório de Patentes e Marcas dos EUA (USPTO)"
+      },
+      "category": "government_agency"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidance on the Use of Artificial Intelligence-Based Tools in Practice Before the United States Patent and Trademark Office",
+        "pt": "Orientação sobre o Uso de Ferramentas Baseadas em Inteligência Artificial na Prática perante o Escritório de Patentes e Marcas dos EUA (USPTO)"
+      },
+      "dateDisplay": {
+        "en": "11 April 2024",
+        "pt": "11 de abril de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "AI often produces inaccurate or incomplete statements or outright hallucinates information. Independent human verification of any AI output is required.",
+        "AI systems may use confidential information as training data and risk leaking that confidential information in future output.",
+        "The USPTO's existing rules and policies surrounding practice still apply when AI is used:",
+        "The duty of candor and good faith require good faith when dealing with the USPTO and the duty of disclosure.",
+        "The signature requirement: Patent lawyers are required to apply their own signature to any filings, asserting that everything in them has been verified by them as true.",
+        "The confidentiality of information: Practitioners should not reveal confidential client information except in highly specific circumstances.",
+        "Foreign filing and export restrictions",
+        "The USPTO electronic systems policies",
+        "Duties owed to clients these namely include the American Bar Association's Model Rules of Professional Conduct"
+      ],
+      "pt": [
+        "A IA frequentemente produz declarações imprecisas ou incompletas ou alucina informações diretamente. A verificação humana independente de qualquer resultado de IA é obrigatória.",
+        "Os sistemas de IA podem utilizar informações confidenciais como dados de treinamento e correr o risco de vazar essas informações confidenciais em resultados futuros.",
+        "As regras e políticas existentes do USPTO relativas à prática profissional continuam aplicáveis quando a IA é utilizada:",
+        "O dever de lealdade e boa-fé exige boa-fé ao lidar com o USPTO e o dever de divulgação.",
+        "O requisito de assinatura: advogados de patentes são obrigados a apor sua própria assinatura em quaisquer petições, declarando que tudo nelas contido foi por eles verificado como verdadeiro.",
+        "A confidencialidade das informações: os profissionais não devem revelar informações confidenciais de clientes, exceto em circunstâncias altamente específicas.",
+        "Restrições de depósito no exterior e de exportação",
+        "As políticas de sistemas eletrônicos do USPTO",
+        "Deveres perante os clientes, incluindo especialmente as Regras Modelo de Conduta Profissional da American Bar Association (ABA)"
+      ]
+    }
+  }
+]

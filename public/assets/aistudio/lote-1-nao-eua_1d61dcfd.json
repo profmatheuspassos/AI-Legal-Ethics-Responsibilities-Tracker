@@ -1,0 +1,3500 @@
+[
+  {
+    "id": "ar-cpacf-2025-guide",
+    "sourcePage": 2,
+    "jurisdiction": {
+      "countryCode": "AR",
+      "country": {
+        "en": "Argentina",
+        "pt": "Argentina"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Public Bar Association of the Federal Capital",
+        "pt": "Ordem Pública dos Advogados da Capital Federal (CPACF)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guide to the Use of Artificial Intelligence for Lawyers",
+        "pt": "Guia para o Uso de Inteligência Artificial por Advogados"
+      },
+      "dateDisplay": {
+        "en": "July 2025",
+        "pt": "Julho de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The legal and factual accuracy of any generative AI output lawyers rely on must always be double-checked.",
+        "Lawyers should constantly be wary of hidden biases influencing their generative AI output.",
+        "Clients must be informed to what extent generative AI is being used and why it is necessary. Lawyers must also be wary not to create false expectations or guarantee successful outcomes to their clients.",
+        "Before inputting client information, lawyers should carefully examine the privacy and data security practices of the providers of the AI tools they use.",
+        "Keeping current with both changes to the law and AI tools' capabilities is a professional responsibility. Additionally, law firms should encourage interdisciplinary collaboration and institute practical training and guidelines for AI usage."
+      ],
+      "pt": [
+        "A precisão jurídica e fática de qualquer resultado de IA generativa em que os advogados se baseiem deve ser sempre duplamente verificada.",
+        "Os advogados devem estar constantemente atentos a vieses ocultos que possam influenciar os resultados da IA generativa.",
+        "Os clientes devem ser informados sobre em que medida a IA generativa está sendo utilizada e por que é necessária. Os advogados também devem ter cautela para não criar falsas expectativas nem garantir resultados bem-sucedidos aos seus clientes.",
+        "Antes de inserir informações de clientes, os advogados devem examinar cuidadosamente as práticas de privacidade e segurança de dados dos provedores das ferramentas de IA que utilizam.",
+        "Manter-se atualizado tanto sobre as mudanças na legislação quanto sobre as capacidades das ferramentas de IA é uma responsabilidade profissional. Além disso, os escritórios de advocacia devem incentivar a colaboração interdisciplinar e instituir treinamentos práticos e diretrizes para o uso de IA."
+      ]
+    }
+  },
+  {
+    "id": "ar-cmn-2025-res206",
+    "sourcePage": 2,
+    "jurisdiction": {
+      "countryCode": "AR",
+      "country": {
+        "en": "Argentina",
+        "pt": "Argentina"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Council of Magistracy of the Nation",
+        "pt": "Conselho da Magistratura da Nação"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Presidential Resolution No. 206/2025, Annex 1",
+        "pt": "Resolução Presidencial nº 206/2025, Anexo 1"
+      },
+      "dateDisplay": {
+        "en": "26 Feb. 2025",
+        "pt": "26 de fev. de 2025"
+      },
+      "year": 2025,
+      "status": "court_rule_order",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Generative AI is primarily intended to assist judicial personnel, not replace them. Human intervention in any generative AI-enhanced judicial process is required. Lawyers must not outsource their legal judgment to generative AI systems.",
+        "Lawyers should not input confidential information into generative AI systems."
+      ],
+      "pt": [
+        "A IA generativa destina-se principalmente a auxiliar os servidores do Judiciário, e não a substituí-los. A intervenção humana é obrigatória em qualquer processo judicial apoiado por IA generativa. Advogados não devem terceirizar seu julgamento jurídico a sistemas de IA generativa.",
+        "Advogados não devem inserir informações confidenciais em sistemas de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "au-fca-2026-gpnai",
+    "sourcePage": 2,
+    "jurisdiction": {
+      "countryCode": "AU",
+      "country": {
+        "en": "Australia",
+        "pt": "Austrália"
+      },
+      "subdivision": {
+        "en": "Federal",
+        "pt": "Federal"
+      },
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Federal Court of Australia",
+        "pt": "Tribunal Federal da Austrália"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Use of Generative Artificial Intelligence Practice Note (GPN-AI)",
+        "pt": "Nota Prática sobre o Uso de Inteligência Artificial Generativa (GPN-AI)"
+      },
+      "dateDisplay": {
+        "en": "16 April 2026",
+        "pt": "16 de abril de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Any legal professionals using generative AI should be aware of its tendency to hallucinate material and must verify the accuracy of any output.",
+        "Lawyers should be mindful of the risk in disclosing confidential information before entering it into an AI tool."
+      ],
+      "pt": [
+        "Quaisquer profissionais jurídicos que utilizem IA generativa devem estar cientes de sua tendência a alucinar conteúdo e devem verificar a precisão de qualquer resultado.",
+        "Os advogados devem estar atentos ao risco de divulgar informações confidenciais antes de inseri-las em uma ferramenta de IA."
+      ]
+    }
+  },
+  {
+    "id": "au-hca-2026-guide",
+    "sourcePage": 3,
+    "jurisdiction": {
+      "countryCode": "AU",
+      "country": {
+        "en": "Australia",
+        "pt": "Austrália"
+      },
+      "subdivision": {
+        "en": "Federal",
+        "pt": "Federal"
+      },
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "High Court of Australia",
+        "pt": "Suprema Corte da Austrália"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "A Guide to the Use of Artificial Intelligence (AI)",
+        "pt": "Guia para o Uso de Inteligência Artificial (IA)"
+      },
+      "dateDisplay": {
+        "en": "20 Feb. 2026",
+        "pt": "20 de fev. de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "ai_fabricated_evidence",
+        "label": {
+          "en": "AI-fabricated evidence",
+          "pt": "Provas fabricadas por IA"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "manipulation",
+        "label": {
+          "en": "Manipulation",
+          "pt": "Manipulação"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Any usage of AI in the legal field requires that a human remains in the loop to check the accuracy of output.",
+        "Court employees are required to be aware of any potential sources of bias in the AI tools they use.",
+        "Practitioners and court employees must remain vigilant for AI-generated or altered content submitted as evidence. Forensic authentication by a third party may be necessary.",
+        "Court employees should always directly engage with the underlying source document and check it for hidden prompts."
+      ],
+      "pt": [
+        "Qualquer uso de IA na área jurídica exige que um ser humano permaneça no circuito (human-in-the-loop) para verificar a precisão dos resultados.",
+        "Os servidores do tribunal devem estar cientes de quaisquer fontes potenciais de viés nas ferramentas de IA que utilizam.",
+        "Advogados e servidores judiciais devem permanecer vigilantes quanto a conteúdos gerados ou alterados por IA apresentados como prova. A autenticação forense por terceiros pode ser necessária.",
+        "Os servidores do tribunal devem sempre consultar diretamente o documento-fonte subjacente e verificá-lo quanto a comandos ocultos (prompt injection)."
+      ]
+    }
+  },
+  {
+    "id": "au-nsw-sc-2025-scgen32",
+    "sourcePage": 3,
+    "jurisdiction": {
+      "countryCode": "AU",
+      "country": {
+        "en": "Australia",
+        "pt": "Austrália"
+      },
+      "subdivision": {
+        "en": "New South Wales",
+        "pt": "Nova Gales do Sul"
+      },
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Supreme Court of New South Wales",
+        "pt": "Suprema Corte de Nova Gales do Sul"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Supreme Court Practice Note SC Gen 32 - Use of Generative Artificial Intelligence (Gen AI)",
+        "pt": "Nota Prática da Suprema Corte SC Gen 32 - Uso de Inteligência Artificial Generativa (Gen AI)"
+      },
+      "dateDisplay": {
+        "en": "28 Jan. 2025",
+        "pt": "28 de jan. de 2025"
+      },
+      "year": 2025,
+      "status": "court_rule_order",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Legal practitioners should be aware of the limits, risks and shortcomings of any generative AI system they use.",
+        "Authors of written submissions, summaries or skeletons of arguments must verify that all citations and references to legal and academic authorities, case law and legislative references are accurate, relevant to the proceedings and genuinely exist.",
+        "Legal practitioners should be mindful that data entered into generative AI programs may be used to train large language models, potentially making confidential information available to others.",
+        "Information subject to nonpublication or suppression orders must not be entered into any generative AI program.",
+        "Generative AI must not be used to generate the contents of - or alter, embellish, strengthen or dilute - affidavits, witness statements, character references or other similar material. These materials must also contain a disclosure stating that generative AI was not used to generate its content."
+      ],
+      "pt": [
+        "Os profissionais jurídicos devem estar cientes dos limites, riscos e deficiências de qualquer sistema de IA generativa que utilizem.",
+        "Os autores de petições escritas, resumos ou memoriais devem verificar se todas as citações e referências a autoridades jurídicas e acadêmicas, jurisprudência e legislação são precisas, relevantes para o processo e existem genuinamente.",
+        "Os profissionais jurídicos devem ter em mente que os dados inseridos em programas de IA generativa podem ser usados para treinar grandes modelos de linguagem, tornando informações confidenciais potencialmente acessíveis a terceiros.",
+        "Informações sujeitas a ordens de sigilo ou proibição de publicação não devem ser inseridas em nenhum programa de IA generativa.",
+        "A IA generativa não deve ser utilizada para gerar o conteúdo — nem alterar, embelezar, fortalecer ou diluir — de declarações juramentadas (affidavits), depoimentos de testemunhas, referências de caráter ou materiais semelhantes. Esses documentos também devem conter uma declaração afirmando que a IA generativa não foi usada para gerar seu conteúdo."
+      ]
+    }
+  },
+  {
+    "id": "au-nsw-bar-2023-llm",
+    "sourcePage": 4,
+    "jurisdiction": {
+      "countryCode": "AU",
+      "country": {
+        "en": "Australia",
+        "pt": "Austrália"
+      },
+      "subdivision": {
+        "en": "New South Wales",
+        "pt": "Nova Gales do Sul"
+      },
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Bar Association of New South Wales",
+        "pt": "Ordem dos Advogados de Nova Gales do Sul"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Issues Arising from the Use of AI Language Models (including Chat GPT) in Legal Practice",
+        "pt": "Questões Decorrentes do Uso de Modelos de Linguagem de IA (incluindo ChatGPT) na Prática Jurídica"
+      },
+      "dateDisplay": {
+        "en": "12 July 2023",
+        "pt": "12 de julho de 2023"
+      },
+      "year": 2023,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must constantly check the accuracy and timeliness of any generative AI output they rely on. They should also be wary of using AI tools that lack transparency tools and produce unexplainable output.",
+        "Lawyers must ensure their AI tools were not trained on biased data and check any generative AI output they rely on for bias.",
+        "Hourly fees billed to clients must reflect the actual time a lawyer spends on a task.",
+        "Lawyers should not input confidential client information into an AI system without informed consent from that client.",
+        "Lawyers should be wary that AI output that reproduces substantial amounts of copyrighted work may violate IP regulations."
+      ],
+      "pt": [
+        "Os advogados devem verificar constantemente a precisão e a atualidade de qualquer resultado de IA generativa em que se baseiem. Também devem ter cautela ao usar ferramentas de IA que carecem de mecanismos de transparência e produzem resultados inexplicáveis.",
+        "Os advogados devem certificar-se de que suas ferramentas de IA não foram treinadas com dados enviesados e verificar se há vieses em qualquer resultado de IA generativa utilizado.",
+        "Os honorários por hora cobrados dos clientes devem refletir o tempo real que o advogado dedica a uma tarefa.",
+        "Os advogados não devem inserir informações confidenciais de clientes em um sistema de IA sem o consentimento informado do cliente.",
+        "Os advogados devem estar atentos ao fato de que resultados de IA que reproduzam quantidades substanciais de obras protegidas por direitos autorais podem violar normas de propriedade intelectual."
+      ]
+    }
+  },
+  {
+    "id": "au-qld-bar-2025-guidelines",
+    "sourcePage": 4,
+    "jurisdiction": {
+      "countryCode": "AU",
+      "country": {
+        "en": "Australia",
+        "pt": "Austrália"
+      },
+      "subdivision": {
+        "en": "Queensland",
+        "pt": "Queensland"
+      },
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Bar Association of Queensland",
+        "pt": "Ordem dos Advogados de Queensland"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines for the Use of Artificial Intelligence in Legal Practice",
+        "pt": "Diretrizes para o Uso de Inteligência Artificial na Prática Jurídica"
+      },
+      "dateDisplay": {
+        "en": "November 2025",
+        "pt": "Novembro de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "ai_fabricated_evidence",
+        "label": {
+          "en": "AI-fabricated evidence",
+          "pt": "Provas fabricadas por IA"
+        }
+      },
+      {
+        "code": "lack_data_oversight",
+        "label": {
+          "en": "Lack of data oversight",
+          "pt": "Falta de supervisão de dados"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must always check the accuracy and timeliness of any generative AI output they rely on.",
+        "Lawyers should be wary of AI-generated or enhanced evidence given to them by their clients.",
+        "Lawyers should consider recording AI prompts and output, as well as any decisions they made using that data.",
+        "Lawyers must ensure their AI tools were not trained on biased data and check any generative AI output they rely on for bias.",
+        "Lawyers should not include any sensitive information in AI prompts."
+      ],
+      "pt": [
+        "Os advogados devem sempre verificar a precisão e a atualidade de qualquer resultado de IA generativa em que se baseiem.",
+        "Os advogados devem ter cautela com provas geradas ou aprimoradas por IA fornecidas por seus clientes.",
+        "Os advogados devem considerar registrar os comandos (prompts) e os resultados da IA, bem como quaisquer decisões tomadas com base nesses dados.",
+        "Os advogados devem certificar-se de que suas ferramentas de IA não foram treinadas com dados enviesados e verificar qualquer resultado de IA generativa utilizado quanto a vieses.",
+        "Os advogados não devem incluir nenhuma informação sensível em comandos (prompts) de IA."
+      ]
+    }
+  },
+  {
+    "id": "be-ovb-2025-guidelines",
+    "sourcePage": 4,
+    "jurisdiction": {
+      "countryCode": "BE",
+      "country": {
+        "en": "Belgium",
+        "pt": "Bélgica"
+      },
+      "subdivision": {
+        "en": "Flanders",
+        "pt": "Flandres"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Order of Flemish Bars",
+        "pt": "Ordem das Ordens de Advogados Flamengas (OVB)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines for Lawyers on the Use of Artificial Intelligence",
+        "pt": "Diretrizes para Advogados sobre o Uso de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "20 Jan. 2025",
+        "pt": "20 de jan. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Lawyers must know the basics of how their AI tools function and are trained, as well as what databases they are trained on.",
+        "Lawyers must check the accuracy of any AI output before relying on it.",
+        "There is no general affirmative obligation for lawyers to communicate AI usage to their clients.",
+        "Lawyers must not enter confidential information into AI tools. If entering confidential information into an AI tool is necessary, they must obtain informed consent from their clients before doing so.",
+        "Clients must be informed if they are communicating with chatbots."
+      ],
+      "pt": [
+        "Os advogados devem conhecer os fundamentos de como suas ferramentas de IA funcionam e são treinadas, bem como quais bases de dados foram usadas em seu treinamento.",
+        "Os advogados devem verificar a precisão de qualquer resultado de IA antes de se basearem nele.",
+        "Não há obrigação afirmativa geral para que os advogados comuniquem o uso de IA aos seus clientes.",
+        "Os advogados não devem inserir informações confidenciais em ferramentas de IA. Caso seja necessário inserir informações confidenciais em uma ferramenta de IA, devem obter o consentimento informado de seus clientes antes de fazê-lo.",
+        "Os clientes devem ser informados caso estejam se comunicando com chatbots."
+      ]
+    }
+  },
+  {
+    "id": "be-avocatsbe-2024-ethics",
+    "sourcePage": 5,
+    "jurisdiction": {
+      "countryCode": "BE",
+      "country": {
+        "en": "Belgium",
+        "pt": "Bélgica"
+      },
+      "subdivision": {
+        "en": "French & German-speaking Community",
+        "pt": "Comunidade Francófona e Germanófona"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Order of French and German-speaking Bars",
+        "pt": "Ordem das Ordens de Advogados Francófonas e Germanófonas (Avocats.be)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Do ethics and AI go hand in hand?",
+        "pt": "Ética e IA andam de mãos dadas?"
+      },
+      "dateDisplay": {
+        "en": "2024",
+        "pt": "2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should not enter confidential client information into an AI tool.",
+        "Lawyers must check AI output for inaccuracies and ensure they are not letting an AI tool replace their professional judgment.",
+        "Lawyers should consider disclosing AI usage based on their client's sophistication, the novelty of the technology or usage, the extent of the representation and the risks associated with generative AI use."
+      ],
+      "pt": [
+        "Os advogados não devem inserir informações confidenciais de clientes em uma ferramenta de IA.",
+        "Os advogados devem verificar os resultados da IA quanto a imprecisões e garantir que não estejam permitindo que uma ferramenta de IA substitua seu julgamento profissional.",
+        "Os advogados devem considerar divulgar o uso de IA com base na sofisticação do cliente, na novidade da tecnologia ou do uso, na extensão da representação e nos riscos associados ao uso de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "br-oab-2024-prop49",
+    "sourcePage": 5,
+    "jurisdiction": {
+      "countryCode": "BR",
+      "country": {
+        "en": "Brazil",
+        "pt": "Brasil"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Brazilian Bar Association",
+        "pt": "Ordem dos Advogados do Brasil (OAB)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Proposal No. 49.0000.2024.007325-9/COP",
+        "pt": "Proposição nº 49.0000.2024.007325-9/COP"
+      },
+      "dateDisplay": {
+        "en": "11 Nov. 2024",
+        "pt": "11 de nov. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Lawyers must carefully examine each AI tool they use and ensure any client information entered into it is adequately protected. They must also ensure that any chatbots they use to interact with clients do not carry out any legal activities.",
+        "Lawyers must critically examine AI output for factual or legal errors and should never outsource their legal judgment to an AI system.",
+        "The Brazilian bar strongly recommends that lawyers disclose any AI usage to their clients. Clients are entitled to the right to refuse the use of AI and to communicate with a human lawyer."
+      ],
+      "pt": [
+        "Os advogados devem examinar cuidadosamente cada ferramenta de IA que utilizam e garantir que quaisquer informações de clientes inseridas nela estejam adequadamente protegidas. Devem também assegurar que quaisquer chatbots usados para interagir com clientes não realizem atividades privativas da advocacia.",
+        "Os advogados devem examinar criticamente os resultados da IA em busca de erros fáticos ou jurídicos e nunca devem terceirizar seu julgamento jurídico a um sistema de IA.",
+        "A OAB recomenda fortemente que os advogados divulguem qualquer uso de IA aos seus clientes. Os clientes têm o direito de recusar o uso de IA e de se comunicar com um advogado humano."
+      ]
+    }
+  },
+  {
+    "id": "br-cnj-2020-res332",
+    "sourcePage": 5,
+    "jurisdiction": {
+      "countryCode": "BR",
+      "country": {
+        "en": "Brazil",
+        "pt": "Brasil"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "National Council of Justice",
+        "pt": "Conselho Nacional de Justiça (CNJ)"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Resolution No. 332 of August 21, 2020",
+        "pt": "Resolução nº 332, de 21 de agosto de 2020"
+      },
+      "dateDisplay": {
+        "en": "21 Aug. 2020",
+        "pt": "21 de ago. de 2020"
+      },
+      "year": 2020,
+      "status": "court_rule_order",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Pursuant to Article 6, data used to train AI models must be representative. Proper safeguards to protect judicial confidentiality must be adopted.",
+        "Judicial decisions supported by AI tools must be fair, nondiscriminatory and seek to eliminate or minimize oppression, human marginalization and errors per Article 7.",
+        "Under Article 17, AI systems must enhance user autonomy by allowing users to review their proposed decisions and the data used to make them without binding the users to those decisions."
+      ],
+      "pt": [
+        "Nos termos do artigo 6º, os dados utilizados para treinar modelos de IA devem ser representativos. Devem ser adotadas salvaguardas adequadas para proteger o sigilo judicial.",
+        "As decisões judiciais apoiadas por ferramentas de IA devem ser justas, não discriminatórias e buscar eliminar ou minimizar a opressão, a marginalização humana e os erros, conforme o artigo 7º.",
+        "Nos termos do artigo 17, os sistemas de IA devem promover a autonomia dos usuários, permitindo que revisem as decisões propostas e os dados utilizados para elaborá-las, sem vincular os usuários a essas decisões."
+      ]
+    }
+  },
+  {
+    "id": "ca-cba-2024-ethics",
+    "sourcePage": 6,
+    "jurisdiction": {
+      "countryCode": "CA",
+      "country": {
+        "en": "Canada",
+        "pt": "Canadá"
+      },
+      "subdivision": {
+        "en": "Federal",
+        "pt": "Federal"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Canadian Bar Association",
+        "pt": "Ordem dos Advogados do Canadá (CBA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Ethics of Artificial Intelligence for the Legal Practitioner: Guidelines for Use",
+        "pt": "Ética da Inteligência Artificial para o Profissional Jurídico: Diretrizes de Uso"
+      },
+      "dateDisplay": {
+        "en": "28 Nov. 2024",
+        "pt": "28 de nov. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must be educated on the risks associated with using a particular AI system. They also must keep abreast of any changes to their AI tools and understand the limitations of AI.",
+        "Lawyers must examine the data storage, security and usage practices of their AI systems before they input client information into them.",
+        "There is no requirement that lawyers disclose generative AI usage to their clients. They are encouraged to disclose generative AI usage and obtain informed consent when generative AI systems are being used for nonroutine tasks.",
+        "Lawyers are required to promptly inform courts and tribunals of any errors they discover in AI-generated output.",
+        "Lawyers are explicitly prohibited from billing for time saved thanks to the use of generative AI. They should inform clients of how generative AI usage affects their fees and adjust their billing practices accordingly.",
+        "Lawyers must be cognizant that their AI tools may have been trained on biased or discriminatory data and that these biases may skew output."
+      ],
+      "pt": [
+        "Os advogados devem ser instruídos sobre os riscos associados ao uso de um sistema de IA específico. Também devem manter-se atualizados sobre quaisquer alterações em suas ferramentas de IA e compreender as limitações da IA.",
+        "Os advogados devem examinar as práticas de armazenamento, segurança e uso de dados de seus sistemas de IA antes de inserir informações de clientes neles.",
+        "Não há obrigatoriedade de que os advogados divulguem o uso de IA generativa aos seus clientes. Eles são incentivados a divulgar o uso de IA generativa e obter consentimento informado quando sistemas de IA generativa forem utilizados para tarefas não rotineiras.",
+        "Os advogados são obrigados a informar prontamente os tribunais sobre quaisquer erros que descubram em resultados gerados por IA.",
+        "Os advogados são expressamente proibidos de cobrar pelo tempo economizado graças ao uso de IA generativa. Devem informar os clientes sobre como o uso de IA generativa afeta seus honorários e ajustar suas práticas de faturamento adequadamente.",
+        "Os advogados devem estar cientes de que suas ferramentas de IA podem ter sido treinadas com dados enviesados ou discriminatórios e que esses vieses podem distorcer os resultados."
+      ]
+    }
+  },
+  {
+    "id": "ca-cjc-2024-courts",
+    "sourcePage": 6,
+    "jurisdiction": {
+      "countryCode": "CA",
+      "country": {
+        "en": "Canada",
+        "pt": "Canadá"
+      },
+      "subdivision": {
+        "en": "Federal",
+        "pt": "Federal"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Canadian Judicial Council",
+        "pt": "Conselho Judicial Canadense"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines for the Use of Artificial Intelligence in Canadian Courts",
+        "pt": "Diretrizes para o Uso de Inteligência Artificial nos Tribunais Canadenses"
+      },
+      "dateDisplay": {
+        "en": "September 2024",
+        "pt": "Setembro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Judges must be careful to maintain their decision-making independence when using AI tools.",
+        "Any AI usage must be consistent with the court's ethical values: independence, integrity, respect, diligence, competence, equality, fairness, impartiality, transparency, accessibility, timeliness and certainty.",
+        "Courts using AI must be aware of the legal aspects of AI use, including but not limited to IP law, hate speech law and data protection regulation.",
+        "Judges must consider how the information they enter into or generate using AI is stored and protected.",
+        "Any AI tools used in court must produce explainable output.",
+        "Courts must track the impact of AI deployments and provide training to judges."
+      ],
+      "pt": [
+        "Os juízes devem ter cautela para manter sua independência decisória ao utilizar ferramentas de IA.",
+        "Qualquer uso de IA deve ser consistente com os valores éticos do tribunal: independência, integridade, respeito, diligência, competência, igualdade, equidade, imparcialidade, transparência, acessibilidade, tempestividade e segurança jurídica.",
+        "Os tribunais que utilizam IA devem estar cientes dos aspectos jurídicos do uso da IA, incluindo, entre outros, legislação de propriedade intelectual, leis contra discurso de ódio e regulação de proteção de dados.",
+        "Os juízes devem considerar como as informações que inserem ou geram usando IA são armazenadas e protegidas.",
+        "Quaisquer ferramentas de IA utilizadas em juízo devem produzir resultados explicáveis.",
+        "Os tribunais devem monitorar o impacto das implantações de IA e fornecer treinamento aos juízes."
+      ]
+    }
+  },
+  {
+    "id": "ca-ab-lsa-2026-playbook",
+    "sourcePage": 7,
+    "jurisdiction": {
+      "countryCode": "CA",
+      "country": {
+        "en": "Canada",
+        "pt": "Canadá"
+      },
+      "subdivision": {
+        "en": "Alberta",
+        "pt": "Alberta"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The Law Society of Alberta",
+        "pt": "Sociedade Jurídica de Alberta"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "The Generative AI Playbook",
+        "pt": "Manual Prático de IA Generativa (The Generative AI Playbook)"
+      },
+      "dateDisplay": {
+        "en": "Last updated February 2026",
+        "pt": "Última atualização em fevereiro de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "cybersecurity_risks",
+        "label": {
+          "en": "Cybersecurity risks",
+          "pt": "Riscos de cibersegurança"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competence requires that lawyers understand how their generative AI tools were trained and the data recency, what their limitations are and what their terms of use say.",
+        "Never include confidential information in generative AI prompts. Using proprietary or in-house AI systems may alleviate this danger.",
+        "Caution is needed when using or interacting with generative AI systems. Lawyers should always double-check the accuracy of any generative AI output on which they rely and should never rely on generative AI systems to judge their own accuracy.",
+        "All generative AI output should be reviewed to ensure it aligns with their ethical obligations and does not contain biases or stereotypes.",
+        "Any use of generative AI should be disclosed."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados compreendam como suas ferramentas de IA generativa foram treinadas, a atualidade dos dados, quais são suas limitações e o que dizem seus termos de uso.",
+        "Nunca inclua informações confidenciais em comandos (prompts) de IA generativa. O uso de sistemas de IA proprietários ou internos pode mitigar esse perigo.",
+        "É necessária cautela ao usar ou interagir com sistemas de IA generativa. Os advogados devem sempre verificar duplamente a precisão de qualquer resultado de IA generativa em que se baseiem e nunca devem confiar em sistemas de IA generativa para julgar sua própria precisão.",
+        "Todos os resultados de IA generativa devem ser revisados para garantir que estejam alinhados com as obrigações éticas e não contenham vieses ou estereótipos.",
+        "Qualquer uso de IA generativa deve ser divulgado."
+      ]
+    }
+  },
+  {
+    "id": "ca-bc-lsbc-2023-guidance",
+    "sourcePage": 7,
+    "jurisdiction": {
+      "countryCode": "CA",
+      "country": {
+        "en": "Canada",
+        "pt": "Canadá"
+      },
+      "subdivision": {
+        "en": "British Columbia",
+        "pt": "Colúmbia Britânica"
+      },
+      "region": {
+        "en": "North America",
+        "pt": "América do Norte"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The Law Society of British Columbia",
+        "pt": "Sociedade Jurídica da Colúmbia Britânica"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidance on Professional Responsibility and AI",
+        "pt": "Orientação sobre Responsabilidade Profissional e IA"
+      },
+      "dateDisplay": {
+        "en": "October 2023",
+        "pt": "Outubro de 2023"
+      },
+      "year": 2023,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "ai_fabricated_evidence",
+        "label": {
+          "en": "AI-fabricated evidence",
+          "pt": "Provas fabricadas por IA"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duty of competence requires that lawyers apply their own intellectual judgments to their jobs, communicate with their clients and diligently perform all professional functions. Generative AI tools should be treated as nonlawyers and their output supervised.",
+        "The duty of competence requires that lawyers continue to adapt to changing professional standards and practices.",
+        "Lawyers should redact any confidential client information from their generative AI input. Where this is impossible, they should obtain informed consent from their clients. They should also examine where and how securely input information is stored.",
+        "The duty of candor requires lawyers to disclose to clients the extent to which generative AI is used during the representation.",
+        "Lawyers must consider whether and how to adjust their billing practices in light of AI-driven efficiencies.",
+        "Lawyers must be careful not to be swayed by AI-enhanced or generated information given to them by their clients.",
+        "Lawyers should closely scrutinize generative AI output and ensure they haven't been swayed by any biases."
+      ],
+      "pt": [
+        "O dever de competência exige que os advogados apliquem seu próprio julgamento intelectual em seu trabalho, comuniquem-se com seus clientes e desempenhem diligentemente todas as funções profissionais. Ferramentas de IA generativa devem ser tratadas como auxiliares não advogados e seus resultados devem ser supervisionados.",
+        "O dever de competência exige que os advogados continuem a se adaptar às mudanças nos padrões e práticas profissionais.",
+        "Os advogados devem tarjar/ocultar quaisquer informações confidenciais de clientes antes de inseri-las na IA generativa. Quando isso for impossível, devem obter o consentimento informado de seus clientes. Devem também examinar onde e com que nível de segurança as informações inseridas são armazenadas.",
+        "O dever de lealdade exige que os advogados divulguem aos clientes em que medida a IA generativa é utilizada durante a representação.",
+        "Os advogados devem considerar se e como ajustar suas práticas de cobrança à luz das eficiências proporcionadas pela IA.",
+        "Os advogados devem ter cuidado para não se deixarem influenciar por informações aprimoradas ou geradas por IA fornecidas por seus clientes.",
+        "Os advogados devem escrutinar atentamente os resultados da IA generativa e assegurar que não foram influenciados por quaisquer vieses."
+      ]
+    }
+  },
+  {
+    "id": "cl-aj-2026-judges",
+    "sourcePage": 8,
+    "jurisdiction": {
+      "countryCode": "CL",
+      "country": {
+        "en": "Chile",
+        "pt": "Chile"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Judicial Academy",
+        "pt": "Academia Judicial do Chile"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Basic Guide on Generative Artificial Intelligence for the Practice of Judges",
+        "pt": "Guia Básico sobre Inteligência Artificial Generativa para a Prática dos Juízes"
+      },
+      "dateDisplay": {
+        "en": "April 2026",
+        "pt": "Abril de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Judges must ensure that AI use does not undermine due process, is transparent, does not replace judicial decision-making and remains open to challenge by the parties.",
+        "Courts should ensure that individuals affected by AI decisions understand how those decisions were reached.",
+        "Judges must actively evaluate AI systems for bias.",
+        "Judges must never input personal or confidential information into an AI system."
+      ],
+      "pt": [
+        "Os juízes devem garantir que o uso de IA não prejudique o devido processo legal, seja transparente, não substitua a tomada de decisão judicial e permaneça passível de impugnação pelas partes.",
+        "Os tribunais devem assegurar que os indivíduos afetados por decisões apoiadas por IA compreendam como essas decisões foram alcançadas.",
+        "Os juízes devem avaliar ativamente os sistemas de IA quanto à presença de vieses.",
+        "Os juízes nunca devem inserir informações pessoais ou confidenciais em um sistema de IA."
+      ]
+    }
+  },
+  {
+    "id": "cl-cab-2026-guidelines",
+    "sourcePage": 8,
+    "jurisdiction": {
+      "countryCode": "CL",
+      "country": {
+        "en": "Chile",
+        "pt": "Chile"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Chilean Bar Association",
+        "pt": "Ordem dos Advogados do Chile"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines for the Responsible Use of Artificial Intelligence in Professional Practice",
+        "pt": "Diretrizes para o Uso Responsável da Inteligência Artificial na Prática Profissional"
+      },
+      "dateDisplay": {
+        "en": "15 July 2026",
+        "pt": "15 de julho de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "The duties of competence and diligence require that lawyers educate themselves about how their AI tools generally function and their limitations. This duty is ongoing as technology changes.",
+        "Lawyers are required to double-check AI output for legal and factual accuracy before using it in their filings. Lawyers also may not delegate their professional judgment to AI systems. Lawyers must also supervise their colleagues and subordinates using AI.",
+        "Lawyers must examine the privacy and security policies and technical and organizational privacy protections of an AI provider before entering client information into their tools.",
+        "Lawyers using AI must inform clients in advance of this use, as well as the risks and benefits associated with it."
+      ],
+      "pt": [
+        "Os deveres de competência e diligência exigem que os advogados se instruam sobre como suas ferramentas de IA funcionam em geral e sobre suas limitações. Esse dever é contínuo à medida que a tecnologia evolui.",
+        "Os advogados são obrigados a verificar duplamente os resultados da IA quanto à precisão jurídica e fática antes de utilizá-los em suas petições. Os advogados também não podem delegar seu julgamento profissional a sistemas de IA e devem supervisionar seus colegas e subordinados que utilizam IA.",
+        "Os advogados devem examinar as políticas de privacidade e segurança e as proteções técnicas e organizacionais de privacidade de um provedor de IA antes de inserir informações de clientes em suas ferramentas.",
+        "Os advogados que utilizam IA devem informar os clientes antecipadamente sobre esse uso, bem como sobre os riscos e benefícios a ele associados."
+      ]
+    }
+  },
+  {
+    "id": "cn-acpaa-2025-ethics",
+    "sourcePage": 8,
+    "jurisdiction": {
+      "countryCode": "CN",
+      "country": {
+        "en": "China",
+        "pt": "China"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "All-China Patent Attorneys Association",
+        "pt": "Associação Nacional de Agentes de Patentes da China"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Code of Professional Ethics and Practice Discipline for Patent Agents",
+        "pt": "Código de Ética Profissional e Disciplina Prática para Agentes de Patentes"
+      },
+      "dateDisplay": {
+        "en": "22 Sept. 2025",
+        "pt": "22 de set. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "AI must not be used to directly generate patent application documents or to \"maliciously\" lower the price of patent agency services."
+      ],
+      "pt": [
+        "A IA não deve ser utilizada para gerar diretamente documentos de pedidos de patente nem para reduzir \"maliciosamente\" o preço dos serviços de agenciamento de patentes."
+      ]
+    }
+  },
+  {
+    "id": "cn-spc-2026-opinions",
+    "sourcePage": 8,
+    "jurisdiction": {
+      "countryCode": "CN",
+      "country": {
+        "en": "China",
+        "pt": "China"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The Supreme People's Court of the People's Republic of China",
+        "pt": "Supremo Tribunal Popular da República Popular da China"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Opinions of the Supreme People's Court on the Lawful Adjudication of Cases Involving Artificial Intelligence Disputes",
+        "pt": "Pareceres do Supremo Tribunal Popular sobre o Julgamento Legal de Casos Envolvendo Disputas de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "7 Sept. 2026",
+        "pt": "7 de set. de 2026"
+      },
+      "year": 2026,
+      "status": "court_rule_order",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "These guidelines contain disclosure and verification requirements for litigants using AI to prepare their filings."
+      ],
+      "pt": [
+        "Estas diretrizes contêm requisitos de divulgação e verificação para litigantes que utilizam IA na preparação de suas petições."
+      ]
+    }
+  },
+  {
+    "id": "eu-ccbe-2025-guide",
+    "sourcePage": 9,
+    "jurisdiction": {
+      "countryCode": "EU",
+      "country": {
+        "en": "Europe",
+        "pt": "Europa"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Council of Bars and Law Societies of Europe",
+        "pt": "Conselho das Ordens de Advogados da Europa (CCBE)"
+      },
+      "category": "international_body"
+    },
+    "resource": {
+      "title": {
+        "en": "CCBE Guide on the Use of Generative AI by Lawyers",
+        "pt": "Guia do CCBE sobre o Uso de IA Generativa por Advogados"
+      },
+      "dateDisplay": {
+        "en": "2 Oct. 2025",
+        "pt": "2 de out. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should refrain from entering any personal, confidential or other data related to the client into the user interface of a generative AI tool.",
+        "Lawyers should understand how a generative AI provider processes data, including whether prompts may be used for model training or shared with third parties.",
+        "Lawyers should verify the output of a generative AI before it is utilized in their work."
+      ],
+      "pt": [
+        "Os advogados devem abster-se de inserir quaisquer dados pessoais, confidenciais ou outros dados relacionados ao cliente na interface de usuário de uma ferramenta de IA generativa.",
+        "Os advogados devem compreender como um provedor de IA generativa processa os dados, incluindo se os comandos (prompts) podem ser usados para treinamento de modelos ou compartilhados com terceiros.",
+        "Os advogados devem verificar o resultado de uma IA generativa antes de utilizá-lo em seu trabalho."
+      ]
+    }
+  },
+  {
+    "id": "eu-fbe-2024-chatgpt",
+    "sourcePage": 9,
+    "jurisdiction": {
+      "countryCode": "EU",
+      "country": {
+        "en": "Europe",
+        "pt": "Europa"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The European Bars Federation",
+        "pt": "Federação das Ordens de Advogados Europeias (FBE)"
+      },
+      "category": "international_body"
+    },
+    "resource": {
+      "title": {
+        "en": "European Lawyers in the Era of ChatGPT",
+        "pt": "Advogados Europeus na Era do ChatGPT"
+      },
+      "dateDisplay": {
+        "en": "September 2024",
+        "pt": "Setembro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "cybersecurity_risks",
+        "label": {
+          "en": "Cybersecurity risks",
+          "pt": "Riscos de cibersegurança"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "ambiguous_regulatory_landscape",
+        "label": {
+          "en": "Ambiguous regulatory and legal landscape",
+          "pt": "Cenário regulatório e jurídico ambíguo"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers using generative AI should maintain their professional objectivity.",
+        "Lawyers should be transparent with clients regarding their use of generative AI.",
+        "Lawyers should maintain a thorough understanding of how their AI tools function and their limitations. They should never uncritically rely on AI-generated output and remain responsible for the accuracy of AI-generated output.",
+        "Lawyers are required to keep abreast of current AI regulations and changes to them.",
+        "Lawyers should carefully examine the data storage, security and usage policies of the AI systems they use before entering confidential information into them.",
+        "Lawyers should prepare detailed assessments of compliance with the EU General Data Protection Regulation and conduct data protection impact assessments prior to adopting AI tools.",
+        "Lawyers are not affirmatively obliged to inform clients of their AI usage. However, in some situations, such as when AI systems are used to handle substantial or significant parts of the representation, disclosure is strongly recommended."
+      ],
+      "pt": [
+        "Os advogados que utilizam IA generativa devem manter sua objetividade profissional.",
+        "Os advogados devem ser transparentes com os clientes em relação ao uso de IA generativa.",
+        "Os advogados devem manter uma compreensão aprofundada de como suas ferramentas de IA funcionam e de suas limitações. Nunca devem confiar acriticamente em resultados gerados por IA e permanecem responsáveis pela precisão desses resultados.",
+        "Os advogados são obrigados a manter-se atualizados sobre as regulamentações vigentes de IA e suas alterações.",
+        "Os advogados devem examinar cuidadosamente as políticas de armazenamento, segurança e uso de dados dos sistemas de IA que utilizam antes de inserir informações confidenciais neles.",
+        "Os advogados devem preparar avaliações detalhadas de conformidade com o Regulamento Geral sobre a Proteção de Dados da UE (GDPR) e realizar avaliações de impacto sobre a proteção de dados (DPIA) antes de adotar ferramentas de IA.",
+        "Os advogados não são afirmativamente obrigados a informar os clientes sobre o uso de IA. Contudo, em algumas situações — como quando sistemas de IA são usados para lidar com partes substanciais ou significativas da representação —, a divulgação é fortemente recomendada."
+      ]
+    }
+  },
+  {
+    "id": "fr-francenum-2024-guide",
+    "sourcePage": 9,
+    "jurisdiction": {
+      "countryCode": "FR",
+      "country": {
+        "en": "France",
+        "pt": "França"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "France Num",
+        "pt": "France Num"
+      },
+      "category": "government_agency"
+    },
+    "resource": {
+      "title": {
+        "en": "Generative Artificial Intelligence for Lawyers: A Practical Guide",
+        "pt": "Inteligência Artificial Generativa para Advogados: Um Guia Prático"
+      },
+      "dateDisplay": {
+        "en": "September 2024",
+        "pt": "Setembro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "inaccurate_misleading_info",
+        "label": {
+          "en": "Inaccurate or misleading information",
+          "pt": "Informações imprecisas ou enganosas"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must be aware of the risks of AI hallucinations and verify the accuracy of any generative AI output.",
+        "Lawyers must never input data covered by professional secrecy into a generative AI."
+      ],
+      "pt": [
+        "Os advogados devem estar cientes dos riscos de alucinações da IA e verificar a precisão de qualquer resultado de IA generativa.",
+        "Os advogados nunca devem inserir dados protegidos pelo sigilo profissional em uma IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "de-dav-2025-useofai",
+    "sourcePage": 10,
+    "jurisdiction": {
+      "countryCode": "DE",
+      "country": {
+        "en": "Germany",
+        "pt": "Alemanha"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "German Bar Association",
+        "pt": "Associação Alemã de Advogados (DAV)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Use of AI in the Legal Profession",
+        "pt": "Uso de IA na Profissão Jurídica"
+      },
+      "dateDisplay": {
+        "en": "July 2025",
+        "pt": "Julho de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must remain critical of AI output, double-check the accuracy of any AI output on which they rely and retain independent judgment.",
+        "Lawyers are prohibited from giving third-party AI providers access to confidential client information without ensuring they are bound by confidentiality obligations."
+      ],
+      "pt": [
+        "Os advogados devem manter senso crítico em relação aos resultados da IA, verificar duplamente a precisão de qualquer resultado em que se baseiem e preservar seu julgamento independente.",
+        "Os advogados são proibidos de conceder a provedores terceirizados de IA acesso a informações confidenciais de clientes sem garantir que estejam vinculados a obrigações de confidencialidade."
+      ]
+    }
+  },
+  {
+    "id": "de-brak-2024-notes",
+    "sourcePage": 10,
+    "jurisdiction": {
+      "countryCode": "DE",
+      "country": {
+        "en": "Germany",
+        "pt": "Alemanha"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Federal Bar Association",
+        "pt": "Ordem Federal dos Advogados da Alemanha (BRAK)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Notes on the use of artificial intelligence (AI)",
+        "pt": "Notas sobre o uso de inteligência artificial (IA)"
+      },
+      "dateDisplay": {
+        "en": "December 2024",
+        "pt": "Dezembro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers are still responsible for independently and responsibly advising clients, even if AI is used. They must double-check the accuracy of any AI output on which they rely.",
+        "Lawyers must take care not to input any client information into an AI tool without anonymizing it. They may only provide client information to third-party IT personnel on a need-to-know basis.",
+        "Lawyers are generally not required to disclose the use of AI to clients, although transparency obligations may arise depending on contract and unfair competition law; regardless, disclosure is recommended. In those circumstances, disclosure is required only when an AI system is used directly in connection with a specific client's matter."
+      ],
+      "pt": [
+        "Os advogados continuam responsáveis por aconselhar clientes de forma independente e responsável, mesmo quando a IA é utilizada. Devem verificar duplamente a precisão de qualquer resultado de IA em que se baseiem.",
+        "Os advogados devem ter cuidado para não inserir nenhuma informação de cliente em uma ferramenta de IA sem anonimizá-la. Só podem fornecer informações de clientes a pessoal terceirizado de TI com base na estrita necessidade de conhecimento (need-to-know).",
+        "Os advogados geralmente não são obrigados a divulgar o uso de IA aos clientes, embora obrigações de transparência possam surgir dependendo do direito contratual e da concorrência desleal; de todo modo, a divulgação é recomendada. Nessas circunstâncias, a divulgação é exigida apenas quando um sistema de IA é utilizado diretamente em conexão com o caso específico de um cliente."
+      ]
+    }
+  },
+  {
+    "id": "it-senate-2024-aiact",
+    "sourcePage": 10,
+    "jurisdiction": {
+      "countryCode": "IT",
+      "country": {
+        "en": "Italy",
+        "pt": "Itália"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Italian Senate",
+        "pt": "Senado Italiano"
+      },
+      "category": "legislature"
+    },
+    "resource": {
+      "title": {
+        "en": "Italian AI Act",
+        "pt": "Lei Italiana de IA (Italian AI Act)"
+      },
+      "dateDisplay": {
+        "en": "10 July 2024",
+        "pt": "10 de julho de 2024"
+      },
+      "year": 2024,
+      "status": "enacted_law",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Under Article 13, AI systems must only be used for instrumental support activities in intellectual professions. Professionals must clearly and comprehensively communicate information about AI systems to clients.",
+        "When using AI, judges must always retain exclusive authority over the interpretation of the law, interpretation of facts and evidence and ultimate judicial decisions, per Article 15."
+      ],
+      "pt": [
+        "Nos termos do artigo 13, os sistemas de IA devem ser utilizados apenas para atividades instrumentais de apoio em profissões intelectuais. Os profissionais devem comunicar de forma clara e abrangente aos clientes as informações sobre os sistemas de IA.",
+        "Ao utilizar IA, os juízes devem sempre manter autoridade exclusiva sobre a interpretação da lei, a interpretação dos fatos e das provas e as decisões judiciais finais, conforme o artigo 15."
+      ]
+    }
+  },
+  {
+    "id": "it-rome-bar-handbook",
+    "sourcePage": 11,
+    "jurisdiction": {
+      "countryCode": "IT",
+      "country": {
+        "en": "Italy",
+        "pt": "Itália"
+      },
+      "subdivision": {
+        "en": "Rome",
+        "pt": "Roma"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Rome Bar Association",
+        "pt": "Ordem dos Advogados de Roma"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "A Brief Handbook for Lawyers on the Use of Artificial Intelligence",
+        "pt": "Breve Manual para Advogados sobre o Uso de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "Not specified",
+        "pt": "Não especificada"
+      },
+      "year": null,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Technologies used must comply with current EU and Italian regulations.",
+        "Lawyers must be aware that AI is meant to support, not displace, their legal judgment.",
+        "Lawyers using AI remain subject to the duties established by the Code of Conduct and Professional Law."
+      ],
+      "pt": [
+        "As tecnologias utilizadas devem estar em conformidade com as regulamentações vigentes da UE e da Itália.",
+        "Os advogados devem estar cientes de que a IA destina-se a apoiar, e não a substituir, seu julgamento jurídico.",
+        "Os advogados que utilizam IA permanecem sujeitos aos deveres estabelecidos pelo Código de Conduta e pela Lei Profissional."
+      ]
+    }
+  },
+  {
+    "id": "it-torre-annunziata-2023-guidelines",
+    "sourcePage": 11,
+    "jurisdiction": {
+      "countryCode": "IT",
+      "country": {
+        "en": "Italy",
+        "pt": "Itália"
+      },
+      "subdivision": {
+        "en": "Torre Annunziata",
+        "pt": "Torre Annunziata"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Torre Annunziata Bar Association",
+        "pt": "Ordem dos Advogados de Torre Annunziata"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines on the Use of Artificial Intelligence by Lawyers",
+        "pt": "Diretrizes sobre o Uso de Inteligência Artificial por Advogados"
+      },
+      "dateDisplay": {
+        "en": "June 2023",
+        "pt": "Junho de 2023"
+      },
+      "year": 2023,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must keep abreast of any changes to their AI tools and the overall field of AI technology.",
+        "Lawyers must always double-check any generative AI output they rely on and must never delegate decision-making authority to AI systems.",
+        "Lawyers remain wholly responsible for their activities and filings, regardless of how much AI assists them.",
+        "AI usage must comply with professional secrecy and data protection obligations."
+      ],
+      "pt": [
+        "Os advogados devem manter-se atualizados sobre quaisquer mudanças em suas ferramentas de IA e no campo da tecnologia de IA em geral.",
+        "Os advogados devem sempre verificar duplamente qualquer resultado de IA generativa em que se baseiem e nunca devem delegar autoridade decisória a sistemas de IA.",
+        "Os advogados permanecem integralmente responsáveis por suas atividades e petições, independentemente do quanto a IA os auxilie.",
+        "O uso de IA deve cumprir as obrigações de sigilo profissional e proteção de dados."
+      ]
+    }
+  },
+  {
+    "id": "jp-jfba-2025-notes",
+    "sourcePage": 11,
+    "jurisdiction": {
+      "countryCode": "JP",
+      "country": {
+        "en": "Japan",
+        "pt": "Japão"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Japanese Federation of Bar Associations",
+        "pt": "Federação Japonesa de Ordens de Advogados (JFBA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Notes on the Use of Generative AI in Legal Practice",
+        "pt": "Notas sobre o Uso de IA Generativa na Prática Jurídica"
+      },
+      "dateDisplay": {
+        "en": "September 2025",
+        "pt": "Setembro de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers are required to check the accuracy of any generative AI output they rely on.",
+        "Lawyers must protect client information that is input into a generative AI system.",
+        "When using generative AI, lawyers should maintain independent legal judgment.",
+        "Article 72 of the Attorneys Act prohibits the practice of law by nonlawyers, ostensibly including AI."
+      ],
+      "pt": [
+        "Os advogados são obrigados a verificar a precisão de qualquer resultado de IA generativa em que se baseiem.",
+        "Os advogados devem proteger as informações de clientes inseridas em um sistema de IA generativa.",
+        "Ao utilizar IA generativa, os advogados devem manter julgamento jurídico independente.",
+        "O artigo 72 da Lei dos Advogados proíbe o exercício da advocacia por não advogados, incluindo ostensivamente a IA."
+      ]
+    }
+  },
+  {
+    "id": "mx-bma-2025-guidelines",
+    "sourcePage": 12,
+    "jurisdiction": {
+      "countryCode": "MX",
+      "country": {
+        "en": "Mexico",
+        "pt": "México"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Latin America",
+        "pt": "América Latina"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Mexican Bar Association",
+        "pt": "Ordem dos Advogados do México (BMA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines of the Mexican Bar Association (BMA) for the Responsible Use of Artificial Intelligence in the Professional Practice of Law",
+        "pt": "Diretrizes da Ordem dos Advogados do México (BMA) para o Uso Responsável da Inteligência Artificial no Exercício Profissional da Advocacia"
+      },
+      "dateDisplay": {
+        "en": "2 Dec. 2025",
+        "pt": "2 de dez. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should double-check the accuracy of any generative AI output on which they rely. They should also ensure their subordinates and colleagues are not using AI in an unauthorized manner.",
+        "Lawyers should not enter confidential client information into AI systems that fail to meet information privacy and security standards.",
+        "Lawyers must be aware of how their AI systems were trained and of any potential biases that may result from their training data or design.",
+        "Lawyers should remember that AI is meant to assist, not replace, critical legal thinking. All information produced by AI must be verified for factual and legal accuracy.",
+        "Lawyers cannot bill clients for time spent learning how to use AI tools.",
+        "Lawyers should explain what AI is used for and why it is necessary, especially when AI usage is not routine or expected by clients."
+      ],
+      "pt": [
+        "Os advogados devem verificar duplamente a precisão de qualquer resultado de IA generativa em que se baseiem. Devem também garantir que seus subordinados e colegas não estejam usando IA de maneira não autorizada.",
+        "Os advogados não devem inserir informações confidenciais de clientes em sistemas de IA que não atendam aos padrões de privacidade e segurança da informação.",
+        "Os advogados devem estar cientes de como seus sistemas de IA foram treinados e de quaisquer vieses potenciais que possam resultar de seus dados de treinamento ou design.",
+        "Os advogados devem lembrar que a IA destina-se a auxiliar, e não a substituir, o pensamento jurídico crítico. Todas as informações produzidas pela IA devem ser verificadas quanto à precisão fática e jurídica.",
+        "Os advogados não podem cobrar dos clientes pelo tempo gasto aprendendo a usar ferramentas de IA.",
+        "Os advogados devem explicar para que a IA é usada e por que é necessária, especialmente quando o uso de IA não for rotineiro ou esperado pelos clientes."
+      ]
+    }
+  },
+  {
+    "id": "nl-nova-undated-recommendations",
+    "sourcePage": 12,
+    "jurisdiction": {
+      "countryCode": "NL",
+      "country": {
+        "en": "Netherlands",
+        "pt": "Países Baixos"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Dutch Bar Association",
+        "pt": "Ordem dos Advogados dos Países Baixos (NOvA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Recommendations on AI in the Legal Profession",
+        "pt": "Recomendações sobre IA na Profissão Jurídica"
+      },
+      "dateDisplay": {
+        "en": "Not specified",
+        "pt": "Não especificada"
+      },
+      "year": null,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Lawyers are highly encouraged to become generally knowledgeable of how their AI tools function before using them.",
+        "Lawyers must always verify any generative AI output they rely on.",
+        "Lawyers must not enter confidential client information into AI tools. Before entering this information, they must know where the data is stored and how it is processed.",
+        "Lawyers must retain final legal decision-making authority and consult generative AI output critically.",
+        "Lawyers should be wary of biased generative AI output."
+      ],
+      "pt": [
+        "Os advogados são fortemente incentivados a adquirir conhecimento geral sobre como suas ferramentas de IA funcionam antes de utilizá-las.",
+        "Os advogados devem sempre verificar qualquer resultado de IA generativa em que se baseiem.",
+        "Os advogados não devem inserir informações confidenciais de clientes em ferramentas de IA. Antes de inserir essas informações, devem saber onde os dados são armazenados e como são processados.",
+        "Os advogados devem manter a autoridade final de decisão jurídica e consultar os resultados da IA generativa de forma crítica.",
+        "Os advogados devem estar atentos a resultados enviesados de IA generativa."
+      ]
+    }
+  },
+  {
+    "id": "nl-nova-2025-recommendations",
+    "sourcePage": 13,
+    "jurisdiction": {
+      "countryCode": "NL",
+      "country": {
+        "en": "Netherlands",
+        "pt": "Países Baixos"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Dutch Bar Association",
+        "pt": "Ordem dos Advogados dos Países Baixos (NOvA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Recommendations for AI in the legal profession",
+        "pt": "Recomendações para IA na profissão jurídica"
+      },
+      "dateDisplay": {
+        "en": "16 Dec. 2025",
+        "pt": "16 de dez. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Before using AI in legal matters, lawyers must develop basic knowledge of that AI system, gain practical experience, discuss in advance how quality and safeguards are arranged and always verify output.",
+        "Lawyers must investigate how each AI provider protects input data and the AI tools' data flows. They should also refrain from entering confidential data into public AI systems.",
+        "Lawyers must only use AI as supporting tools and critically investigate AI output they use. They must also ensure adequate oversight of employees and suppliers.",
+        "Lawyers must inform clients of their planned AI usage and never uncritically adopt AI output.",
+        "Lawyers must ensure their AI systems are not using biased or partisan training data."
+      ],
+      "pt": [
+        "Antes de utilizar IA em questões jurídicas, os advogados devem desenvolver conhecimento básico sobre o sistema de IA, adquirir experiência prática, discutir antecipadamente como a qualidade e as salvaguardas são organizadas e sempre verificar os resultados.",
+        "Os advogados devem investigar como cada provedor de IA protege os dados inseridos e os fluxos de dados das ferramentas de IA. Também devem abster-se de inserir dados confidenciais em sistemas públicos de IA.",
+        "Os advogados devem utilizar a IA apenas como ferramenta de apoio e investigar criticamente os resultados de IA que utilizam. Devem também garantir supervisão adequada de empregados e fornecedores.",
+        "Os advogados devem informar os clientes sobre o uso planejado de IA e nunca adotar acriticamente os resultados da IA.",
+        "Os advogados devem certificar-se de que seus sistemas de IA não estejam utilizando dados de treinamento enviesados ou partidários."
+      ]
+    }
+  },
+  {
+    "id": "nl-kcbr-2025-genai",
+    "sourcePage": 13,
+    "jurisdiction": {
+      "countryCode": "NL",
+      "country": {
+        "en": "Netherlands",
+        "pt": "Países Baixos"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Knowledge Center for Policy and Regulations",
+        "pt": "Centro de Conhecimento para Políticas e Regulamentos (KCBR)"
+      },
+      "category": "government_agency"
+    },
+    "resource": {
+      "title": {
+        "en": "Generative AI in legal work",
+        "pt": "IA Generativa no trabalho jurídico"
+      },
+      "dateDisplay": {
+        "en": "25 Oct. 2025",
+        "pt": "25 de out. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "When using public AI models such as ChatGPT and Mistral Vibe, lawyers must only input publicly accessible information, refrain from sharing personal data and critically review all output."
+      ],
+      "pt": [
+        "Ao utilizar modelos públicos de IA, como ChatGPT e Mistral Vibe, os advogados devem inserir apenas informações publicamente acessíveis, abster-se de compartilhar dados pessoais e revisar criticamente todos os resultados."
+      ]
+    }
+  },
+  {
+    "id": "nz-courts-2023-guidelines",
+    "sourcePage": 13,
+    "jurisdiction": {
+      "countryCode": "NZ",
+      "country": {
+        "en": "New Zealand",
+        "pt": "Nova Zelândia"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Courts of New Zealand",
+        "pt": "Tribunais da Nova Zelândia"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines for Use of Generative Artificial Intelligence in Courts and Tribunals",
+        "pt": "Diretrizes para o Uso de Inteligência Artificial Generativa em Cortes e Tribunais"
+      },
+      "dateDisplay": {
+        "en": "7 Dec. 2023",
+        "pt": "7 de dez. de 2023"
+      },
+      "year": 2023,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "cybersecurity_risks",
+        "label": {
+          "en": "Cybersecurity risks",
+          "pt": "Riscos de cibersegurança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers are required to understand the capabilities and limitations of the AI tools they choose to utilize. They should also understand how to write effective prompts.",
+        "Lawyers should be careful not to enter any information into an AI tool that is not already public and disable chat history when using a chatbot.",
+        "Lawyers are required to double-check the accuracy and applicability of any AI output they rely on.",
+        "Lawyers should examine the data their AI tools were trained on and be aware that they may not account for New Zealand's cultural values."
+      ],
+      "pt": [
+        "Os advogados são obrigados a compreender as capacidades e limitações das ferramentas de IA que escolhem utilizar. Também devem saber como redigir comandos (prompts) eficazes.",
+        "Os advogados devem ter cuidado para não inserir em uma ferramenta de IA nenhuma informação que ainda não seja pública e devem desativar o histórico de conversas ao utilizar um chatbot.",
+        "Os advogados são obrigados a verificar duplamente a precisão e a aplicabilidade de qualquer resultado de IA em que se baseiem.",
+        "Os advogados devem examinar os dados com os quais suas ferramentas de IA foram treinadas e estar cientes de que eles podem não contemplar os valores culturais da Nova Zelândia."
+      ]
+    }
+  },
+  {
+    "id": "nz-nzls-2026-guidance",
+    "sourcePage": 14,
+    "jurisdiction": {
+      "countryCode": "NZ",
+      "country": {
+        "en": "New Zealand",
+        "pt": "Nova Zelândia"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "New Zealand Law Society",
+        "pt": "Sociedade Jurídica da Nova Zelândia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Generative AI guidance for lawyers",
+        "pt": "Orientação sobre IA generativa para advogados"
+      },
+      "dateDisplay": {
+        "en": "Last updated 24 Feb. 2026",
+        "pt": "Última atualização em 24 de fev. de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers remain responsible for their work product, regardless of how much AI assisted them. They must fact-check any output they rely on.",
+        "Lawyers should avoid inputting confidential client information into generative AI and examine where and how the data they input is treated.",
+        "Lawyers should examine any generative AI output they rely on for IP-protected material. They should also examine the terms of use of their AI tools to ensure the data they enter doesn't become the provider's property.",
+        "Lawyers can only bill clients for time spent working on a matter and should reconsider their billing practices in light of AI-driven efficiencies."
+      ],
+      "pt": [
+        "Os advogados permanecem responsáveis por seu trabalho produzido, independentemente do quanto a IA os auxiliou. Devem checar os fatos de qualquer resultado em que se baseiem.",
+        "Os advogados devem evitar inserir informações confidenciais de clientes em IA generativa e examinar onde e como os dados inseridos são tratados.",
+        "Os advogados devem examinar qualquer resultado de IA generativa em que se baseiem quanto à presença de material protegido por propriedade intelectual. Também devem analisar os termos de uso de suas ferramentas de IA para garantir que os dados inseridos não se tornem propriedade do provedor.",
+        "Os advogados só podem cobrar dos clientes pelo tempo efetivamente dedicado ao caso e devem reconsiderar suas práticas de faturamento à luz das eficiências impulsionadas pela IA."
+      ]
+    }
+  },
+  {
+    "id": "pl-nra-2025-ai",
+    "sourcePage": 14,
+    "jurisdiction": {
+      "countryCode": "PL",
+      "country": {
+        "en": "Poland",
+        "pt": "Polônia"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Polish Bar Association",
+        "pt": "Ordem dos Advogados da Polônia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "AI in the Work of an Attorney-at-Law",
+        "pt": "A IA no Trabalho do Advogado"
+      },
+      "dateDisplay": {
+        "en": "2025",
+        "pt": "2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should carefully review any agreement with an AI provider to determine confidentiality obligations, ownership of input and output, access rights and data-training policies.",
+        "Lawyers should examine their contracts with AI providers to assess the extent to which each provider offers defense and indemnification for IP infringement claims related to use of their tools.",
+        "Firms should develop rules that require lawyers who use AI tools to verify the accuracy of all AI-generated output.",
+        "Lawyers must examine how their AI tools function and what data they were trained on before relying on them."
+      ],
+      "pt": [
+        "Os advogados devem revisar cuidadosamente qualquer contrato com um provedor de IA para verificar obrigações de confidencialidade, titularidade de entradas (inputs) e saídas (outputs), direitos de acesso e políticas de treinamento de dados.",
+        "Os advogados devem examinar seus contratos com provedores de IA para avaliar em que medida cada provedor oferece defesa e indenização para reivindicações de violação de propriedade intelectual relacionadas ao uso de suas ferramentas.",
+        "Os escritórios devem desenvolver regras que exijam que os advogados que utilizam ferramentas de IA verifiquem a precisão de todos os resultados gerados por IA.",
+        "Os advogados devem examinar como suas ferramentas de IA funcionam e com quais dados foram treinadas antes de se basearem nelas."
+      ]
+    }
+  },
+  {
+    "id": "sg-minlaw-2026-guide",
+    "sourcePage": 15,
+    "jurisdiction": {
+      "countryCode": "SG",
+      "country": {
+        "en": "Singapore",
+        "pt": "Singapura"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Singapore Ministry of Law",
+        "pt": "Ministério da Justiça de Singapura"
+      },
+      "category": "government_agency"
+    },
+    "resource": {
+      "title": {
+        "en": "Guide for Using Generative AI in the Legal Sector",
+        "pt": "Guia para o Uso de IA Generativa no Setor Jurídico"
+      },
+      "dateDisplay": {
+        "en": "6 March 2026",
+        "pt": "6 de março de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Legal professionals should take responsibility for their entire work product, regardless of how much generative AI was used when preparing it. Legal professionals using generative AI must understand how their tools work, properly oversee generative AI usage and exercise greater scrutiny when using generative AI in areas outside their expertise.",
+        "Legal professionals should assess for potential biases by evaluating generative AI output across different case types and client groups and asking their generative AI tools to explain how they formed their output. Additionally, they should choose generative AI vendors who demonstrate bias testing and mitigation efforts.",
+        "Legal professionals should avoid entering confidential client information into generative AI systems and disable data retention on their AI tools. They also should carefully examine each AI provider's privacy terms and pick the most secure AI tools to use.",
+        "Legal professionals are not obliged to affirmatively disclose generative AI usage to their clients or the court. Disclosure is strongly recommended when generative AI usage could reasonably impact clients' interests, substantially contribute to work product, affect billing or conflict with client preferences."
+      ],
+      "pt": [
+        "Os profissionais jurídicos devem assumir responsabilidade por todo o seu produto de trabalho, independentemente do quanto a IA generativa tenha sido usada em sua preparação. Aqueles que utilizam IA generativa devem compreender como suas ferramentas funcionam, supervisionar adequadamente o uso da IA generativa e exercer maior escrutínio ao utilizá-la em áreas fora de sua especialidade.",
+        "Os profissionais jurídicos devem avaliar potenciais vieses analisando os resultados da IA generativa em diferentes tipos de casos e grupos de clientes e solicitando que suas ferramentas de IA generativa expliquem como formularam seus resultados. Além disso, devem escolher fornecedores de IA generativa que demonstrem esforços de teste e mitigação de vieses.",
+        "Os profissionais jurídicos devem evitar inserir informações confidenciais de clientes em sistemas de IA generativa e desativar a retenção de dados em suas ferramentas de IA. Devem também examinar cuidadosamente os termos de privacidade de cada provedor de IA e escolher as ferramentas mais seguras.",
+        "Os profissionais jurídicos não são obrigados a divulgar afirmativamente o uso de IA generativa aos seus clientes ou ao tribunal. A divulgação é fortemente recomendada quando o uso de IA generativa puder razoavelmente impactar os interesses dos clientes, contribuir substancialmente para o trabalho produzido, afetar os honorários ou conflitar com as preferências do cliente."
+      ]
+    }
+  },
+  {
+    "id": "sg-supcourt-2024-guide",
+    "sourcePage": 15,
+    "jurisdiction": {
+      "countryCode": "SG",
+      "country": {
+        "en": "Singapore",
+        "pt": "Singapura"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Supreme Court of Singapore",
+        "pt": "Suprema Corte de Singapura"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "The Guide on the Use of Generative Artificial Intelligence Tools by Court Users",
+        "pt": "Guia sobre o Uso de Ferramentas de Inteligência Artificial Generativa por Usuários dos Tribunais"
+      },
+      "dateDisplay": {
+        "en": "23 Sept. 2024",
+        "pt": "23 de set. de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Lawyers are fully responsible for their work product even if AI assisted in its production.",
+        "Lawyers must double-check the accuracy of any generative AI output they rely on.",
+        "Lawyers should uphold IP regulations and assure that any references to copyrighted material in their output is properly attributed.",
+        "Lawyers should ensure that all confidential information remain secure while using AI tools.",
+        "Courts may require lawyers to disclose any generative AI usage, declare compliance with this guide and potentially file an affidavit attesting to such compliance."
+      ],
+      "pt": [
+        "Os advogados são totalmente responsáveis por seu trabalho produzido, mesmo que a IA tenha auxiliado em sua elaboração.",
+        "Os advogados devem verificar duplamente a precisão de qualquer resultado de IA generativa em que se baseiem.",
+        "Os advogados devem respeitar as normas de propriedade intelectual e assegurar que quaisquer referências a material protegido por direitos autorais em seus resultados sejam devidamente atribuídas.",
+        "Os advogados devem garantir que todas as informações confidenciais permaneçam seguras durante o uso de ferramentas de IA.",
+        "Os tribunais podem exigir que os advogados divulguem qualquer uso de IA generativa, declarem conformidade com este guia e, potencialmente, apresentem uma declaração juramentada (affidavit) atestando tal conformidade."
+      ]
+    }
+  },
+  {
+    "id": "es-minjusticia-2024-policy",
+    "sourcePage": 16,
+    "jurisdiction": {
+      "countryCode": "ES",
+      "country": {
+        "en": "Spain",
+        "pt": "Espanha"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Ministry of the Presidency, Justice and Relations with the Courts",
+        "pt": "Ministério da Presidência, Justiça e Relações com as Cortes"
+      },
+      "category": "government_agency"
+    },
+    "resource": {
+      "title": {
+        "en": "Policy on the use of Artificial Intelligence in the Administration of Justice",
+        "pt": "Política sobre o uso de Inteligência Artificial na Administração da Justiça"
+      },
+      "dateDisplay": {
+        "en": "21 June 2024",
+        "pt": "21 de junho de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Human review is required for all AI-generated output that directly or indirectly affects the rights of subjects before the court or the administration of justice.",
+        "Neither AI-generated data nor its sources should be accessible by third parties.",
+        "Humans must review AI tools for sources of bias. AI output that discriminates based on protected characteristics should not be used.",
+        "All results generated by AI must be flagged as such. Only approved or authorized tools should be used."
+      ],
+      "pt": [
+        "A revisão humana é obrigatória para todos os resultados gerados por IA que afetem direta ou indiretamente os direitos dos jurisdicionados perante o tribunal ou a administração da justiça.",
+        "Nem os dados gerados por IA nem suas fontes devem ser acessíveis a terceiros.",
+        "Seres humanos devem revisar as ferramentas de IA quanto a fontes de viés. Resultados de IA que discriminem com base em características protegidas não devem ser utilizados.",
+        "Todos os resultados gerados por IA devem ser sinalizados como tal. Apenas ferramentas aprovadas ou autorizadas devem ser utilizadas."
+      ]
+    }
+  },
+  {
+    "id": "kr-cairs-2025-judiciary",
+    "sourcePage": 16,
+    "jurisdiction": {
+      "countryCode": "KR",
+      "country": {
+        "en": "South Korea",
+        "pt": "Coreia do Sul"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Court Artificial Intelligence Research Society",
+        "pt": "Sociedade de Pesquisa em Inteligência Artificial dos Tribunais"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines on the Use of Artificial Intelligence in the Judiciary",
+        "pt": "Diretrizes sobre o Uso de Inteligência Artificial no Judiciário"
+      },
+      "dateDisplay": {
+        "en": "February 2025",
+        "pt": "Fevereiro de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "These guidelines emphasize the importance of guaranteeing fundamental rights and constitutional values, reliability, legality, responsibility and transparency when AI is used in judicial processes."
+      ],
+      "pt": [
+        "Estas diretrizes enfatizam a importância de garantir os direitos fundamentais e os valores constitucionais, a confiabilidade, a legalidade, a responsabilidade e a transparência quando a IA é utilizada em processos judiciais."
+      ]
+    }
+  },
+  {
+    "id": "se-advokatsamfundet-2025-guidance",
+    "sourcePage": 16,
+    "jurisdiction": {
+      "countryCode": "SE",
+      "country": {
+        "en": "Sweden",
+        "pt": "Suécia"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Swedish Bar Association",
+        "pt": "Ordem dos Advogados da Suécia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidance on the Use of Generative AI in Legal Practice",
+        "pt": "Orientação sobre o Uso de IA Generativa na Prática Jurídica"
+      },
+      "dateDisplay": {
+        "en": "12 June 2025",
+        "pt": "12 de junho de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must critically review the accuracy of generative AI output before incorporating it into their legal advice.",
+        "Lawyers must review the privacy and data usage terms of their AI tools before inputting client information into them. When in doubt over an AI tool's safety, they should obtain the client's informed consent before inputting any information."
+      ],
+      "pt": [
+        "Os advogados devem revisar criticamente a precisão dos resultados da IA generativa antes de incorporá-los em seu aconselhamento jurídico.",
+        "Os advogados devem revisar os termos de privacidade e uso de dados de suas ferramentas de IA antes de inserir informações de clientes nelas. Em caso de dúvida sobre a segurança de uma ferramenta de IA, devem obter o consentimento informado do cliente antes de inserir qualquer informação."
+      ]
+    }
+  },
+  {
+    "id": "ch-lextech-2025-contracts",
+    "sourcePage": 16,
+    "jurisdiction": {
+      "countryCode": "CH",
+      "country": {
+        "en": "Switzerland",
+        "pt": "Suíça"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "LexTech Institute",
+        "pt": "Instituto LexTech"
+      },
+      "category": "research_institute"
+    },
+    "resource": {
+      "title": {
+        "en": "Artificial intelligence in the Contract Practice of Swiss Lawyers",
+        "pt": "Inteligência Artificial na Prática Contratual dos Advogados Suíços"
+      },
+      "dateDisplay": {
+        "en": "9 July 2025",
+        "pt": "9 de julho de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must always critically examine all generative AI output they rely on.",
+        "Lawyers must carefully examine any generative AI output on which they rely for potential bias and understand the data on which the AI system was trained.",
+        "Confidential information should never be input into AI systems unless it is stored locally on the law firm's servers, stored with a compliant third-party provider or the client's informed consent has been obtained. LexTech recommends using anonymization."
+      ],
+      "pt": [
+        "Os advogados devem sempre examinar criticamente todos os resultados de IA generativa em que se baseiem.",
+        "Os advogados devem examinar cuidadosamente qualquer resultado de IA generativa em que se baseiem quanto a potenciais vieses e compreender os dados com os quais o sistema de IA foi treinado.",
+        "Informações confidenciais nunca devem ser inseridas em sistemas de IA, a menos que sejam armazenadas localmente nos servidores do escritório de advocacia, armazenadas em um provedor terceirizado em conformidade ou que tenha sido obtido o consentimento informado do cliente. O LexTech recomenda o uso de anonimização."
+      ]
+    }
+  },
+  {
+    "id": "ch-sav-2024-guidelines",
+    "sourcePage": 17,
+    "jurisdiction": {
+      "countryCode": "CH",
+      "country": {
+        "en": "Switzerland",
+        "pt": "Suíça"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Swiss Bar Association",
+        "pt": "Federação Suíça de Advogados (FSA/SAV)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guidelines on the Use of Artificial Intelligence",
+        "pt": "Diretrizes sobre o Uso de Inteligência Artificial"
+      },
+      "dateDisplay": {
+        "en": "14 June 2024",
+        "pt": "14 de junho de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must examine how input data is stored, processed and used. Lawyers should double-check any AI output before relying on it and be aware of the risks of bias and sycophancy stemming from AI use.",
+        "Lawyers should remember that their AI tools may have been trained on copyrighted data and that the output they rely on may be subject to IP law.",
+        "Lawyers should always disclose generative AI usage when prompted by their clients. They may also have a duty to disclose their use where disclosure is necessary to fulfill their professional obligations or the client's mandate."
+      ],
+      "pt": [
+        "Os advogados devem examinar como os dados inseridos são armazenados, processados e utilizados. Devem verificar duplamente qualquer resultado de IA antes de se basearem nele e estar cientes dos riscos de viés e bajulação (sycophancy) decorrentes do uso de IA.",
+        "Os advogados devem lembrar que suas ferramentas de IA podem ter sido treinadas com dados protegidos por direitos autorais e que os resultados em que se baseiem podem estar sujeitos à legislação de propriedade intelectual.",
+        "Os advogados devem sempre divulgar o uso de IA generativa quando questionados por seus clientes. Também podem ter o dever de divulgar seu uso quando a divulgação for necessária para cumprir suas obrigações profissionais ou o mandato do cliente."
+      ]
+    }
+  },
+  {
+    "id": "tw-judicialyuan-2026-guidelines",
+    "sourcePage": 17,
+    "jurisdiction": {
+      "countryCode": "TW",
+      "country": {
+        "en": "Taiwan",
+        "pt": "Taiwan"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Asia-Pacific",
+        "pt": "Ásia-Pacífico"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Judicial Yuan",
+        "pt": "Yuan Judicial de Taiwan"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Reference Guidelines for the Use of Artificial Intelligence Systems by the Judicial Yuan and its Subordinate Agencies",
+        "pt": "Diretrizes de Referência para o Uso de Sistemas de Inteligência Artificial pelo Yuan Judicial e seus Órgãos Subordinados"
+      },
+      "dateDisplay": {
+        "en": "22 April 2026",
+        "pt": "22 de abril de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": true
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Before using an AI system, lawyers must educate themselves on how that system works, its limitations and its ethical requirements. They must also be aware of their agencies' AI policy before using an AI system.",
+        "Lawyers should avoid inputting confidential client and litigation information into AI systems not approved by the Judicial Yuan.",
+        "Lawyers must retain final legal judgment in all cases and should double-check AI output for legal and factual errors.",
+        "Lawyers must respect IP regulations when using AI.",
+        "Lawyers must promptly disclose any discovered errors in AI output submitted to a court."
+      ],
+      "pt": [
+        "Antes de utilizar um sistema de IA, os advogados devem instruir-se sobre como esse sistema funciona, suas limitações e seus requisitos éticos. Devem também estar cientes da política de IA de seus órgãos antes de utilizar um sistema de IA.",
+        "Os advogados devem evitar inserir informações confidenciais de clientes e processos judiciais em sistemas de IA não aprovados pelo Yuan Judicial.",
+        "Os advogados devem manter o julgamento jurídico final em todos os casos e devem verificar duplamente os resultados da IA quanto a erros jurídicos e fáticos.",
+        "Os advogados devem respeitar as normas de propriedade intelectual ao utilizar IA.",
+        "Os advogados devem divulgar prontamente quaisquer erros descobertos em resultados de IA submetidos a um tribunal."
+      ]
+    }
+  },
+  {
+    "id": "uk-judiciary-2025-guidance",
+    "sourcePage": 41,
+    "jurisdiction": {
+      "countryCode": "GB",
+      "country": {
+        "en": "United Kingdom",
+        "pt": "Reino Unido"
+      },
+      "subdivision": {
+        "en": "England & Wales",
+        "pt": "Inglaterra e País de Gales"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Courts and Tribunals Judiciary",
+        "pt": "Judiciário dos Tribunais da Inglaterra e País de Gales"
+      },
+      "category": "court_judiciary"
+    },
+    "resource": {
+      "title": {
+        "en": "Artificial Intelligence, Guidance for Judicial Office Holders",
+        "pt": "Inteligência Artificial: Orientação para Magistrados"
+      },
+      "dateDisplay": {
+        "en": "31 Oct. 2025",
+        "pt": "31 de out. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "bias_perpetuation",
+        "label": {
+          "en": "Bias perpetuation",
+          "pt": "Perpetuação de vieses"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should understand how their AI tools function, which databases they were trained on and how to write effective prompts. As a baseline, they should never uncritically trust AI output.",
+        "Lawyers should not enter any information that is not already public knowledge into a public AI system.",
+        "Lawyers should double-check the accuracy of any AI-generated output before relying on it.",
+        "Lawyers should be aware of which data their AI tools were trained on and how they might introduce bias into their output."
+      ],
+      "pt": [
+        "Os profissionais jurídicos devem compreender como suas ferramentas de IA funcionam, com quais bases de dados foram treinadas e como redigir comandos (prompts) eficazes. Como premissa básica, nunca devem confiar acriticamente nos resultados da IA.",
+        "Os profissionais jurídicos não devem inserir em um sistema público de IA nenhuma informação que ainda não seja de conhecimento público.",
+        "Os profissionais jurídicos devem verificar duplamente a precisão de qualquer resultado gerado por IA antes de se basearem nele.",
+        "Os profissionais jurídicos devem estar cientes de quais dados foram usados para treinar suas ferramentas de IA e de como eles podem introduzir vieses nos resultados."
+      ]
+    }
+  },
+  {
+    "id": "uk-iba-caidp-2024-future",
+    "sourcePage": 42,
+    "jurisdiction": {
+      "countryCode": "GB",
+      "country": {
+        "en": "United Kingdom",
+        "pt": "Reino Unido"
+      },
+      "subdivision": null,
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "International Bar Association and the Center for AI and Digital Policy",
+        "pt": "Ordem Internacional dos Advogados (IBA) e Centro para IA e Política Digital (CAIDP)"
+      },
+      "category": "international_body"
+    },
+    "resource": {
+      "title": {
+        "en": "The Future is Now: Artificial Intelligence and the Legal Profession",
+        "pt": "O Futuro é Agora: Inteligência Artificial e a Profissão Jurídica"
+      },
+      "dateDisplay": {
+        "en": "September 2024",
+        "pt": "Setembro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "rapid_tech_change",
+        "label": {
+          "en": "Uncertainty caused by rapid technological change",
+          "pt": "Incerteza causada pela rápida mudança tecnológica"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "problematic_billing",
+        "label": {
+          "en": "Problematic billing practices",
+          "pt": "Práticas problemáticas de cobrança/honorários"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers must stay informed about the data retention, usage and security practices of the AI tools they use.",
+        "Lawyers must keep abreast of changes in the law and the technology they use.",
+        "Lawyers must diligently honor any professional commitments made during representation.",
+        "Lawyers must maintain full control over their submissions to court. In some cases, this could impose an obligation to be fully responsible for generative AI output.",
+        "Lawyers should not bill clients for time saved through generative AI usage and should avoid generating unnecessary work.",
+        "Law firms must be careful to ensure humans remain in the loop regarding their legal responsibilities. They should also ensure AI systems that violate human rights, such as through the use of social scoring or mass surveillance, are not used."
+      ],
+      "pt": [
+        "Os advogados devem manter-se informados sobre as práticas de retenção, uso e segurança de dados das ferramentas de IA que utilizam.",
+        "Os advogados devem acompanhar as mudanças na legislação e na tecnologia que utilizam.",
+        "Os advogados devem honrar diligentemente quaisquer compromissos profissionais assumidos durante a representação.",
+        "Os advogados devem manter controle total sobre suas petições enviadas ao tribunal. Em alguns casos, isso pode impor a obrigação de serem integralmente responsáveis pelos resultados gerados por IA.",
+        "Os advogados não devem cobrar dos clientes pelo tempo economizado com o uso de IA generativa e devem evitar gerar trabalho desnecessário.",
+        "Os escritórios de advocacia devem ter cuidado para garantir que seres humanos permaneçam no circuito (human-in-the-loop) em relação às suas responsabilidades jurídicas. Devem também garantir que não sejam utilizados sistemas de IA que violem direitos humanos, como por meio de pontuação social (social scoring) ou vigilância em massa."
+      ]
+    }
+  },
+  {
+    "id": "uk-sra-2026-supervision",
+    "sourcePage": 42,
+    "jurisdiction": {
+      "countryCode": "GB",
+      "country": {
+        "en": "United Kingdom",
+        "pt": "Reino Unido"
+      },
+      "subdivision": {
+        "en": "England & Wales",
+        "pt": "Inglaterra e País de Gales"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "Solicitors Regulation Authority",
+        "pt": "Autoridade de Regulação dos Solicitadores (SRA)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Effective Supervision",
+        "pt": "Supervisão Eficaz"
+      },
+      "dateDisplay": {
+        "en": "Last updated 12 June 2026",
+        "pt": "Última atualização em 12 de junho de 2026"
+      },
+      "year": 2026,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [],
+    "recommendations": {
+      "en": [
+        "Firms should adequately supervise the use of AI by their attorneys.",
+        "AI output must be subject to human review, scrutiny and professional judgment."
+      ],
+      "pt": [
+        "Os escritórios devem supervisionar adequadamente o uso de IA por seus advogados.",
+        "Os resultados da IA devem ser submetidos a revisão humana, escrutínio e julgamento profissional."
+      ]
+    }
+  },
+  {
+    "id": "uk-lawsociety-2025-essentials",
+    "sourcePage": 42,
+    "jurisdiction": {
+      "countryCode": "GB",
+      "country": {
+        "en": "United Kingdom",
+        "pt": "Reino Unido"
+      },
+      "subdivision": {
+        "en": "England & Wales",
+        "pt": "Inglaterra e País de Gales"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The Law Society",
+        "pt": "The Law Society (Inglaterra e País de Gales)"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Generative AI - the essentials",
+        "pt": "IA Generativa - o essencial"
+      },
+      "dateDisplay": {
+        "en": "1 Oct. 2025",
+        "pt": "1 de out. de 2025"
+      },
+      "year": 2025,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "cybersecurity_risks",
+        "label": {
+          "en": "Cybersecurity risks",
+          "pt": "Riscos de cibersegurança"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should carefully fact-check any AI output before relying on them, carry out due diligence on the AI tools they use and ensure appropriate staff protocols and guidance are provided around employees' use of such tools.",
+        "They should be aware of any IP conflicts rising from their use of AI output.",
+        "Lawyers should also consider contacting their web service providers about rate limiting website requests to prevent scraping on their firm's webpages.",
+        "Lawyers should not enter any information that is not already public knowledge into a public AI system. They should also scrub any documents of metadata before entering them into an AI tool.",
+        "Lawyers should check any documents they want to use AI on for any hidden or malicious prompts."
+      ],
+      "pt": [
+        "Os advogados devem checar cuidadosamente os fatos de qualquer resultado de IA antes de se basearem neles, realizar due diligence nas ferramentas de IA que utilizam e garantir que protocolos e orientações adequados sejam fornecidos aos funcionários sobre o uso dessas ferramentas.",
+        "Devem estar cientes de quaisquer conflitos de propriedade intelectual decorrentes do uso de resultados de IA.",
+        "Os advogados também devem considerar entrar em contato com seus provedores de serviços web para limitar a taxa de requisições (rate limiting) a fim de evitar raspagem de dados (scraping) nas páginas do escritório.",
+        "Os advogados não devem inserir em um sistema público de IA nenhuma informação que ainda não seja de conhecimento público. Devem também remover metadados de quaisquer documentos antes de inseri-los em uma ferramenta de IA.",
+        "Os advogados devem verificar quaisquer documentos nos quais pretendam usar IA quanto à presença de comandos ocultos ou maliciosos (prompt injection)."
+      ]
+    }
+  },
+  {
+    "id": "uk-lss-2024-guide",
+    "sourcePage": 43,
+    "jurisdiction": {
+      "countryCode": "GB",
+      "country": {
+        "en": "United Kingdom",
+        "pt": "Reino Unido"
+      },
+      "subdivision": {
+        "en": "Scotland",
+        "pt": "Escócia"
+      },
+      "region": {
+        "en": "Europe",
+        "pt": "Europa"
+      }
+    },
+    "issuer": {
+      "name": {
+        "en": "The Law Society of Scotland",
+        "pt": "Sociedade Jurídica da Escócia"
+      },
+      "category": "bar_association"
+    },
+    "resource": {
+      "title": {
+        "en": "Guide to Generative AI",
+        "pt": "Guia de IA Generativa"
+      },
+      "dateDisplay": {
+        "en": "October 2024",
+        "pt": "Outubro de 2024"
+      },
+      "year": 2024,
+      "status": "active_guidance",
+      "isMachineTranslated": false
+    },
+    "risks": [
+      {
+        "code": "hallucinations",
+        "label": {
+          "en": "Hallucinations",
+          "pt": "Alucinações"
+        }
+      },
+      {
+        "code": "confidentiality_leakage",
+        "label": {
+          "en": "Leakage of client or confidential information",
+          "pt": "Vazamento de informações confidenciais ou de clientes"
+        }
+      },
+      {
+        "code": "ip_infringement",
+        "label": {
+          "en": "IP infringement",
+          "pt": "Violação de propriedade intelectual"
+        }
+      },
+      {
+        "code": "absence_transparency_trust",
+        "label": {
+          "en": "Absence of transparency/trust",
+          "pt": "Ausência de transparência/confiança"
+        }
+      },
+      {
+        "code": "diminished_human_judgment",
+        "label": {
+          "en": "Diminished human judgment",
+          "pt": "Redução do julgamento humano"
+        }
+      },
+      {
+        "code": "environmental_degradation",
+        "label": {
+          "en": "Environmental degradation",
+          "pt": "Degradação ambiental"
+        }
+      }
+    ],
+    "recommendations": {
+      "en": [
+        "Lawyers should double-check any generative AI output they rely on for accuracy and timeliness. This task should not be outsourced to another AI system. Lawyers are ultimately responsible for overseeing their AI systems.",
+        "Lawyers should avoid inputting confidential information into public AI tools. They also should examine the risks of disclosure before inputting any information into any AI system. Anonymization may provide some protection, but it isn't foolproof.",
+        "Firms should examine how IP-protected information input into AI systems will be processed.",
+        "Lawyers should have a basic understanding of how an AI system functions before its adoption.",
+        "Lawyers should always maintain decision-making independence and be aware of the societal impact of widespread AI usage.",
+        "Firms adopting AI tools should consider the environmental implications of these systems."
+      ],
+      "pt": [
+        "Os advogados devem verificar duplamente qualquer resultado de IA generativa em que se baseiem quanto à precisão e atualidade. Essa tarefa não deve ser terceirizada a outro sistema de IA. Os advogados são, em última instância, responsáveis por supervisionar seus sistemas de IA.",
+        "Os advogados devem evitar inserir informações confidenciais em ferramentas públicas de IA. Devem também examinar os riscos de divulgação antes de inserir qualquer informação em qualquer sistema de IA. A anonimização pode oferecer alguma proteção, mas não é infalível.",
+        "Os escritórios devem examinar como as informações protegidas por propriedade intelectual inseridas em sistemas de IA serão processadas.",
+        "Os advogados devem ter uma compreensão básica de como um sistema de IA funciona antes de sua adoção.",
+        "Os advogados devem sempre manter a independência na tomada de decisões e estar cientes do impacto social do uso generalizado de IA.",
+        "Os escritórios que adotam ferramentas de IA devem considerar as implicações ambientais desses sistemas."
+      ]
+    }
+  }
+]
